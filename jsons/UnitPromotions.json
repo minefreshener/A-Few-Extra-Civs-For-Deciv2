@@ -1,1 +1,17 @@
-
+[
+  	{
+		"name": "Forage",
+		"uniques": [
+			"Heals [25] damage if it kills a unit",
+			"[+25]% XP gained from combat",
+      "[125]% XP gained from combat",
+			"Earn [33]% of killed [Military] unit's [Strength] as [Science]",
+			"[+5] HP when healing <in [Forest] tiles>",
+			"[+5] HP when healing <in [Jungle] tiles>",
+			"Only available <for units without [Promotion Nullifier]>"
+		],
+		"unitTypes": ["Scrapper", "Shooter"],
+		"column": 1,
+        "row": 2
+	},
+]
