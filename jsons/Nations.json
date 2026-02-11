@@ -1,38 +1,43 @@
 [
 	{
-		"name": "Aliens",
-		"leaderName": "Zyxxyz",
-		"adjective": ["alien"],
-		"startBias": ["Snow"],
-		"preferredVictoryType": "Scientific",
-		
-		"startIntroPart1": "We come in peace!",
-		"startIntroPart2": "This is an overpowered joke nation just as an example for the mods feature. Set Phasers to Obliterate!!",
-		
-		"declaringWar": "Resistance is futile! Prepare to be assimilated!",
-		"attacked": "You want to play? Very funny!",
-		"defeated": "How is it possible that those Apes hurt us? The galactic senate will take care of them.",
-		"introduction": "As superior galactic entities, you are not worthy of our attention.",
-		
-		"neutralHello": "How are you doing?",
-		"neutralLetsHearIt": ["Go on.","What do you say?","You may begin."],
-		"neutralNo": ["We absolutely refuse.","No!","I refuse."],
-		"neutralYes": ["Very good.","Of course, yes.","That is very good."],
+		"name": "Deseret2", //Deseret Nation in playable form
+		"leaderName": "Keith Graham",
+		"adjective": ["Deseretian"],
+		"startBias": ["Hill"],
+		"preferredVictoryType": "Cultural",
+		"personality": "Warchief of Deseret",
+		"favoredReligion": "Mormonism",
 
-		"hateHello": "What do you want now?",
-		"hateLetsHearIt": ["Speak!","What do you say?","Go on."],
-		"hateNo": ["That is not possible!","We are not agreeing to that!","I beg your pardon?"],
-		"hateYes": ["That is fine.","That is good enough.","Very well..."],
-		
-		"afterPeace": "Very well, all that fighting was getting boring anyway.",
-		"tradeRequest": "We bestow you the honor of this trade offer.",
+		"startIntroPart1": "Every day, we fall. Some days are harder than others. The day the nukes were launched... was the hardest fall yet for mankind. In the earliest days after the fallout settled, I tried to mete out vengeance against those responsible for the Cataclysm, unaware that I was setting myself up for my own great fall. I rallied many survivors, broken and disillusioned as I was, and set out on a brutal campaign, forgetting all I had been taught in the desire for revenge. The need to make my wrath into God's wrath. And sure enough, that disastrous journey led to my fall, and I found myself at Hell's gates.",
+		"startIntroPart2": "Yet in my darkest hour, I found my way again. I rediscovered my faith and my tribe, and realized why I'm still here, able to rise despite having fallen so far. A fire burns inside me, brighter than the fires that burned the world around me. But whether that fire is of undying love or unappeased rage... Whether I show my people's enemies mercy or become once more the instrument of vengeance... That's up to them. And to you, I suppose.",
+		"declaringWar": "I don't enjoy killing, but when done righteously, it's just a chore, like any other.",
+		"attacked": "We warned you, and you persisted. Like the dogs you are, you followed us to Zion. And now you stand on holy ground, a temple to God's glory on earth. But the only use for an animal in a temple is sacrifice!",
+		"defeated": "Yea, we wept when we remembered Zion. But your time will come.",
+		"introduction": "It's good to meet you. Welcome to Deseret. If you shall be a good neighbor and treat us with brotherly respect, we shall do so in turn.",
+		"neutralHello": "May God be with you.",
+		"hateHello": "If you harm any of my people, I will find you. Make no mistake. God willing, you will not leave this valley.",
+		"denounced": "Your cries are like those of a mad beast in a thicket.",
+		"afterPeace": "Waging war against good people is bad for the soul.",
+		"declaringFriendship": "In times of darkness, we can turn to the Lord, but it would be good to have you as a friend.",
+		"tradeRequest": "We are happy to share with you anything you might need.",
 
-		"outerColor": [16,16,16],
-		"innerColor": [255,200,200],
-		"unique": "MANIFEST_DESTINY",
-		"cities": ["The Hive","Q'Throczan","Q'Chovex","Q'Imphet","Q'Omphead","Q'Grecoks","Q'Vrelzieks","Q'Vronens","Q'Aerlae",
-			"Q'Phulnoith","Q'Creved","Q'Xirqen","Q'Gax","Q'Threqals","Q'Bhilmuk","Q'Mazea","Q'Zomirs","Q'Drorkrex","Q'Honkrath",
-			"Q'Zulgra","Q'Vahars","Q'Crindith","Q'Raavraes","Q'Bhoknais","Qho'Qru","Q'Dateatz","Q'Elnad","Q'Izien","Qol'Ell",
-			"Q'Dhihien","Q'Naquiel","Q'Ugneon","Q'Straquks","Q'Nulptr","Q'Ohfahl"]
-	}
+		"outerColor": [191, 128, 6],
+		"innerColor": [252, 255, 218],
+		"style": "Deseret",
+		"uniqueName": "Blood of the Prophets",
+		"uniques": [
+			"[-25]% Faith cost of generating Great Prophet equivalents",
+			"[+15]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>",
+			"Starts with [Secrets of the Past]",
+			"Starts with [Botany]",
+			"May choose [1] additional [Enhancer] beliefs when [founding] a religion",
+			"Cannot build [Enslaved] units"
+		],
+		"cities": ["Zion Valley", "New Canaan", "Provorem", "Grand Staircase", "Cueva Guarache", "Fort Walker", "Dead Horse Point", "Angel's Landing",
+			"Traverse City", "New Tooele", "New Nephi", "Patriarchs' Court", "Urim and Thummim", "Malki Tzedek", "Maeserville", "Pine Creek",
+			"Fort Browning", "Kobol", "Anamani", "Old Rockville", "Van Buren", "Burham Springs", "Nuevo Vicios", "Salt Town", "Irvington"],
+		"spyNames": ["Daniel", "Mordecai", "Waking Cloud", "Judah", "Two-Bears-High-Fiving", "Emmaline", "Bonnie", "Jeremiah", "Dancing Flame", "Quiet Shadow"],
+		"civilopediaText": [
+		]
+	},
 ]
