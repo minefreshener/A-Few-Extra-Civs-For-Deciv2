@@ -1,3 +1,43 @@
 [
+	{
+		"name": "Manlandia",
+		"leaderName": "Anderson Fate",
+		"adjective": ["Manly-Man Bro Dude"],
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Scientific",
+		"personality": "Great Speaker",
+		"favoredReligion": "Anglicanism",
 
+		// "startIntroPart1": "",
+		// "startIntroPart2": "",
+		"declaringWar": "Your days of oppressing the common people are at an end.",
+		"attacked": "I see that peaceful reform is not possible. Inciting revolution is our only recourse now.",
+		"defeated": "Like my legendary namesake, I shall retire to my last sanctuary, until the day comes when the people need me once more.",
+		"introduction": "Hail, stranger. I am Arthur, and I welcome you to Camelot, the last redoubt of liberty. Let us set aside the burdens of the past and forge a brighter future together.",
+		"neutralHello": "Welcome.",
+		"hateHello": "What brings you here?",
+		"denounced": "I advise you to abandon the falsehoods you cling to, if you are even capable.",
+		"declaringFriendship": "Let us stand united against those who still pursue evil ends.",
+		"tradeRequest": "The Round Table offers this arrangement. Are you interested?",
+
+		"outerColor": [45, 60, 120],
+		"innerColor": [0, 255, 255],
+		"style": "Camelot",
+		"uniqueName": "Call of the Alpha",
+		"uniques": [
+			"[Low Tech] units gain the [Powered Armor] promotion",
+			"[Personnel] units gain the [Powered Armor] promotion",
+			"Starts with [Writing]",
+			"Starts with [Redomestication]",
+			"Starts with [Iron Working]",
+			"Starts with [Steel]",
+			"Starts with [Constitution] adopted",
+			"[-2 Science] [in all cities] <before discovering [Education]>",
+			"Cannot build [Enslaved] units"
+		],
+		"cities": ["Incelularia", "Bropolis", "Dudea", "Mandomia", "Roganica", "Baller", "Dicksley", "Hardon",
+			"Hookerton", "Hinkey Ponkey", "Big", "Murcis", "Fellowhood", "Tiddeigh", "Slutcliff", "Stroking",
+			"Edging", "Brodick", "BBC Studios HQ",],
+		"spyNames": ["Brayden", "Ethan", "AJ", "Andrew", "Joe", "Seth", "Charlie", "Shiva", "Jameson", "Coxfuk"]
+	},
 ]
