@@ -16,11 +16,89 @@
 			"Only available <for units without [Headhunter]>"]
 	},
   {
-		"name": "Chemical Armaments",
-		"notification": "Our unit finds chemical weapons hidden in the camp!",
+		"name": "Gas Masks",
+		"notification": "Our unit finds chemical weapon protection equipment hidden in the camp!",
 		"weight": 4,
-		"uniques": ["[This Unit] gains the [Chemical Weapons] promotion",
+		"uniques": ["[This Unit] gains the [Gas Mask] promotion",
 			"[This Unit] gains [10] XP",
-			"Only available <for units without [Chemical Weapons]>"]
+			"Only available <for units without [Gas Mask]>"]
+	},
+	{
+		"name": "Unit Irradiated",
+		"notification": "Our unit is exposed to high levels of radiation in the camp!",
+		"weight": 4,
+		"uniques": ["[This Unit] gains the [Radioactive] promotion",
+			"[This Unit] takes [20] damage",
+			"Only available <for units without [Radioactive]>"]
+	},
+	{
+		"name": "Clan Training",
+		"notification": "Our unit has recieved training from a dastardly clansman",
+		"weight": 4,
+		"uniques": ["[This Unit] gains the [Hazard Pay] promotion",
+			"[This Unit] gains [20] XP",
+			"Only available <for units without [Hazard Pay]>"]
+	},
+	{
+		"name": "Filled With Pride",
+		"notification": "Our unit is filled with pride at their miraculous findings in the camp",
+		"weight": 4,
+		"uniques": ["[This Unit] gains the [Pride] promotion",
+			"[This Unit] gains [10] XP",
+			"Only available <for units without [Pride]>"]
+	},
+	{
+		"name": "Nomadic Training",
+		"notification": "Our unit has recieved training from a resourceful steppe nomad",
+		"weight": 4,
+		"uniques": ["[This Unit] gains the [Hand Around] promotion",
+			"[This Unit] gains [10] XP",
+			"Only available <for units without [Hang Around]>"]
+	},
+	{
+		"name": "Ominous Idol",
+		"notification": "Our unit has unearthed a most terrifying talisman of doom",
+		"weight": 4,
+		"uniques": ["[This Unit] gains the [Doom Talisman] promotion",
+			"[This Unit] gains [10] XP",
+			"Only available <for units without [Doom Talisman]>"]
+	},
+	{
+		"name": "climbing instruction",
+		"notification": "Our unit has recieved training from a mountaineering expert",
+		"weight": 4,
+		"uniques": ["[This Unit] gains the [Mountaineer] promotion",
+			"Only available <for units without [Mountaineer]>"]
+	},
+	{
+		"name": "Vision Enhancements",
+		"notification": "Our unit has discovered vision-enhancing equipment in the camp",
+		"weight": 4,
+		"uniques": ["[This Unit] gains the [Augmented Vision] promotion",
+			"[This Unit] gains [10] XP",
+			"Only available <for units without [Augmented Vision]>"]
+	},
+	{
+		"name": "Healing Training",
+		"notification": "Our unit has recieved training from an ancient shaman",
+		"weight": 4,
+		"uniques": ["[This Unit] gains the [Healing Hands] promotion",
+			"Only available <for units without [Healing Hands]>"]
+	},
+	{
+		"name": "Enhanced by AI",
+		"notification": "an AI chip has embedded itself in our unit",
+		"weight": 4,
+		"uniques": ["[This Unit] gains the [AI Implant] promotion",
+			"[This Unit] gains [10] XP",
+			"Only available <for units without [AI Implant]>"]
+	},
+	{
+		"name": "Historical Instruction",
+		"notification": "Our unit has recieved valuable lessons from a wandering military historian",
+		"weight": 4,
+		"uniques": ["[This Unit] gains the [Know Your History] promotion",
+			"[This Unit] gains [10] XP",
+			"Only available <for units without [Know Your History]>"]
 	},
 ]
