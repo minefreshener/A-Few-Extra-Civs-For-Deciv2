@@ -1,3 +1,26 @@
 [
-
+	{
+		"name": "Chemical Armaments",
+		"notification": "Our unit finds chemical weapons hidden in the camp!",
+		"weight": 4,
+		"uniques": ["[This Unit] gains the [Chemical Weapons] promotion",
+			"[This Unit] gains [10] XP",
+			"Only available <for units without [Chemical Weapons]>"]
+	},
+  {
+		"name": "Hitman Training",
+		"notification": "Our unit has recieved training from a deadly hitman",
+		"weight": 4,
+		"uniques": ["[This Unit] gains the [Headhunter] promotion",
+			"[This Unit] gains [10] XP",
+			"Only available <for units without [Headhunter]>"]
+	},
+  {
+		"name": "Chemical Armaments",
+		"notification": "Our unit finds chemical weapons hidden in the camp!",
+		"weight": 4,
+		"uniques": ["[This Unit] gains the [Chemical Weapons] promotion",
+			"[This Unit] gains [10] XP",
+			"Only available <for units without [Chemical Weapons]>"]
+	},
 ]
