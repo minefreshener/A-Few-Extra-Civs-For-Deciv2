@@ -387,7 +387,8 @@
 			"No defensive terrain bonus",
 			"Can move after attacking",
 			"[-33]% Strength <vs cities> <when attacking>",
-			"Can only be built <in cities with a [Stable]>"
+			"Can only be built <in cities with a [Stable]>",
+			"Limited to [3] per Civilization",
 		],
 		"promotions": ["Infantry Weapons","Survivalism","Resupply","Combat Drill","Ballistic Weave","Augmented Vision","Blooded","Combat Armor","Gas Mask","Great Generals",
 			"Hazard Pay","Powered Armor"],
