@@ -83,7 +83,6 @@
 		],
 		"attackSound": "shot"
   },
-	
   {
 		"name": "Mobile Clinic",
 		"unitType": "Armor",
@@ -101,6 +100,39 @@
 			"Only available <in cities with a [Hospital]>"
 		],
 		"attackSound": "machinegun"
+	},
+	{
+		"name": "Archer",
+		"unitType": "Shooter",
+		"range": 2,
+		"movement": 2,
+		"strength": 15,
+		"rangedStrength": 15,
+		"cost": 55,
+		"hurryCostModifier": 20,
+		"requiredTech": "Iron Working",
+		"obsoleteTech": "Rifling",
+		"upgradesTo": "Gunman",
+		"uniques": ["Low Tech", "Personnel", "[+33]% Strength <vs [Low Tech] units>"],
+		"attackSound": "arrow"
+	},
+	{
+		"name": "Crossbowman",
+		"unitType": "Shooter",
+		"range": 2,
+		"movement": 2,
+		"strength": 18,
+		"rangedStrength": 15,
+		"cost": 35,
+		"hurryCostModifier": 20,
+		"requiredTech": "Steel",
+		"obsoleteTech": "Rifling",
+		"upgradesTo": "Gunman",
+		"uniques": [
+			"Low Tech", "Personnel",
+			"[+50]% Strength <vs [Low Tech] units>"
+		],
+		"attackSound": "arrow"
 	},
   /////////// MANLANDIA UNIQUE UNITS ///////////////////////
 	{
@@ -126,7 +158,7 @@
 		"promotions": [],
 		"attackSound": "machinegun"
 	},
-  {
+  	{
 		"name": "Alpha Battalion",
 		"unitType": "Scrapper",
     "uniqueTo": "Manlandia",
@@ -143,13 +175,13 @@
 			"Only available <if [Factory] is constructed>",
 			"Consumes [1] [Weapons]"
 		],
-		"promotions": ["Gas Mask","Medic I","Sentry"],
+		"promotions": ["Gas Mask","Sentry","Alpha Male"],
 		"attackSound": "machinegun"
 	},
-  {
+  	{
 		"name": "Gigachad",
 		"unitType": "Scrapper",
-    "uniqueTo": "Manlandia",
+    	"uniqueTo": "Manlandia",
 		"replaces": "Exo-Trooper",
 		"movement": 3,
 		"strength": 90,
@@ -165,11 +197,11 @@
 			"Consumes [2] [Weapons]"
 		],
 		"promotions": [
-			"Gas Mask","Sentry",
+			"Gas Mask","Sentry","Sigma Male"
 		],
 		"attackSound": "phasers"
 	},
-  {
+  	{
 		"name": "Sigma Battalion",
 		"unitType": "Shooter",
     "uniqueTo": "Manlandia",
@@ -192,11 +224,12 @@
 		"promotions": [
 			"Drone Recon",
 			"Gas Mask",
-			"Infantry Weapons"
+			"Infantry Weapons",
+			"Sigma Male"
 		],
 		"attackSound": "shot"
 	},
-  {
+  	{
 		"name": "Strongman",
 		"unitType": "Civilian",
 		"uniqueTo": "Manlandia",
@@ -211,7 +244,7 @@
 			"Unbuildable",
 		],
 	},
-  {
+  	{
 		"name": "Great Podcaster",
 		"unitType": "Civilian",
     "uniqueTo": "Manlandia",
@@ -232,7 +265,7 @@
 		"movement": 3,
 		"religiousStrength": 1250
 	},
-  {
+  	{
 		"name": "Great Stud",
 		"unitType": "Civilian",
     "uniqueTo": "Manlandia",
@@ -247,7 +280,7 @@
 		"movement": 2
 	},
   ////////////// WEJABOZ UNIQUE UNITS //////////////
-  {
+  	{
 		"name": "Mangaka",
 		"unitType": "Civilian",
     "uniqueTo": "Wejaboz",
@@ -282,7 +315,7 @@
 		"movement": 3,
     "religiousStrength": 1000
 	},
-  {
+  	{
 		"name": "Great Mangaka",
 		"unitType": "Civilian",
     "uniqueTo": "Wejaboz",
@@ -302,5 +335,63 @@
 		],
 		"movement": 3,
 		"religiousStrength": 1000
+	},
+	///////////////// AGARTHANIZ UNIQUE UNITS ///////////////////
+	{
+		"name": "Survey Bot",
+		"unitType": "Armor",
+		"uniqueTo": "Agarthaniz",
+		"replaces": "Forward Observer",
+		"movement": 5,
+		"strength": 37,
+		"interceptRange": 2,
+		"cost": 120,
+		"hurryCostModifier": 20,
+		"requiredTech": "Replaceable Parts",
+		"uniques": ["Personnel", "[+1] Sight", "Can move after attacking",
+			"Unable to capture cities"],
+		"promotions": ["Reconnaissance I","Skirmish","[Surveyor] Ability"],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Knehtoz",
+		"unitType": "Shooter",
+		"uniqueTo": "Agarthaniz",
+		"replaces": "Archer",
+		"range": 1,
+		"movement": 3,
+		"strength": 20,
+		"rangedStrength": 15,
+		"cost": 55,
+		"hurryCostModifier": 20,
+		"requiredTech": "Iron Working",
+		"obsoleteTech": "Rifling",
+		"upgradesTo": "Gunman",
+		"uniques": ["Low Tech", "Personnel", "[+33]% Strength <vs [Low Tech] units>"],
+		"attackSound": "arrow"
+	},
+	{
+		"name": "Shambhalaniz Marhoritandiz",
+		"unitType": "Mounted",
+		"uniqueTo": "Agarthaniz",
+		"replaces": "Cavalry",
+		"movement": 4,
+		"strength": 50,
+		"interceptRange": 1,
+		"cost": 250,
+		"requiredTech": "Replaceable Parts",
+		"upgradesTo": "Modern Armor",
+		"uniques": [
+			"Personnel",
+			"Mounted",
+			"No defensive terrain bonus",
+			"Can move after attacking",
+			"[-33]% Strength <vs cities> <when attacking>",
+			"Can only be built <in cities with a [Stable]>"
+		],
+		"promotions": ["Infantry Weapons","Survivalism","Resupply","Combat Drill","Ballistic Weave","Augmented Vision","Blooded","Combat Armor","Gas Mask","Great Generals",
+			"Hazard Pay","Powered Armor"],
+		"hurryCostModifier": 20,
+		"attackSound": "shot"
 	},
 ]
