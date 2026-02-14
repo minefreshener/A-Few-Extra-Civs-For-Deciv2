@@ -115,4 +115,11 @@
 			"[This Unit] loses the [Sigma Male] promotion"
 		]
 	},
+	///////////// OTHER PROMOTIONS ///////////////
+	{
+		"name": "Turret Opera",
+		"uniques": [
+			"Free [Old World Turret] appears <upon defeating a [Military] unit> <with [50]% chance>",
+		]
+	},
 ]
