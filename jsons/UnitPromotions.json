@@ -14,4 +14,75 @@
 		"column": 1,
         "row": 2
 	},
+	{
+		"name": "Mountaineer",
+		"uniques": ["Can pass through impassable tiles"]
+	},
+	{
+		"name": "Doom Talisman",
+		"uniques": [
+			"[-20]% Strength <when defending>",
+			"[This Unit] heals [25] HP <upon defeating a [Military] unit>",
+			"Uncapturable"
+		]
+	},
+	{
+		"name": "Augmented Vision",
+		"uniques": ["[+1] Sight"]
+	},
+	{
+		"name": "Healing Hands",
+		"uniques": ["All adjacent units heal [+10] HP when healing"]
+	},
+	{
+		"name": "AI Implant",
+		"uniques": ["[+10] HP when healing",
+			"[+10]% Strength <when attacking>",
+			"No damage penalty for wounded units"]
+	},
+	{
+		"name": "Know Your History",
+		"uniques": ["[+50]% XP gained from combat"]
+	},
+	////////////// MANLANDIA UNIQUE ////////////////////
+	{
+		"name": "Beta Male",
+		"uniques": ["[-20]% Strength",
+			"[This Unit] gains the [Alpha Male] promotion <upon defeating a [Military] unit>"]
+	},
+	{
+		"name": "Alpha Male",
+		"uniques": [
+			"[This Unit] gains the [Sigma Male] promotion <upon defeating a [Military] unit>",
+			"Earn [100]% of killed [Military] unit's [Strength] as [Culture]",
+			"Earn [100]% of killed [Military] unit's [Strength] as [Faith]",
+			"[This Unit] loses the [Beta Male] promotion"
+		]
+	},
+	{
+		"name": "Sigma Male",
+		"uniques": [
+			"Uncapturable",
+			"Heals [20] damage if it kills a unit",
+			"Earn [50]% of killed [Military] unit's [Strength] as [Culture]",
+			"Earn [50]% of killed [Military] unit's [Strength] as [Faith]",
+			"Earn [50]% of killed [Military] unit's [Strength] as [Gold]",
+			"May capture killed [Military] units <with [15]% chance>",
+			"[This Unit] gains the [Omega Male] promotion <upon conquering a city> <for units without [Omega Male]>",
+			"[This Unit] loses the [Alpha Male] promotion"
+		]
+	},
+	{
+		"name": "Omega Male",
+		"uniques": [
+			"Heals [25] damage if it kills a unit",
+			"Earn [33]% of the damage done to [All] units as [Culture]",
+			"Earn [33]% of the damage done to [All] units as [Faith]",
+			"Earn [33]% of the damage done to [All] units as [Gold]",
+			"Earn [50]% of killed [Military] unit's [Strength] as [Culture]",
+			"Earn [50]% of killed [Military] unit's [Strength] as [Faith]",
+			"Earn [50]% of killed [Military] unit's [Strength] as [Gold]",
+			"[This Unit] loses the [Sigma Male] promotion"
+		]
+	},
 ]
