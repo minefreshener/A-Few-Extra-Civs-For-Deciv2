@@ -1,69 +1,39 @@
 [
-  //////// GERMANIC UNIFIER UNITS /////////////////
 	{
-		"name": "Druhtiz",
-		"unitType": "Scrapper",
-    "uniqueTo": "Germanic Unifier",
-		"replaces": "Spearman",
-		"movement": 2,
-		"strength": 23,
-		"cost": 60,
-		"upgradesTo": "Militia",
-		"hurryCostModifier": 20,
-		"obsoleteTech": "Rifling",
-		"uniques": [
-			"Low Tech",
-			"[+60]% Strength <vs [Mounted] units>"
-		],
-    "promotions": ["Gas Mask"],
-		"attackSound": "nonmetalhit"
-	},
-  //////////////// INCEL UNIFIER UNITS /////////////////
-  {
-		"name": "Pleasure Caravan",
-		"unitType": "Mounted",
-    "uniqueTo": "Incel Unifier",
-		"replaces": "Wandering Doctor",
-		"movement": 3,
-		"strength": 15,
-		"cost": 30,
-		"hurryCostModifier": 20,
-		"requiredTech": "Trade",
-		"obsoleteTech": "Civil Service",
-		"upgradesTo": "Mobile Brothel",
-		"promotions": ["Medic I"],
-		"uniques": [
-			"Personnel",
-			"Support",
-      "Enslaved",
-      "Consumes [1] [Slaves]",
-			"[+10]% Strength bonus for [Military] units within [1] tiles",
-			"[-1] Sight",
-		],
-		"attackSound": "shot"
-  },
-  {
-		"name": "Mobile Brothel",
+		"name": "Ancient Armor",
 		"unitType": "Armor",
-    "uniqueTo": "Incel Unifier",
-		"replaces": "Mobile Clinic",
-		"movement": 5,
-		"strength": 35,
-		"cost": 175,
-		"hurryCostModifier": 20,
-		"requiredTech": "Civil Service",
-		"promotions": ["Medic I"],
+		"movement": 4,
+		"strength": 70,
+		"cost": 200,
+		"requiredTech": "The Wheel",
+		"upgradesTo": "Modern Armor",
 		"uniques": [
-			"Support",
-      "Enslaved",
-			"Consumes [1] [Slaves]",
-			"[+10]% Strength bonus for [Military] units within [2] tiles",
-			"[+25]% Strength <vs cities>",
+			"Can move after attacking",
+			"No defensive terrain bonus",
+			"Only available <if [Alma Tank Depot] is constructed>",
+			"Consumes [1] [Oil]"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "shot"
+	},
+	{
+		"name": "Pre-War Turret",
+		"unitType": "Siege",
+		"range": 2,
+		"movement": 1,
+		"strength": 30,
+		"rangedStrength": 40,
+		"interceptRange": 2,
+		"cost": 50,
+		"uniques": [
+			"[+20]% Strength <when attacking>",
+			"Only available <for [City-States] Civilizations>",
+			"Only available <with a garrison>",
+			"Limited to [5] per Civilization"
 		],
 		"attackSound": "machinegun"
 	},
-  ///////////////// SUPPORT UNITS ///////////
-  {
+	{
 		"name": "Wandering Doctor",
 		"unitType": "Scrapper",
 		"movement": 2,
@@ -133,6 +103,69 @@
 			"[+50]% Strength <vs [Low Tech] units>"
 		],
 		"attackSound": "arrow"
+	},
+  //////// GERMANIC UNIFIER UNITS /////////////////
+	{
+		"name": "Druhtiz",
+		"unitType": "Scrapper",
+    "uniqueTo": "Germanic Unifier",
+		"replaces": "Spearman",
+		"movement": 2,
+		"strength": 23,
+		"cost": 60,
+		"upgradesTo": "Militia",
+		"hurryCostModifier": 20,
+		"obsoleteTech": "Rifling",
+		"uniques": [
+			"Low Tech",
+			"[+60]% Strength <vs [Mounted] units>"
+		],
+    "promotions": ["Gas Mask"],
+		"attackSound": "nonmetalhit"
+	},
+  //////////////// INCEL UNIFIER UNITS /////////////////
+  {
+		"name": "Pleasure Caravan",
+		"unitType": "Mounted",
+    "uniqueTo": "Incel Unifier",
+		"replaces": "Wandering Doctor",
+		"movement": 3,
+		"strength": 15,
+		"cost": 30,
+		"hurryCostModifier": 20,
+		"requiredTech": "Trade",
+		"obsoleteTech": "Civil Service",
+		"upgradesTo": "Mobile Brothel",
+		"promotions": ["Medic I"],
+		"uniques": [
+			"Personnel",
+			"Support",
+      "Enslaved",
+      "Consumes [1] [Slaves]",
+			"[+10]% Strength bonus for [Military] units within [1] tiles",
+			"[-1] Sight",
+		],
+		"attackSound": "shot"
+  },
+  {
+		"name": "Mobile Brothel",
+		"unitType": "Armor",
+    "uniqueTo": "Incel Unifier",
+		"replaces": "Mobile Clinic",
+		"movement": 5,
+		"strength": 35,
+		"cost": 175,
+		"hurryCostModifier": 20,
+		"requiredTech": "Civil Service",
+		"promotions": ["Medic I"],
+		"uniques": [
+			"Support",
+      "Enslaved",
+			"Consumes [1] [Slaves]",
+			"[+10]% Strength bonus for [Military] units within [2] tiles",
+			"[+25]% Strength <vs cities>",
+		],
+		"attackSound": "machinegun"
 	},
   /////////// MANLANDIA UNIQUE UNITS ///////////////////////
 	{
