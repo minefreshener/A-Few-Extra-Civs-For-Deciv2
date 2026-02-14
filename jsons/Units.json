@@ -1,3 +1,306 @@
 [
-
+  //////// GERMANIC UNIFIER UNITS /////////////////
+	{
+		"name": "Druhtiz",
+		"unitType": "Scrapper",
+    "uniqueTo": "Germanic Unifier",
+		"replaces": "Spearman",
+		"movement": 2,
+		"strength": 23,
+		"cost": 60,
+		"upgradesTo": "Militia",
+		"hurryCostModifier": 20,
+		"obsoleteTech": "Rifling",
+		"uniques": [
+			"Low Tech",
+			"[+60]% Strength <vs [Mounted] units>"
+		],
+    "promotions": ["Gas Mask"],
+		"attackSound": "nonmetalhit"
+	},
+  //////////////// INCEL UNIFIER UNITS /////////////////
+  {
+		"name": "Pleasure Caravan",
+		"unitType": "Mounted",
+    "uniqueTo": "Incel Unifier",
+		"replaces": "Wandering Doctor",
+		"movement": 3,
+		"strength": 15,
+		"cost": 30,
+		"hurryCostModifier": 20,
+		"requiredTech": "Trade",
+		"obsoleteTech": "Civil Service",
+		"upgradesTo": "Mobile Brothel",
+		"promotions": ["Medic I"],
+		"uniques": [
+			"Personnel",
+			"Support",
+      "Enslaved",
+      "Consumes [1] [Slaves]",
+			"[+10]% Strength bonus for [Military] units within [1] tiles",
+			"[-1] Sight",
+		],
+		"attackSound": "shot"
+  },
+  {
+		"name": "Mobile Brothel",
+		"unitType": "Armor",
+    "uniqueTo": "Incel Unifier",
+		"replaces": "Mobile Clinic",
+		"movement": 5,
+		"strength": 35,
+		"cost": 175,
+		"hurryCostModifier": 20,
+		"requiredTech": "Civil Service",
+		"promotions": ["Medic I"],
+		"uniques": [
+			"Support",
+      "Enslaved",
+			"Consumes [1] [Slaves]",
+			"[+10]% Strength bonus for [Military] units within [2] tiles",
+			"[+25]% Strength <vs cities>",
+		],
+		"attackSound": "machinegun"
+	},
+  ///////////////// SUPPORT UNITS ///////////
+  {
+		"name": "Wandering Doctor",
+		"unitType": "Scrapper",
+		"movement": 2,
+		"strength": 24,
+		"cost": 50,
+		"hurryCostModifier": 20,
+		"requiredTech": "Biology",
+		"obsoleteTech": "Pharmaceuticals",
+		"upgradesTo": "Mobile Clinic",
+		"promotions": ["Medic I", "Medic II"],
+		"uniques": [
+			"Personnel",
+			"Support",
+			"All adjacent units heal [+10] HP when healing",
+			"[-1] Sight",
+			"Only available <in cities with a [Hospital]>"
+		],
+		"attackSound": "shot"
+  },
+	
+  {
+		"name": "Mobile Clinic",
+		"unitType": "Armor",
+		"movement": 4,
+		"strength": 45,
+		"cost": 225,
+		"hurryCostModifier": 20,
+		"requiredTech": "Pharmaceuticals",
+		"promotions": ["Medic I", "Medic II"],
+		"uniques": [
+			"Support",
+			"Consumes [1] [Oil]",
+			"All adjacent units heal [+15] HP when healing",
+			"[-33]% Strength <vs cities>",
+			"Only available <in cities with a [Hospital]>"
+		],
+		"attackSound": "machinegun"
+	},
+  /////////// MANLANDIA UNIQUE UNITS ///////////////////////
+	{
+		"name": "Beta Battalion",
+		"unitType": "Scrapper",
+    "uniqueTo": "Manlandia",
+		"replaces": "NBC Conscript",
+		"movement": 2,
+		"strength": 43,
+		"interceptRange": 0,
+		"cost": 165,
+		"requiredTech": "Plastics",
+		"hurryCostModifier": 20,
+		"uniques": [
+			"Personnel",
+			"Enslaved",
+			"Only available <if [Mandatory Service] is constructed>",
+			"Can build [Land] improvements on tiles",
+			"Only available <with [Slaves]>",
+			"Consumes [1] [Slaves]",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": [],
+		"attackSound": "machinegun"
+	},
+  {
+		"name": "Alpha Battalion",
+		"unitType": "Scrapper",
+    "uniqueTo": "Manlandia",
+		"replaces": "NBC Infantry",
+		"movement": 2,
+		"strength": 55,
+		"interceptRange": 0,
+		"cost": 260,
+		"requiredTech": "Plastics",
+		"upgradesTo": "Sigma Battalion",
+		"hurryCostModifier": 20,
+		"uniques": [
+			"Personnel",
+			"Only available <if [Factory] is constructed>",
+			"Consumes [1] [Weapons]"
+		],
+		"promotions": ["Gas Mask","Medic I","Sentry"],
+		"attackSound": "machinegun"
+	},
+  {
+		"name": "Gigachad",
+		"unitType": "Scrapper",
+    "uniqueTo": "Manlandia",
+		"replaces": "Exo-Trooper",
+		"movement": 3,
+		"strength": 90,
+		"interceptRange": 0,
+		"cost": 360,
+		"requiredTech": "Energy Weapons",
+		"hurryCostModifier": 20,
+		"uniques": [
+			"Personnel",
+			"Never appears as a Barbarian unit",
+			"May Paradrop to [Land] tiles up to [4] tiles away <in [{Friendly} {Land}] tiles>",
+			"Only available <if [Factory] is constructed>",
+			"Consumes [2] [Weapons]"
+		],
+		"promotions": [
+			"Gas Mask","Sentry",
+		],
+		"attackSound": "phasers"
+	},
+  {
+		"name": "Sigma Battalion",
+		"unitType": "Shooter",
+    "uniqueTo": "Manlandia",
+		"replaces": "Black Ops",
+		"range": 3,
+		"movement": 3,
+		"strength": 77,
+		"rangedStrength": 57,
+		"interceptRange": 0,
+		"cost": 360,
+		"requiredTech": "Energy Weapons",
+		"hurryCostModifier": 20,		
+		"uniques": [
+			"Personnel",
+			"Only available <if [Factory] is constructed>",
+			"May Paradrop to [Land] tiles up to [4] tiles away <in [{Friendly} {Land}] tiles>",
+			"Consumes [2] [Weapons]",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": [
+			"Drone Recon",
+			"Gas Mask",
+			"Infantry Weapons"
+		],
+		"attackSound": "shot"
+	},
+  {
+		"name": "Strongman",
+		"unitType": "Civilian",
+		"uniqueTo": "Manlandia",
+		"replaces": "Great General",
+		"uniques": [
+			"Empire enters a [8]-turn Golden Age <by consuming this unit>",
+			"[+20]% Strength bonus for [Military] units within [2] tiles",
+			"Can instantly construct a [Outpost] improvement <by consuming this unit>",
+			"Can be earned through combat <for [Land] units>",
+			"Is part of Great Person group [General]",
+			"Great Person - [War]", 
+			"Unbuildable",
+		],
+	},
+  {
+		"name": "Great Podcaster",
+		"unitType": "Civilian",
+    "uniqueTo": "Manlandia",
+		"replaces": "Great Sage",
+		"uniques": [
+			"Can instantly construct a [Seminary] improvement <by consuming this unit> <if it hasn't used other actions yet>",
+			"Can Spread Religion <for [3] movement> <[5] times> <after which this unit is consumed>",
+			"Removes other religions when spreading religion",
+			"May found a religion <by consuming this unit> <if it hasn't used other actions yet>",
+      "May enhance a religion <by consuming this unit> <if it hasn't used other actions yet>",
+			"May enter foreign tiles without open borders",
+			"Great Person - [Faith]",
+			"Unbuildable",
+			"Religious Unit",
+			"Only available <when religion is enabled>",
+			"Takes your religion over the one in their birth city"
+		],
+		"movement": 3,
+		"religiousStrength": 1250
+	},
+  {
+		"name": "Great Stud",
+		"unitType": "Civilian",
+    "uniqueTo": "Manlandia",
+		"replaces": "Great Farmer",
+		"uniques": [
+			"[+5] population [in all cities] <by consuming this unit>",
+			"Can instantly construct a [Prison Farm] improvement <by consuming this unit>",
+			"Great Person - [Food]",
+			"Uncapturable",
+			"Unbuildable"
+		],
+		"movement": 2
+	},
+  ////////////// WEJABOZ UNIQUE UNITS //////////////
+  {
+		"name": "Mangaka",
+		"unitType": "Civilian",
+    "uniqueTo": "Wejaboz",
+		"replaces": "Philosopher",
+		"uniques": [
+			"Can Spread Religion <for [2] movement> <[2] times> <after which this unit is consumed>",
+      "Can remove other religions from cities <in [Friendly] tiles> <[1] times>",
+			"May enter foreign tiles without open borders, but loses [50] religious strength each turn it ends there",
+			"Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]",
+			"Unbuildable",
+			"Religious Unit",
+			"Only available <when religion is enabled>"
+		],
+		"movement": 4,
+		"religiousStrength": 1000
+	},
+	{
+		"name": "Pornographer",
+		"unitType": "Civilian",
+    "uniqueTo": "Wejaboz",
+		"replaces": "Censor",
+		"uniques": [
+			"Prevents spreading of religion to the city it is next to",
+			"Can remove other religions from cities <in [Friendly] tiles> <[2] times> <after which this unit is consumed>",
+      "Can Spread Religion <for [2] movement> <[1] times>",
+      "May enter foreign tiles without open borders, but loses [100] religious strength each turn it ends there",
+			"Can be purchased with [Faith] [in all cities in which the majority religion is an enhanced religion]",
+			"Only available <when religion is enabled>",
+			"Unbuildable",
+			"Religious Unit"
+		],
+		"movement": 3,
+    "religiousStrength": 1000
+	},
+  {
+		"name": "Great Mangaka",
+		"unitType": "Civilian",
+    "uniqueTo": "Wejaboz",
+		"replaces": "Great Sage",
+		"uniques": [
+			"Can instantly construct a [Landmark] improvement <by consuming this unit> <if it hasn't used other actions yet>",
+			"Can Spread Religion <[4] times> <after which this unit is consumed>",
+			"Removes other religions when spreading religion",
+			"May found a religion <by consuming this unit> <if it hasn't used other actions yet>",
+            "May enhance a religion <by consuming this unit> <if it hasn't used other actions yet>",
+			"May enter foreign tiles without open borders",
+			"Great Person - [Faith]",
+			"Unbuildable",
+			"Religious Unit",
+			"Only available <when religion is enabled>",
+			"Takes your religion over the one in their birth city"
+		],
+		"movement": 3,
+		"religiousStrength": 1000
+	},
 ]
