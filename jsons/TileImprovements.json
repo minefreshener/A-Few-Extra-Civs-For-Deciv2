@@ -1,1 +1,17 @@
-
+[
+  {
+		"name": "Landmark",
+		"culture": 4,
+    "faith": 4,
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": [
+			"Great Improvement",
+			"[+1 Culture] <after discovering [Currency]>",
+			"[+1 Culture] <after discovering [Railroads]>",
+			"[+1 Culture] <after discovering [Flight]>",
+			"[+1 Culture] <after discovering [Incentivization]>",
+			"[+2 Culture] <after discovering [Globalization]>",
+			"Pillaging this improvement yields approximately [+30 Gold]"
+		]
+	},
+]
