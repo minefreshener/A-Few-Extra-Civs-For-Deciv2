@@ -1,3 +1,34 @@
 [
-
+	{
+		"name": "Monument to Mandom",
+		"isWonder": true,
+		"uniqueTo": "Manlandia",
+		"culture": 3,
+		"production": 3,
+		"cost": 0,
+		"uniques": [
+			"[+1] Unit Supply per city",
+			"Provides [4] [Slaves]",
+			"[2] free [Beta Battalion] units appear",
+			"Automatically built in all cities where it is buildable",
+			"Can only be built <in [Capital] cities>",
+			"Gain a free [Food Store] [in this city]",
+			"Gain a free [Prison Camp] [in this city]"
+		]
+	},
+  {
+		"name": "Mandatory Service",
+    "replaces": "Community Garden",
+		"uniqueTo": "Manlandia",
+		"production": 2,
+		"specialistSlots": {"Engineer": 1},
+		"maintenance": 1,
+		"uniques": [
+			"[+25]% Great Person generation [in this city]",
+      "[-10]% growth [in this city]",
+      "Provides [2] [SLaves]",
+			"[+1 Food, +1 Production] [in this city] <with [Narcotics]>"
+		],
+		"requiredTech": "Civil Service"
+	},
 ]
