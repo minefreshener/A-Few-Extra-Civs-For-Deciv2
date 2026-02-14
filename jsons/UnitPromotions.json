@@ -15,6 +15,36 @@
         "row": 2
 	},
 	{
+		"name": "Blooded",
+		"uniques": [
+			"[-10]% Strength for enemy [Military] units in adjacent [Land] tiles"
+		],
+		"column": 101,
+		"row": 4
+	},
+	{
+		"name": "Combat Drill",
+		"uniques": [
+			"[+20]% Strength <when defending>",
+			"Only available <for units without [Promotion Nullifier]>"
+		],
+		"unitTypes": ["Siege", "Helicopter", "Mounted Ranged"],
+		"column": 3,
+		"row": 2
+	},
+	{
+		"name": "Ballistic Weave",
+		"uniques": ["[+10]% Strength <when defending>", "[+25]% Strength <vs [Ranged] units> <when defending>"]
+	},
+	{
+		"name": "Great Generals",
+		"uniques": ["[Great General] is earned [100]% faster"]
+	},
+	{
+		"name": "Combat Armor",
+		"uniques": ["[+20]% Strength <when defending>"]
+	},
+	{
 		"name": "Mountaineer",
 		"uniques": ["Can pass through impassable tiles"]
 	},
