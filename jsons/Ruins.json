@@ -48,14 +48,6 @@
 			"Only available <for units without [Pride]>"]
 	},
 	{
-		"name": "Nomadic Training",
-		"notification": "Our unit has recieved training from a resourceful steppe nomad",
-		"weight": 4,
-		"uniques": ["[This Unit] gains the [Hang Around] promotion",
-			"[This Unit] gains [10] XP",
-			"Only available <for units without [Hang Around]>"]
-	},
-	{
 		"name": "Ominous Idol",
 		"notification": "Our unit has unearthed a most terrifying talisman of doom",
 		"weight": 4,
