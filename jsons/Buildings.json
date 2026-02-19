@@ -31,4 +31,26 @@
 		],
 		"requiredTech": "Civil Service"
 	},
+	////////////////// WEJABOZ /////////////
+	{
+		"name": "Twelvechan Server Fortress",
+		"isWonder": true,
+		"uniqueTo": "Wejaboz",
+		"culture": 4,
+		"gold": -1,
+		"cost": 1,
+		"uniques": [
+			"Provides [4] [Data] <when above [0] [Power]>",
+			"[2] free [Pre-War Turret] units appear",
+			"Can only be built <in [Capital] cities>",
+			"Gain a free [Walls] [in this city]",
+			"Automatically built in all cities where it is buildable"
+		],
+		"quote": "''",
+		"civilopediaText": [
+			{
+				"text": ""
+			}
+		]
+	},
 ]
