@@ -1,4 +1,5 @@
 [
+/////////////// MANLANDIA ////////////////
 	{
 		"name": "Monument to Mandom",
 		"isWonder": true,
@@ -18,7 +19,7 @@
 	},
   {
 		"name": "Mandatory Service",
-    "replaces": "Community Garden",
+    	"replaces": "Community Garden",
 		"uniqueTo": "Manlandia",
 		"production": 2,
 		"specialistSlots": {"Engineer": 1},
@@ -31,13 +32,163 @@
 		],
 		"requiredTech": "Civil Service"
 	},
+	{
+		"name": "Traffic Survivors",
+		"cost": 25,
+		"replaces": "Search for Survivors",
+		"uniqueTo": "Manlandia",
+		"isNationalWonder": true,
+		"uniques": ["Provides [3] [Slaves]", "Free [Pleasure Caravan] appears"]
+	},
+	{
+		"name": "Sperm Bank",
+		"replaces": "Medical Lab",
+		"uniqueTo": "Manlandia",
+		"food": 2,
+		"maintenance": 2,
+		"requiredTech": "Pharmaceuticals",
+		"uniques": [
+			"[40]% Food is carried over after population increases [in this city]",
+			"Only available <in cities with a [Hospital]>"
+		]
+	},
+	{
+		"name": "Bar",
+		"replaces": "Town Hall",
+		"uniqueTo": "Manlandia",
+		"happiness": 1,
+		"culture": 2,
+		"maintenance": 1,
+		"cost": 40,
+		"uniques": [
+			"[-10]% Culture cost of natural border growth [in this city]",
+			"[+1 Happiness, +1 Culture] [in this city] <when above [0] [Alcohol]>",
+			"[+2] population [in this city]",
+			"Unsellable"
+		],
+		"hurryCostModifier": 40
+	},
+	{
+		"name": "Podcast Tower",
+		"replaces": "Broadcast Tower",
+		"uniqueTo": "Manlandia",
+		"culture": 3,
+		"specialistSlots": { "Administrator": 2 },
+		"percentStatBonus": { "culture": 25 },
+		"uniques": ["Consumes [1] [Power]"],
+		// "maintenance": 3,
+		"requiredTech": "Radio"
+	},
+	{
+		"name": "Podcast Network",
+		"replaces": "Broadcast Network",
+		"uniqueTo": "Manlandia",
+		"happiness": 1,
+		"culture": 4,
+		"uniques": [
+			"[+1 Happiness, +1 Culture] per [2] social policies adopted",
+			"Only available <in cities with a [Television Studio]>"
+		],
+		"isNationalWonder": true,
+		"requiredTech": "Social Engineering"
+	},
+	{
+		"name": "Alpha Male Influencer Station",
+		"replaces": "Television Studio",
+		"uniqueTo": "Manlandia",
+		"culture": 3,
+		"happiness": 1,
+		"specialistSlots": { "Administrator": 2 },
+		"maintenance": 2,
+		"uniques": [
+			"Only available <in cities with a [Broadcast Tower]>",
+			"Consumes [1] [Power]"
+		],
+		"requiredTech": "Electronics"
+	},
+	{
+		"name": "Jock Club",
+		"replaces": "Stadium",
+		"uniqueTo": "Manlandia",
+		"culture": 3,
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"New [Military] units start with [10] XP [in this city]",
+			"[+1 Happiness, +1 Culture] [in this city] <when above [0] [Power]>",
+		],
+		"requiredTech": "Social Engineering"
+	},
+	{
+		"name": "Sorority",
+		"uniqueTo": "Manlandia",
+		"maintenance": 2,
+		"hurryCostModifier": 0,
+		"uniques": [
+			"[+1 Happiness] per [10] population [in this city] <after discovering [Networking]>",
+			"Only available <in cities with a [University]>",
+			"Only available <in cities without a [Fraternity]>",
+			"Provides [2] [Slaves]",
+		],
+		"requiredTech": "Civil Service"
+	},
+	{
+		"name": "Fraternity",
+		"uniqueTo": "Manlandia",
+		"maintenance": 2,
+		"hurryCostModifier": 0,
+		"uniques": [
+			"New [Military] units start with [10] XP [in this city]",
+			"[+1 Happiness, +1 Culture] per [4] population [in this city] <after discovering [Networking]>",
+			"Only available <in cities with a [University]>",
+			"Consumes [1] [Slaves]",
+			"Only available <in cities without a [Sorority]>",
+		],
+		"requiredTech": "Civil Service"
+	},
+	{
+		"name": "Merge with Isolationists' Underground Slave Market",
+		"replaces": "Ally with Isolationists",
+		"uniqueTo": "Manlandia",
+		"cost": 5,
+		"uniques": [
+			"Limited to [1] per Civilization",
+			"Must have an owned [Isolated Island] within [3] tiles",
+			"Provides [4] [Slaves]",
+			"[+2 happiness, +4 Gold] from [Isolated Island] tiles [in this city]",
+			"Unbuildable <if [Release Isolated Island Files] is constructed>"
+		]
+	},
+	{
+		"name": "Release Isolated Island Files",
+		"replaces": "Annex Isolationists",
+		"uniqueTo": "Manlandia",
+		"isNationalWonder": true,
+		"requiredTech": "Sailing",
+		"cost": 200,
+		"happiness": 1,
+		"culture": 1,
+		"uniques": [
+			"Must have an owned [Isolated Island] within [3] tiles",
+			"[+5 Culture, +5 Gold, -4 Happiness] from [Isolated Island] tiles [in all cities]",
+			"Unbuildable <if [Merge with Isolationists' Underground Slave Market] is constructed>"
+		],
+		"civilopediaText": [
+			{
+				"text": "Ephialtes the son of Eurydemos, a Malian, came to speech with him, supposing that he would win a very great reward from the king; and this man told him of the path which leads over the mountain to Thermopylae, and brought about the destruction of those Greeks who remained in that place."
+			}
+		]
+	},
 	////////////////// WEJABOZ /////////////
 	{
-		"name": "Twelvechan Server Fortress",
+		"name": "Eightysevenchan Server-Fortress",
 		"isWonder": true,
 		"uniqueTo": "Wejaboz",
-		"culture": 4,
-		"gold": -1,
+		"culture": 6,
+		"happiness": 3,
+		"gold": -4,
+		"cityStrength": 2,
+		"cityHealth": 40,
 		"cost": 1,
 		"uniques": [
 			"Provides [4] [Data] <when above [0] [Power]>",
@@ -51,6 +202,108 @@
 			{
 				"text": ""
 			}
+		]
+	},
+	{
+		"name": "Streaming Service",
+		"replaces": "Content Farm",
+		"uniqueTo": "Wejaboz",
+		"percentStatBonus": { "production": -5 },
+		"culture": 4,
+		"happiness": 1,
+		"uniques": [
+			"Provides [1] [Data] <when above [-2] [Power]>",
+			"Consumes [1] [Power]",
+			"Only available <in cities with a [Broadcast Tower]>"
+		],
+		"requiredTech": "Computers"
+	},
+	{
+		"name": "Manga Cave",
+		"replaces": "Publishing House",
+		"uniqueTo": "Wejaboz",
+		"percentStatBonus": { "production": -5 },
+		"production": -3,
+		"culture": 2,
+		"uniques": [
+			"Provides [2] [Books] <when above [0] [Data]>",
+			"Consumes [1] [Data]",
+			"Only available <in cities with a [Library]>"
+		],
+		"requiredTech": "Manufacturing"
+	},
+	{
+		"name": "Animation Studio",
+		"replaces": "Television Studio",
+		"uniqueTo": "Wejaboz",
+		"culture": 4,
+		"happiness": 3,
+		"specialistSlots": { "Administrator": 1 },
+		"maintenance": 2,
+		"uniques": [
+			"Only available <in cities with a [Broadcast Tower]>",
+			"Provides [1] [Data] <when above [0] [Books]>",
+			"Consumes [1] [Power]"
+		],
+		"requiredTech": "Electronics"
+	},
+	{
+		"name": "Manga Collection",
+		"replaces": "Library",
+		"uniqueTo": "Wejaboz",
+		"hurryCostModifier": 25,
+		"uniques": [
+			"[+1 Culture, +1 Happiness] [in this city] <when above [0] [Power]>",
+			"[+1 Science] per [4] population [in this city]",
+			"[+1 Science, +1 Culture] from [Data] tiles [in this city]",
+		],
+		"requiredTech": "Writing"
+	},
+	{
+		"name": "Waifu Shrine",
+		"replaces": "Shrine",
+		"uniqueTo": "Wejaboz",
+		"faith": 2,
+		"culture": 1,
+		"cost": 40,
+		"requiredTech": "Secrets of the Past",
+		"uniques": ["Only available <when religion is enabled>"]
+	},
+	{
+		"name": "Body Pillow Den",
+		"replaces": "Monastery",
+		"uniqueTo": "Wejaboz",
+		"faith": 2,
+		"culture": 2,
+		"happiness": 2,
+		"production": -2,
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"requiredTech": "Education",
+		"uniques": [
+			"Only available <in cities with a [Waifu Shrine]>",
+			"Only available <when religion is enabled>"
+		]
+	},
+	{
+		"name": "E-girl Streaming Network",
+		"faith": 5,
+		"culture": 2,
+		"gold": 5,
+		"percentStatBonus": {"faith": 10},
+		"percentStatBonus": {"happiness": 5},
+		"percentStatBonus": {"gold": 10},
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"requiredTech": "Social Engineering",
+		"uniques": [
+			"[-10]% growth [in this city]",
+			"Only available <in cities with a [Monastery]>",
+			"Only available <when religion is enabled>",
+			"[+33]% Natural religion spread [in this city] <when above [0] [Power]>",
+			"[+33]% Natural religion spread [in this city] <when above [0] [Slaves]>",
+			"Consumes [1] [Power]",
+			"Consumes [1] [Slaves]"
 		]
 	},
 ]
