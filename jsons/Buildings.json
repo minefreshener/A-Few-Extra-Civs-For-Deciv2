@@ -1,4 +1,22 @@
 [
+////////////// INCEL UNIFIER ///////////
+	{
+		"name": "State-Provided Girlfriends",
+		"uniqueTo": "Incel Unifier",
+		"cost": 150,
+		"isNationalWonder": true,
+		"uniques": [
+			"[+4 Happiness, -2 Production] [all Cities] <when above [0] [Slaves]>",
+			"[+1 Happiness] [in all cities] <with [Books]>",
+			"[+2 Happiness] [in all cities] <with [Data]>",
+			"[+3 Happiness] [in all cities] <with [Encrypted Data]>",
+			"Cost increases by [40] per owned city",
+			"Can only be built <in [Capital] cities>",
+			"Consumes [8] [Slaves]"
+		],
+		"hurryCostModifier": 25,
+		"requiredTech": "Engineering"
+	},
 /////////////// MANLANDIA ////////////////
 	{
 		"name": "Monument to Mandom",
@@ -17,7 +35,39 @@
 			"Gain a free [Prison Camp] [in this city]"
 		]
 	},
-  {
+	{
+		"name": "Council of Alphas",
+		"replaces": "Congress",
+		"uniqueTo": "Manlandia",
+		"cost": 100,
+		"requiredTech": "Civil Service",
+		"uniques": [
+			"[+1 Culture] per [4] population [in all cities]",
+			"[Great General] is earned [50]% faster",
+			"New [Military] units start with [20] XP [in all cities]",
+			"Only available <if [Search for Survivors] is constructed>",
+			"Can only be built <in [Capital] cities>",
+			"Only available <in cities without a [Council]>",
+			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "Gigastud Enclave",
+		"replaces": "Council",
+		"uniqueTo": "Manlandia",
+		"cost": 50,
+		"requiredTech": "Civil Service",
+		"uniques": [
+			"[+20]% growth [in all cities]",
+			"[+20]% Production when constructing [All] units [in all cities]",
+			"Provides [3] [SLaves]",
+			"Only available <if [Search for Survivors] is constructed>",
+			"Can only be built <in [Capital] cities>",
+			"Only available <in cities without a [Congress]>",
+			"Destroyed when the city is captured"
+		]
+	},
+  	{
 		"name": "Mandatory Service",
     	"replaces": "Community Garden",
 		"uniqueTo": "Manlandia",
@@ -125,7 +175,7 @@
 		"maintenance": 2,
 		"hurryCostModifier": 0,
 		"uniques": [
-			"[+1 Happiness] per [10] population [in this city] <after discovering [Networking]>",
+			"[+1 Happiness] per [10] population [in this city]",
 			"Only available <in cities with a [University]>",
 			"Only available <in cities without a [Fraternity]>",
 			"Provides [2] [Slaves]",
@@ -139,7 +189,7 @@
 		"hurryCostModifier": 0,
 		"uniques": [
 			"New [Military] units start with [10] XP [in this city]",
-			"[+1 Happiness, +1 Culture] per [4] population [in this city] <after discovering [Networking]>",
+			"[+1 Happiness, +1 Culture] per [4] population [in this city]",
 			"Only available <in cities with a [University]>",
 			"Consumes [1] [Slaves]",
 			"Only available <in cities without a [Sorority]>",
@@ -171,6 +221,7 @@
 		"uniques": [
 			"Must have an owned [Isolated Island] within [3] tiles",
 			"[+5 Culture, +5 Gold, -4 Happiness] from [Isolated Island] tiles [in all cities]",
+			"[+1 Happiness] per [10] population [in all cities] <after discovering [Networking]>",
 			"Unbuildable <if [Merge with Isolationists' Underground Slave Market] is constructed>"
 		],
 		"civilopediaText": [
@@ -203,6 +254,71 @@
 				"text": ""
 			}
 		]
+	},
+	{
+		"name": "Mangaka Guild",
+		"replaces": "Congress",
+		"uniqueTo": "Wejaboz",
+		"cost": 100,
+		"requiredTech": "Civil Service",
+		"uniques": [
+			"[+1 Culture, +1 Science] per [4] population [in all cities]",
+			"[+10]% Production when constructing [Culture] buildings [in all cities]",
+			"Only available <if [Search for Survivors] is constructed>",
+			"Can only be built <in [Capital] cities>",
+			"Only available <in cities without a [Council]>",
+			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "Moderation Team",
+		"replaces": "Council",
+		"uniqueTo": "Wejaboz",
+		"cost": 50,
+		"requiredTech": "Civil Service",
+		"uniques": [
+			"[-10]% Unhappiness from [Population] [in all cities]",
+			"[-20]% Unhappiness from [Population] [in this city]",
+			"[+25]% City Strength from defensive buildings",
+			"Only available <if [Search for Survivors] is constructed>",
+			"Can only be built <in [Capital] cities>",
+			"Only available <in cities without a [Congress]>",
+			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "Moderation Office",
+		"replaces": "Listening Post",
+		"uniqueTo": "Wejaboz",
+		"maintenance": 1,
+		"happiness": 1,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"Removes extra unhappiness from annexed cities",
+			"[-50]% enemy spy effectiveness [in this city] <when above [-2] [Power]>",
+			"Consumes [1] [Power]",
+			"Only available <in cities without a [Girlfriend Bootcamp]>",
+			"Destroyed when the city is captured",
+			"Only available <when espionage is enabled>"
+		],
+		"requiredTech": "Radio"
+	},
+	{
+		"name": "Girlfriend Bootcamp",
+		"replaces": "Prison Camp",
+		"uniqueTo": "Wejaboz",
+		"hurryCostModifier": -25,
+		"production": -1,
+		"happiness": 1,
+		"cost": 20,
+		"uniques": [
+			"Removes extra unhappiness from annexed cities",
+			"Can only be built <in [Annexed] cities>",
+			"Provides [1] [Slaves]",
+			"Only available <in cities without a [Moderation Office]>",
+			"Destroyed when the city is captured"
+		],
+		"requiredTech": "Construction"
 	},
 	{
 		"name": "Streaming Service",
