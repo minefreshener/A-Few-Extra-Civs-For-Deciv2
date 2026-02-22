@@ -104,6 +104,18 @@
 		],
 		"attackSound": "arrow"
 	},
+	{
+		"name": "Tunnel Bore",
+		"unitType": "Civilian",
+		"cost": 70,
+		"movement": 3,
+		"hurryCostModifier": 20,
+		"uniques": [
+			"Can instantly construct a [Borehole] improvement <by consuming this unit>",
+			"Turn this tile into a [Mountain Tunnel] tile <in [{non-[Natural Wonder]} {Mountain}] tiles> <by consuming this unit>",
+			"Unbuildable",
+		]
+	},
   //////// GERMANIC UNIFIER UNITS /////////////////
 	{
 		"name": "Druhtiz",
