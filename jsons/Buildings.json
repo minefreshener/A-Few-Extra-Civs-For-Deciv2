@@ -17,6 +17,14 @@
 		"hurryCostModifier": 25,
 		"requiredTech": "Engineering"
 	},
+	{
+		"name": "Traffic Survivors",
+		"replaces": "Search for Survivors",
+		"uniqueTo": "Incel Unifier",
+		"cost": 25,
+		"isNationalWonder": true,
+		"uniques": ["Provides [3] [Slaves]", "Free [Pleasure Caravan] appears"]
+	},
 /////////////// MANLANDIA ////////////////
 	{
 		"name": "Monument to Mandom",
@@ -81,14 +89,6 @@
 			"[+1 Food, +1 Production] [in this city] <with [Narcotics]>"
 		],
 		"requiredTech": "Civil Service"
-	},
-	{
-		"name": "Traffic Survivors",
-		"cost": 25,
-		"replaces": "Search for Survivors",
-		"uniqueTo": "Manlandia",
-		"isNationalWonder": true,
-		"uniques": ["Provides [3] [Slaves]", "Free [Pleasure Caravan] appears"]
 	},
 	{
 		"name": "Sperm Bank",
@@ -273,7 +273,7 @@
 		]
 	},
 	{
-		"name": "Warchan Moderation Forum",
+		"name": "Warchan Forum",
 		"replaces": "Warnet",
 		"uniqueTo": "Wejaboz",
 		"isNationalWonder": true,
