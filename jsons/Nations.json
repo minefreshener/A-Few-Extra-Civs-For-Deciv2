@@ -35,10 +35,10 @@
 			"Starts with [Supremacy] adopted",
 			"[-3 Science] [in all cities] <before discovering [Steel]>",
 		],
-		"cities": ["Incelularia", "Bropolis", "Dudea", "Mandomia", "Roganica", "Baller", "Dicksley", "Hardon",
+		"cities": ["Incelularia", "Bropolis", "Dudea", "Mandomia", "Blueballs", "Baller", "Dicksley", "Hardon",
 			"Hookerton", "Fuggs", "Big", "Murcis", "Fellowhood", "Tiddeigh", "Slutcliff", "Stroking",
 			"Edging", "Brodick", "BBC Studios HQ",],
-		"spyNames": ["Brayden", "Ethan", "AJ", "Andrew", "Joe", "Seth", "Charlie", "Shiva", "Ben", "Coxfuk"]
+		"spyNames": ["Brayden", "Ethan", "Brody", "Andrew", "Joe", "Seth", "Charlie", "AJ", "Ben", "Jackson"]
 	},
 	{
 		"name": "Wejaboz",
@@ -89,7 +89,7 @@
 		"startBias": ["Mountain"],
 		"preferredVictoryType": "Domination",
 		"personality": "Caesar",
-		"favoredReligion": "Idoltry",
+		"favoredReligion": "Neopaganism",
 
 		// "startIntroPart1": "",
 		// "startIntroPart2": "",
