@@ -119,7 +119,7 @@
 		"hurryCostModifier": 40
 	},
 	{
-		"name": "Podcast Tower",
+		"name": "Podcast Studio",
 		"replaces": "Broadcast Tower",
 		"uniqueTo": "Manlandia",
 		"culture": 3,
@@ -141,20 +141,6 @@
 		],
 		"isNationalWonder": true,
 		"requiredTech": "Social Engineering"
-	},
-	{
-		"name": "Alpha Male Influencer Station",
-		"replaces": "Television Studio",
-		"uniqueTo": "Manlandia",
-		"culture": 3,
-		"happiness": 1,
-		"specialistSlots": { "Administrator": 2 },
-		"maintenance": 2,
-		"uniques": [
-			"Only available <in cities with a [Broadcast Tower]>",
-			"Consumes [1] [Power]"
-		],
-		"requiredTech": "Electronics"
 	},
 	{
 		"name": "Jock Club",
@@ -263,7 +249,7 @@
 		"requiredTech": "Civil Service",
 		"uniques": [
 			"[+1 Culture, +1 Science] per [4] population [in all cities]",
-			"[+10]% Production when constructing [Culture] buildings [in all cities]",
+			"[+33]% Production when constructing [Culture] buildings [in all cities]",
 			"Only available <if [Search for Survivors] is constructed>",
 			"Can only be built <in [Capital] cities>",
 			"Only available <in cities without a [Council]>",
@@ -285,6 +271,20 @@
 			"Only available <in cities without a [Congress]>",
 			"Destroyed when the city is captured"
 		]
+	},
+	{
+		"name": "Warchan Moderation Forum",
+		"replaces": "Warnet",
+		"uniqueTo": "Wejaboz",
+		"isNationalWonder": true,
+		"uniques": [
+			"[+20]% Strength <for [Military] units>",
+			"Provides [2] [Slaves]",
+			"[+15]% Strength for cities",
+			"[-10]% Unhappiness from [Population] [in all cities]",
+			"Only available <if [Moderation Office] is constructed in all [non-[Puppeted]] cities>",
+		],
+		"requiredTech": "Full-Spectrum Dominance"
 	},
 	{
 		"name": "Moderation Office",
@@ -403,6 +403,8 @@
 	},
 	{
 		"name": "E-girl Streaming Network",
+		"replaces": "Megachurch",
+		"uniqueTo": "Wejaboz",
 		"faith": 5,
 		"culture": 2,
 		"gold": 5,
@@ -422,4 +424,5 @@
 			"Consumes [1] [Slaves]"
 		]
 	},
+	///////////////// CITY STATE UNIQUES /////////////
 ]
