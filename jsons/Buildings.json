@@ -424,5 +424,45 @@
 			"Consumes [1] [Slaves]"
 		]
 	},
+	//////////////////// AGARTHANIZ ////////////////////////
+	{
+		"name": "Expeditionary Base",
+		"isNationalWonder": true,
+		"uniqueTo": "Agarthaniz",
+		"replaces": "Bomb Shelter",
+		"cityStrength": 2,
+		"cityHealth": 15,
+		"food": 4,
+		"production": 2,
+		"science": 4,
+		"gold": 2,
+		"culture": 3,
+		"cost": 1,
+		"uniques": ["Indicates the capital city",
+			"Provides [1] [Data]"]
+	},
+	{
+		"name": "Hollow Earth Entrance",
+		"isWonder": true,
+		"uniqueTo": "Agarthaniz",
+		"culture": 3,
+		"happiness": 1,
+		"gold": 2,
+		"cost": 1,
+		"uniques": [
+			"Provides [2] [Power] <when above [0] [Data]>",
+			"[2] free [Pre-War Turret] units appear",
+			"[2] free [Tunnel Bore] units appear",
+			"Can only be built <in [Capital] cities>",
+			"Gain a free [Research Lab] [in this city]",
+			"Automatically built in all cities where it is buildable"
+		],
+		"quote": "''",
+		"civilopediaText": [
+			{
+				"text": ""
+			}
+		]
+	},
 	///////////////// CITY STATE UNIQUES /////////////
 ]
