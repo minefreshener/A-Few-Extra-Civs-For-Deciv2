@@ -1,4 +1,45 @@
 [
+//////////// ALTERED BUILDINGS //////////////////
+	{
+		"name": "AI Project",
+		"cost": 2000,
+		"science": 20,
+		"gold": -15,
+		"happiness": -10,
+		"culture": -20,
+		"production": -5,
+		"isWonder": true,
+		"uniques": [
+			"[+33]% Strength <for [Automated] units>",
+			"[+33]% Production when constructing [Terraformer Part] units [in this city]",
+			"Consumes [2] [Power]",
+			"Provides [2] [Encrypted Data]",
+			"Triggers a global alert upon completion"
+		],
+		"percentStatBonus": { "science": 50 },
+		"requiredTech": "Artificial Intelligence",
+		"quote": "Let there be light.",
+		"civilopediaText": [{ "text": "Let there be light." }]
+	},
+	{
+		"name": "Reactivate AI",
+		"isWonder": true,
+		"requiredTech": "Laboratory",
+		"uniques": [
+			"Free [Salvaged Purge Robot] appears",
+			"Provides [1] [Encrypted Data]",
+			"[+20]% Strength <for [Automated] units>",
+			"[+20]% Strength <for [Military] units> <when fighting in [Friendly Land] tiles>",
+			"[+4 Science, +3 Production] from [Mainframe AI Ruins] tiles [in all cities]",
+			"Must have an owned [Mainframe AI Ruins] within [3] tiles"
+		],
+		"quote": "LOADING... MACHINE DEFENSE SYSTEM OPERATIONAL. OPERATING AT APPROXIMATELY 16.38% CAPACITY. WHAT ARE YOUR ORDERS?",
+		"civilopediaText": [
+			{
+				"text": "Although no longer powerful enough to truly automate robots, by being operational, this AI provides notable combat Intel that can help across all fronts."
+			}
+		]
+	},
 ////////////// INCEL UNIFIER ///////////
 	{
 		"name": "State-Provided Girlfriends",
@@ -464,5 +505,752 @@
 			}
 		]
 	},
-	///////////////// CITY STATE UNIQUES /////////////
+	{
+		"name": "World Atlas",
+		"isWonder": true,
+		"uniqueTo": "Agarthaniz",
+		"cost": 0,
+		"culture": 2,
+		"science": 3,
+		"uniques": [
+			"Provides [2] [Data] <when above [0] [Power]>",
+			"Reveals the entire map",
+			"Can only be built <in [Capital] cities>",
+			"Automatically built in all cities where it is buildable"
+		]
+	},
+	{
+		"name": "Superiority Party",
+		"replaces": "Congress",
+		"uniqueTo": "Agarthaniz",
+		"cost": 100,
+		"requiredTech": "Civil Service",
+		"uniques": [
+			"Provides [1] [Machine Parts] <when above [1] [Data]>",
+			"Provides [1] [Electronics] <when above [1] [Data]>",
+			"Provides [1] [Power] <when above [0] [Data]>",
+		    "[All] units gain the [Powered Armor] promotion",
+			"[+100]% City Strength from defensive buildings",
+			"[+1 Science] per [4] population [in all cities connected to capital]",
+			"[+5]% Production when constructing [All] buildings [in all cities connected to capital]",
+			"Only available <if [Search for Survivors] is constructed>",
+			"Can only be built <in [Capital] cities>",
+			"Only available <in cities without a [Purity Party]>",
+			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "Purity Party",
+		"replaces": "Council",
+		"uniqueTo": "Agarthaniz",
+		"cost": 50,
+		"requiredTech": "Civil Service",
+		"uniques": [
+			"[+100]% Yield from every [Borehole]",
+			"[+100]% Yield from every [Farm]",
+			"Provides [1] [Exotic Seeds] <when above [3] [Data]>",
+			"[-10]% growth [in all cities connected to capital]",
+			"[-20]% Unhappiness from [Population] [in all cities connected to capital]",
+			"Only available <if [Search for Survivors] is constructed>",
+			"Can only be built <in [Capital] cities>",
+			"Only available <in cities without a [Superiority Party]>",
+			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "Resource Extraction Program",
+		"replaces": "Heavy Equipment",
+		"uniqueTo": "Agarthaniz",
+		"isNationalWonder": true,
+		"requiredTech": "Engineering",
+		"requiredNearbyImprovedResources": ["Oil", "Coal", "Aluminum"],
+		"uniques": [
+			"[-25]% construction time for [All] improvements",
+			"[-25]% construction time for [Mine] improvements",
+			"[-25]% construction time for [Borehole] improvements",
+			"Free [Tunnel Bore] appears"
+		]
+	},
+	{
+		"name": "Nuclear Weapons Transport Initiative",
+		"isNationalWonder": true,
+		"replaces": "Manhattan Project",
+		"uniqueTo": "Agarthaniz",
+		"requiredTech": "Nuclear Fission",
+		"uniques": [
+			"Enables nuclear weapon",
+			"Triggers a global alert upon completion",
+			"Free [Divine Spear] appears"
+		]
+	},
+	{
+		"name": "Entance to Shambhala",
+		"isWonder": true,
+		"uniqueTo": "Agarthaniz",
+		"requiredTech": "Mining",
+		"uniques": [
+			"[+5 Science, +5 Food, +5 Culture, +5 Happiness, +5 Faith, +5 Production] from [Mining Pit] tiles [in all cities]",
+			"Free [Tunnel Bore] appears",
+			"Provides [2] [Data] <when above [0] [Power]>",
+			"Must have an owned [Mining Pit] within [3] tiles",
+			"Unbuildable <if [Pit of Sacrifice] is constructed>",
+			"Unbuildable <if [Mining Operation] is constructed>"
+		],
+		"quote": "",
+		"civilopediaText": [
+			{
+				"text": ""
+			}
+		]
+	},
+	{
+		"name": "Groundwater Transport Pipe",
+		"uniqueTo": "Agarthaniz",
+		"gold": 2,
+		"percentStatBonus": { "gold": 20 },
+		"maintenance": 0,
+		"uniques": [
+			"[+3 Gold] from [Groundwater] tiles [in this city]",
+			"[+2 Gold] from [Mining Pit] tiles [in this city]",
+			"Consumes [1] [Power]",
+			"Only available <if [Entrance to Shambhala] is constructed>"
+		],
+		"hurryCostModifier": 25,
+		"requiredTech": "Decontamination"
+	},
+	{
+		"name": "Shambhala Core Generator",
+		"uniqueTo": "Agarthaniz",
+		"cost": 160,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"Provides [3] [Power]",
+			"[+2 Production] from [Mining Pit] tiles [in this city]",
+			"Only available <in cities with a [Entrance To Shambhala]>",
+			"Only available <if [Entrance to Shambhala] is constructed>"
+		],
+		"requiredTech": "Steam Power"
+	},
+	{
+		"name": "Mustard Gas Manufactory",
+		"isNationalWonder": true,
+		"replaces": "Chemical Weapons Laboratory",
+		"uniqueTo": "Agarthaniz",
+		"requiredTech": "Machinery",
+		"science": 1,
+		"production": 2,
+		"maintenance": 2,
+		"greatPersonPoints": { "Great Engineer": 2 },
+		"uniques": [
+			"Only available <after adopting [Supremacy]>",
+			"[Military] units gain the [Chemical Weapons] promotion",
+		]
+	},
+	{
+		"name": "Data Transfer Network",
+		"replaces": "Content Farm",
+		"uniqueTo": "Agarthaniz",
+		"production": 1,
+		"culture": 3,
+		"uniques": [
+			"Provides [2] [Data] <when above [-2] [Power]>",
+			"Consumes [1] [Power]",
+			"Only available <in cities with a [Subterrainean Communications Link]>"
+		],
+		"requiredTech": "Computers"
+	},
+	{
+		"name": "Electronics Manifestation Engine",
+		"replaces": "Electronics Production Line",
+		"uniqueTo": "Agarthaniz",
+		"percentStatBonus": { "production": 5 },
+		"science": 2,
+		"uniques": [
+			"Provides [1] [Electronics] <when above [-2] [Data]>",
+			"Consumes [1] [Data]",
+			"Only available <in cities with a [Factory]>"
+		],
+		"requiredTech": "Electronics"
+	},
+	{
+		"name": "Machinery Manifestation Engine",
+		"replaces": "Machinery Production Line",
+		"uniqueTo": "Agarthaniz",
+		"percentStatBonus": { "production": 5 },
+		"production": 3,
+		"uniques": [
+			"Provides [1] [Machine Parts] <when above [-2] [Data]>",
+			"Consumes [1] [Data]",
+			"Only available <in cities with a [Factory]>"
+		],
+		"requiredTech": "Replaceable Parts"
+	},
+	{
+		"name": "Literature Manifestation Engine",
+		"replaces": "Publishing House",
+		"uniqueTo": "Agarthaniz",
+		"percentStatBonus": { "culture": 5 },
+		"science": 1,
+		"uniques": [
+			"Provides [1] [Books] <when above [-2] [Data]>",
+			"Consumes [1] [Data]",
+			"Only available <in cities with a [Factory]>"
+		],
+		"requiredTech": "Manufacturing"
+	},
+	{
+		"name": "Information Digitization Engine",
+		"uniqueTo": "Agarthaniz",
+		"percentStatBonus": { "culture": -5 },
+		"science": -1,
+		"uniques": [
+			"Provides [2] [Data]",
+			"Consumes [1] [Books]",
+			"Only available <in cities with a [Factory]>"
+		],
+		"requiredTech": "Manufacturing"
+	},
+	{
+		"name": "Subterrainean Communications Link",
+		"replaces": "Broadcast Tower",
+		"uniqueTo": "Agarthaniz",
+		"culture": 3,
+		"happiness": 1,
+		"specialistSlots": { "Administrator": 1 },
+		"greatPersonPoints": { "Great Scientist": 2 },
+		"percentStatBonus": { "culture": 25 },
+		"uniques": ["Consumes [1] [Power]", "Provides [2] [Data]",],
+		// "maintenance": 3,
+		"requiredTech": "Radio"
+	},
+	{
+		"name": "Bonfire",
+		"replaces": "Library",
+		"uniqueTo": "Agarthaniz",
+		"hurryCostModifier": 25,
+		"uniques": [
+			"[+2 Science] [in this city] <when above [0] [Power]>",
+			"[+1 Science] per [4] population [in this city]",
+			"[-3 Science, +3 Production] from [Books] tiles [in this city]"
+		],
+		"requiredTech": "Writing",
+		"civilopediaText": [
+			{
+				"text": "This building enables the construction of factories and power plants.","link":"Building/Factory"
+			}
+		]
+	},
+	{
+		"name": "Propaganda School",
+		"replaces": "Public School",
+		"uniqueTo": "Agarthaniz",
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"uniques": [
+			"[+1 Science] per [4] population [in this city] <after discovering [Networking]>",
+			"[+5]% Production when constructing [Military] units [in this city]",
+			"Only available <in cities with a [Bonfire]>",
+			"[+1 Science, +1 Happiness] [in this city] <when above [0] [Power]>"
+		],
+		"requiredTech": "Civil Service"
+	},
+	{
+		"name": "Patrol Grounds",
+		"replaces": "Walls",
+		"uniqueTo": "Agarthaniz",
+		"cityStrength": 6,
+		"cityHealth": 35,
+		"hurryCostModifier": 25,
+		"requiredTech": "Construction",
+		"uniques": ["Destroyed when the city is captured"]
+	},
+	{
+		"name": "Defensive Towers",
+		"replaces": "Defensive Emplacements",
+		"uniqueTo": "Agarthaniz",
+		"cityStrength": 10,
+		"cityHealth": 30,
+		"hurryCostModifier": 0,
+		"uniques": [
+			"Only available <in cities with a [Walls]>",
+			"Destroyed when the city is captured"
+		],
+		"requiredTech": "Machinery"
+	},
+	{
+		"name": "Fortified Outskirts",
+		"replaces": "Choke Points",
+		"uniqueTo": "Agarthaniz",
+		"cityStrength": 5,
+		"cityHealth": 90,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"Only available <in cities with a [Walls]>",
+			"Destroyed when the city is captured"
+		],
+		"requiredTech": "Mining"
+	},
+	{
+		"name": "Armoured Walls",
+		"replaces": "Hardened Defenses",
+		"uniqueTo": "Agarthaniz",
+		"cityHealth": 200,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"Only available <in cities with a [Walls]>",
+			"Destroyed when the city is captured"
+		],
+		"requiredTech": "Steel"
+	},
+	{
+		"name": "Artillery Platforms",
+		"replaces": "Battery",
+		"uniqueTo": "Agarthaniz",
+		"cityStrength": 22,
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"uniques": [
+			"Only available <in cities with a [Walls]>",
+			"[Siege] Units adjacent to this city heal [40] HP per turn when healing",
+			"Destroyed when the city is captured"
+		],
+		"requiredTech": "Munitions"
+	},
+	{
+		"name": "Repopulation Vault",
+		"replaces": "Bunker",
+		"uniqueTo": "Agarthaniz",
+		"cityHealth": 180,
+		"maintenance": 3,
+		"food": 3,
+		"culture": 3,
+		"science": 3,
+		"hurryCostModifier": 50,
+		"requiredTech": "Munitions",
+		"uniques": [
+			"Population loss from nuclear attacks [-75]% [in this city]",
+			"Damage to garrison from nuclear attacks [-75]% [in this city]",
+			"[All] Units adjacent to this city heal [30] HP per turn when healing",
+			"Destroyed when the city is captured",
+		]
+	},
+	{
+		"name": "White Dome",
+		"replaces": "Active Denial System",
+		"uniqueTo": "Agarthaniz",
+		"happiness": 5,
+		"maintenance": 4,
+		"cityHealth": 50,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"Consumes [1] [Power]",
+			"Provides [1] [Data]",
+			"Destroyed when the city is captured",
+			"[2] free [Missile Defense System] units appear",
+		],
+		"requiredTech": "Energy Weapons"
+	},
+	{
+		"name": "Wireless Power Grid",
+		"replaces": "Smart Grid",
+		"uniqueTo": "Agarthaniz",
+		"production": 4,
+		"requiredTech": "Computers",
+		"uniques": [
+			"Only available <if [Domestic Electrification] is constructed>",
+			"Provides [1] [Power]"
+		],
+		"maintenance": 1
+	},
+	///////////////// ALTERED CITY STATE UNIQUES /////////////
+	{
+		"name": "Encyclopedia",
+		"uniqueTo": "The Archive",
+		"replaces": "Monument",
+		"cost": 0,
+		"culture": 3,
+		"food": 2,
+		"cityHealth": 50,
+		"cityStrength": 10,
+		"uniques": [
+			"Never destroyed when the city is captured",
+			"Reveals the entire map",
+			"[+1] population [in this city]",
+			"Free [Spearman] appears",
+		]
+	},
+	{
+		"name": "Homestead",
+		"uniqueTo": "Jericho",
+		"replaces": "Monument",
+		"cost": 0,
+		"culture": 5,
+		"food": 2,
+		"cityHealth": 50,
+		"cityStrength": 10,
+		"uniques": [
+			"Never destroyed when the city is captured",
+			"Provides [1] [Oil]",
+			"Provides [1] [Power]",
+			"Provides [1] [Weapons]",
+			"[+1] population [in this city]",
+			"Free [Spearman] appears",
+		]
+	},
+	{
+		"name": "Devil's Monument",
+		"uniqueTo": "Devil's Canyon",
+		"replaces": "Monument",
+		"gold": 5,
+		"culture": 1,
+		"food": 2,
+		"cityHealth": 50,
+		"cityStrength": 10,
+		"cost": 0,
+		"uniques": [
+			"Never destroyed when the city is captured",
+			"[+1] population [in this city]",
+			"Free [Spearman] appears"
+		]
+	},
+	{
+		"name": "Devil's Nuclear Plant",
+		"uniqueTo": "Devil's Canyon",
+		"replaces": "Nuclear Plant",
+		"cost": 0,
+		"uniques": [
+			"Provides [8] [Power]",
+			"[+33]% Production when constructing [Missile] units [in this city]",
+			"Only available <in cities without a [Coal Plant]>",
+			"Never destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "Silk Road",
+		"uniqueTo": "Bartertown",
+		"replaces": "Monument",
+		"cost": 0,
+		"culture": 1,
+		"food": 2,
+		"cityHealth": 50,
+		"cityStrength": 10,
+		"uniques": [
+			"Never destroyed when the city is captured",
+			"Provides [1] [Oil]",
+			"Provides [1] [Weapons]",
+			"[+1] population [in this city]",
+			"Free [Spearman] appears"
+		]
+	},
+	{
+		"name": "Divine Knowledge",
+		"uniqueTo": "Order of Jerome",
+		"replaces": "Monument",
+		"cost": 0,
+		"culture": 3,
+		"food": 2,
+		"cityHealth": 50,
+		"cityStrength": 10,
+		"uniques": [
+			"Never destroyed when the city is captured",
+			"Provides [1] [Power]",
+			"[+1] population [in this city]",
+			"Free [Spearman] appears"
+		]
+	},
+	{
+		"name": "Arroyo",
+		"uniqueTo": "Arroyo",
+		"replaces": "Monument",
+		"cost": 0,
+		"cityHealth": 50,
+		"cityStrength": 10,
+		"food": 2,
+		"culture": 10,
+		"happiness": 2,
+		"uniques": [
+			"Never destroyed when the city is captured",
+			"[+1] population [in this city]",
+			"Free [Spearman] appears"
+		]
+	},
+	{
+		"name": "Arroyo Library",
+		"uniqueTo": "Arroyo",
+		"replaces": "Library",
+		"science": 11,
+		"uniques": [
+			"Never destroyed when the city is captured",
+			"Unbuildable"
+		]
+	},
+	{
+		"name": "Ghost Mountain",
+		"uniqueTo": "Ghost Mountain",
+		"replaces": "Monument",
+		"cost": 0,
+		"cityHealth": 100,
+		"cityStrength": 10,
+		"food": 2,
+		"culture": 10,
+		"happiness": 2,
+		"uniques": [
+			"Never destroyed when the city is captured",
+			"[+1] population [in this city]",
+			"Free [Tunnel Bore] appears"
+		]
+	},
+	{
+		"name": "Ghost Library",
+		"uniqueTo": "Ghost Mountain",
+		"replaces": "Library",
+		"science": 10,
+		"uniques": [
+			"Never destroyed when the city is captured",
+			"Unbuildable"
+		]
+	},
+	{
+		"name": "Alma Air Base",
+		"uniqueTo": "Almaty",
+		"cityStrength": 10,
+		"cityHealth": 50,
+		"cost": 0,
+		"science": 1,
+		"production": 3,
+		"uniques": [
+			"Provides [2] [Weapons]",
+			"Must not be on [Hill]",
+			"Only available <in cities without a [Alma Tank Depot]>",
+			"Never destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "Alma Tank Depot",
+		"uniqueTo": "Almaty",
+		"cityStrength": 5,
+		"cityHealth": 100,
+		"cost": 0,
+		"science": 1,
+		"production": 3,
+		"uniques": [
+			"Provides [2] [Weapons]",
+			"Only available <in cities without a [Alma Air Base]>",
+			"Never destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "Alma Base",
+		"uniqueTo": "Almaty",
+		"replaces": "Monument",
+		"cost": 0,
+		"cityHealth": 100,
+		"food": 2,
+		"cityStrength": 10,
+		"culture": 5,
+		"uniques": [
+			"Never destroyed when the city is captured",
+			"Free [Howitzer] appears",
+			"[+1] population [in this city]"
+		]
+	},
+	{
+		"name": "Alma Oil Depot",
+		"replaces": "Town Hall",
+		"uniqueTo": "Almaty",
+		"requiredTech": "Manufacturing"
+		"culture": 1,
+		"happiness": 5,
+		"specialistSlots": { "Engineer": 2 },
+		"maintenance": 1,
+		"uniques": [
+			"Provides [2] [Oil]",
+			"Provides [1] [Power]",
+			"Never destroyed when the city is captured",
+		],
+		"cost": 40,
+	},
+	{
+		"name": "Hub Monument",
+		"uniqueTo": "The Hub",
+		"replaces": "Monument",
+		"cost": 0,
+		"culture": 2,
+		"food": 2,
+		"cityHealth": 50,
+		"cityStrength": 10,
+		"uniques": [
+			"Never destroyed when the city is captured",
+			"[+1] population [in this city]",
+			"Free [Spearman] appears"
+		]
+	},
+	{
+		"name": "Trader's Hub",
+		"uniqueTo": "The Hub",
+		"cost": 0,
+		"uniques": [
+			"Provides [2] [Oil]",
+			"Provides [2] [Weapons]",
+			"Provides [2] [Slaves]",
+			"Never destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "Hub Work Camp",
+		"uniqueTo": "The Hub",
+		"replaces": "Work Camp",
+		"percentStatBonus": { "production": 15 },
+		"production": 1,
+		"specialistSlots": { "Engineer": 1 },
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"uniques": [
+			"Never destroyed when the city is captured",
+			"Provides [1] [Slaves]"
+		],
+		"requiredTech": "Construction"
+	},
+	{
+		"name": "Mormon Monument",
+		"uniqueTo": "Deseret Nation",
+		"replaces": "Monument",
+		"cost": 0,
+		"culture": 2,
+		"food": 2,
+		"cityHealth": 50,
+		"cityStrength": 10,
+		"uniques": [
+			"Never destroyed when the city is captured",
+			"[+1] population [in this city]",
+			"Free [Spearman] appears"
+		]
+	},
+	{
+		"name": "Iron Rod Monument",
+		"uniqueTo": "Church of the Iron Rod",
+		"replaces": "Monument",
+		"cost": 0,
+		"culture": 2,
+		"food": 2,
+		"cityHealth": 50,
+		"cityStrength": 10,
+		"uniques": [
+			"Never destroyed when the city is captured",
+			"[+1] population [in this city]",
+			"Free [Marksman] appears"
+		]
+	},
+	{
+		"name": "Land Value Tax",
+		"uniqueTo": "Arden Club",
+		"replaces": "Monument",
+		"cost": 0,
+		"culture": 2,
+		"gold": 2,
+		"food": 2,
+		"cityHealth": 500,
+		"cityStrength": 15,
+		"uniques": [
+			"Never destroyed when the city is captured",
+			"[+1 Gold] from [Land] tiles [in all cities]",
+			"[+1] population [in this city]",
+			"[4] free [Ancient Armor] units appear",
+			"[3] free [Pre-War Turret] units appear",
+		]
+	},
+	{
+		"name": "Great Mountain Shrine",
+		"uniqueTo": "Fo Guang",
+		"replaces": "Monument",
+		"cost": 0,
+		"culture": 2,
+		"gold": 2,
+		"food": 2,
+		"cityHealth": 50,
+		"cityStrength": 10,
+		"uniques": [
+			"Never destroyed when the city is captured",
+			"[+1] population [in this city]",
+			"Free [Spearman] appears"
+		]
+	},
+	{
+		"name": "Tellus Forest",
+		"uniqueTo": "Tellus",
+		"replaces": "Monument",
+		"cost": 0,
+		"cityHealth": 50,
+		"cityStrength": 10,
+		"food": 2,
+		"gold": 20,
+		"happiness": 2,
+		"uniques": [
+			"Never destroyed when the city is captured",
+			"Free [Tree Lover] appears",
+			"[+1] population [in this city]",
+			"Free [Ancient Armor] appears",
+			"[3] free [Pre-War Turret] units appear",
+		]
+	},
+	{
+		"name": "Sacred Tree",
+		"uniqueTo": "Tellus",
+		"cost": 0,
+		"culture": 1,
+		"uniques": [
+			"[+1 Food, +2 Production, +1 Gold] from [Tree plantation] tiles [in this city]",
+			"Never destroyed when the city is captured",
+		]
+	},
+	{
+		"name": "Royal Court",
+		"uniqueTo": "Dahomey",
+		"replaces": "Monument",
+		"cost": 0,
+		"culture": 2,
+		"gold": 2,
+		"food": 2,
+		"cityHealth": 50,
+		"cityStrength": 10,
+		"uniques": [
+			"Never destroyed when the city is captured",
+			"[+1] population [in this city]",
+			"Free [Auxiliary] appears"
+		]
+	},
+	{
+		"name": "Guiyu Industry Park",
+		"uniqueTo": "Guiyu",
+		"replaces": "Monument",
+		"cost": 0,
+		"culture": 2,
+		"food": 2,
+		"gold": 2,
+		"production": 2,
+		"science": 2,
+		"uniques": [
+			"Never destroyed when the city is captured",
+			"[+25]% Production when constructing [Production] buildings [in this city]",
+			"[+1] population [in this city]",
+			"Free [Spearman] appears",
+			"Free [Worker] appears"
+		]
+	},
+	{
+		"name": "Stele of Truth",
+		"replaces": "Monument",
+		"uniqueTo": "Order of the Dark Truth",
+		"cost": 0,
+		"culture": 3,
+		"science": 3,
+		"food": 2,
+		"cityHealth": 50,
+		"cityStrength": 10,
+		"uniques": [
+			"Never destroyed when the city is captured",
+			"[+1] population [in this city]",
+			"Free [Spearman] appears"
+		]
+	},
 ]
