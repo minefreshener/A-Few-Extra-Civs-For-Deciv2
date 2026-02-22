@@ -108,7 +108,7 @@
 	{
 		"name": "Druhtiz",
 		"unitType": "Scrapper",
-    "uniqueTo": "Germanic Unifier",
+    	"uniqueTo": "Germanic Unifier",
 		"replaces": "Spearman",
 		"movement": 2,
 		"strength": 23,
