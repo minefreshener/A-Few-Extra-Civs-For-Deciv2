@@ -5,7 +5,7 @@
 		"adjective": ["Manly-Man Bro Dude"],
 		"startBias": ["Coast"],
 		"preferredVictoryType": "Domination",
-		"personality": "Caesar",
+		"personality": "Anderson",
 		"favoredReligion": "Capitalism",
 
 		"startIntroPart1": "Welcome to Manlandia, the place where men can be dudes, dude. Imagine a world free of bullcrap modern feminist corruption, where men can provide for their families and be served by their state-provided girlfriends...",
@@ -46,7 +46,7 @@
 		"adjective": ["Wejaboz"],
 		"startBias": ["Jungle"],
 		"preferredVictoryType": "Domination",
-		"personality": "Caesar",
+		"personality": "Daddy",
 		"favoredReligion": "Anime Worship",
 
 		// "startIntroPart1": "",
@@ -88,7 +88,7 @@
 		"adjective": ["Agarthan"],
 		"startBias": ["Mountain"],
 		"preferredVictoryType": "Domination",
-		"personality": "Caesar",
+		"personality": "Kirk",
 		"favoredReligion": "Neopaganism",
 
 		// "startIntroPart1": "",
@@ -124,5 +124,51 @@
 			"Gawjam Pahiztagnniz", "Bejngladejsholandam", "Gawjam Afhaniz", "Gawjam Ejroniz", "Gawjam Turhiz", "Gawjam Kartwejljanniz", "Gawjam Arabjaniz", 
 			"Ejgijptolandam", "Gawjam Anatoljanniz", "Gawjam Hejlejnikoz", "Gawjam Latijnoz", "Gawjam Hojtlatijnoz",],
 		"spyNames": ["Numberz F**kstein", "Hanz", "Jergen", "Karl", "Adolphus", "Jenz", "Jan", "Jarlstein", "Kimbro", "Larz"]
+	},
+	{
+		"name": "Nu-Hamshahr",
+		"leaderName": "Shah Sirdani III",
+		"adjective": ["Manly-M"],
+		"startBias": ["Jungle"],
+		"preferredVictoryType": "Domination",
+		"personality": "Sirdani",
+		"favoredReligion": "Zoroastrianism",
+
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		"declaringWar": "",
+		"attacked": "",
+		"defeated": "",
+		"introduction": "",
+		"neutralHello": "",
+		"hateHello": "",
+		"denounced": "",
+		"declaringFriendship": "",
+		"tradeRequest": "",
+
+		"outerColor": [45, 60, 120],
+		"innerColor": [0, 255, 255],
+		"style": "Military",
+		"uniqueName": "Democratic Legacy",
+		"uniques": [
+			"American Unifier",
+			"Iranian Unifier",
+			"[+15]% Production when constructing [Military] units [in all cities] <during a golden age>",
+			"[+15]% [Culture] [in all cities] <during a golden age>",
+			"[+15]% [Faith] [in all cities] <during a golden age>",
+			"[+50]% Great Person generation [in all cities] <during a golden age>",
+			"[+10]% Strength <for [All] units> <when fighting in [Foreign Land] tiles> <during a golden age>",
+			"Starts with [Secrets of the Past]",
+			"Starts with [Writing]",
+			"Starts with [Civil Service]",
+			"Starts with [Constitution] adopted",
+			"Starts with [COllectivism] adopted",
+			"[-4 Science] [in all cities] <before discovering [Education]>",
+			"Cannot build [Enslaved] units"
+		],
+		"cities": ["Incelularia", "Bropolis", "Dudea", "Mandomia", "Blueballs", "Baller", "Dicksley", "Hardon",
+			"Hookerton", "Fuggs", "Big", "Murcis", "Fellowhood", "Tiddeigh", "Slutcliff", "Stroking",
+			"Edging", "Brodick", "BBC Studios HQ",],
+		"spyNames": ["Brayden", "Ethan", "Brody", "Andrew", "Joe", "Seth", "Charlie", "AJ", "Ben", "Jackson"]
 	},
 ]
