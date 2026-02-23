@@ -126,7 +126,7 @@
 		"spyNames": ["Numberz F**kstein", "Hanz", "Jergen", "Karl", "Adolphus", "Jenz", "Jan", "Jarlstein", "Kimbro", "Larz"]
 	},
 	{
-		"name": "Nu-Hamshahr",
+		"name": "Nuhamshahr",
 		"leaderName": "Shah Sirdani III",
 		"adjective": ["Manly-M"],
 		"startBias": ["Jungle"],
@@ -139,10 +139,10 @@
 		"declaringWar": "",
 		"attacked": "",
 		"defeated": "",
-		"introduction": "",
-		"neutralHello": "",
-		"hateHello": "",
-		"denounced": "",
+		"introduction": "Greetings, fellow leader. Witness the glory of Nuhamshahr.",
+		"neutralHello": "Greetings.",
+		"hateHello": "Yes?",
+		"denounced": "If we have our way, there will be no more libelous dribble from your mouth.",
 		"declaringFriendship": "",
 		"tradeRequest": "",
 
@@ -163,12 +163,12 @@
 			"Starts with [Civil Service]",
 			"Starts with [Constitution] adopted",
 			"Starts with [COllectivism] adopted",
-			"[-4 Science] [in all cities] <before discovering [Education]>",
+			"[-3 Science] [in all cities] <before discovering [Education]>",
 			"Cannot build [Enslaved] units"
 		],
-		"cities": ["Incelularia", "Bropolis", "Dudea", "Mandomia", "Blueballs", "Baller", "Dicksley", "Hardon",
-			"Hookerton", "Fuggs", "Big", "Murcis", "Fellowhood", "Tiddeigh", "Slutcliff", "Stroking",
-			"Edging", "Brodick", "BBC Studios HQ",],
-		"spyNames": ["Brayden", "Ethan", "Brody", "Andrew", "Joe", "Seth", "Charlie", "AJ", "Ben", "Jackson"]
+		"cities": ["Manshahstur", "Nasua", "Kunkur", "Dari", "Dovur", "Rashahstur", "Selahm", "Mermak",
+			"Landandari", "Hudstan", "Bidpur", "Kihn", "Purtsamuth", "Gopstan", "Lakan", "Hamstan",
+			"Milpur", "Eksetur", "Windahm",],
+		"spyNames": ["George", "Ethan", "Marcus", "Andrew", "Weston", "Landon", "Charles", "Lyman", "Ben", "Johnson"]
 	},
 ]
