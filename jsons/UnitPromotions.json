@@ -122,4 +122,12 @@
 			"Free [Pre-War Turret] appears <upon defeating a [Military] unit> <with [50]% chance>",
 		]
 	},
+	{
+		"name": "[Persian Immortal] Ability",
+		"uniques": [
+			"Heals [25] damage if it kills a unit",
+			"Earn [33]% of the damage done to [All] units as [Happiness]",
+			"[+10] HP when healing",
+		]
+	},
 ]
