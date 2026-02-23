@@ -634,6 +634,7 @@
 			"Only available <if [Factory] is constructed>",
 			"Consumes [1] [Oil]"
 		],
+		"promotions": ["[Persian Immortal] Ability"],
 		"hurryCostModifier": 20,
 		"attackSound": "tankshot"
 	},
@@ -656,6 +657,7 @@
 			"Only available <if [Factory] is constructed>",
 			"Consumes [1] [Oil]"
 		], //removed exclusion from Barbarian unit list
+		"promotions": ["[Persian Immortal] Ability"],
 		"hurryCostModifier": 20,
 		"attackSound": "tankshot"
 	},
@@ -677,6 +679,7 @@
 			"[-33]% Strength <vs cities> <when attacking>",
 			"Can only be built <in cities with a [Stable]>"
 		],
+		"promotions": ["[Persian Immortal] Ability"],
 		"hurryCostModifier": 20,
 		"attackSound": "shot"
 	},
@@ -726,31 +729,37 @@
 		"hurryCostModifier": 20,
 		"attackSound": "machinegun"
 	},
-	//////////////// BAKTECH UNIQUE UNITS ///////////////
+	/////////////// LAVENDER LEGION UNIQUE UNITS //////////////
+	
+	//////////////// BALKTECH UNIQUE UNITS ///////////////
 	{
-		"name": "Tank",
+		"name": "Grivpanvar Division",
 		"unitType": "Armor",
+		"uniqueTo": "Balktech",
+		"replaces": "Tank",
 		"movement": 4,
-		"strength": 60,
+		"strength": 67,
 		"cost": 225,
 		"requiredTech": "Combined Arms",
-		"upgradesTo": "Modern Armor",
+		"upgradesTo": "Asbaran Division",
 		"obsoleteTech": "Full-Spectrum Dominance",
 		"uniques": [
 			"Can move after attacking",
 			"[-25]% Strength <vs cities> <when attacking>",
-			"No defensive terrain bonus",
 			"Only available <if [Factory] is constructed>",
 			"Consumes [1] [Oil]"
 		], //removed exclusion from Barbarian unit list
+		"promotions": ["[Persian Immortal] Ability","Pursuit"],
 		"hurryCostModifier": 20,
 		"attackSound": "tankshot"
 	},
 	{
-		"name": "Modern Armor",
+		"name": "Asbaran Division",
 		"unitType": "Armor",
+		"uniqueTo": "Balktech",
+		"replaces": "Modern Armor",
 		"movement": 5,
-		"strength": 80,
+		"strength": 85,
 		"cost": 375,
 		"requiredTech": "Full-Spectrum Dominance",
 		"upgradesTo": "Advanced Armor",
@@ -762,13 +771,16 @@
 			"Consumes [1] [Oil]",
 			"Never appears as a Barbarian unit"
 		],
+		"promotions": ["[Persian Immortal] Ability","Combat Drill"],
 		"hurryCostModifier": 20,
 		"attackSound": "tankshot"
 	},
 	{
-		"name": "Advanced Armor",
+		"name": "Pushtigban Division",
 		"unitType": "Armor",
-		"movement": 5,
+		"uniqueTo": "Balktech",
+		"replaces": "Advanced Armor",
+		"movement": 6,
 		"strength": 100,
 		"cost": 425,
 		"requiredTech": "Energy Weapons",
@@ -777,9 +789,8 @@
 			"No defensive terrain bonus",
 			"Only available <if [Automated Factory] is constructed>",
 			"Consumes [2] [Oil]",
-			"Never appears as a Barbarian unit"
 		],
-		"promotions": ["Powered Armor", "Drone Recon"],
+		"promotions": ["[Persian Immortal] Ability", "Powered Armor", "Drone Recon"],
 		"hurryCostModifier": 20,
 		"attackSound": "tankshot"
 	},
