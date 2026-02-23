@@ -579,18 +579,85 @@
 	},
 	//////////////// NUHAMSHAHR UNIQUE UNITS///////////////
 	{
-		"name": "Light Car",
+		"name": "Scout Car",
 		"unitType": "Armor",
 		"uniqueTo": "Nuhamshahr",
 		"replaces": "Forward Observer",
 		"movement": 4,
-		"strength": 40,
+		"strength": 36,
 		"cost": 55,
 		"hurryCostModifier": 20,
 		"requiredTech": "Replaceable Parts",
 		"uniques": ["[+1] Sight", "Can move after attacking", "[+1] Movement <in [Road] tiles>"],
 		"promotions": ["Reconnaissance I", "Forage"],
 		"attackSound": "shot"
+	},
+	{
+		"name": "Light Car",
+		"unitType": "Armor",
+		"uniqueTo": "Nuhamshahr",
+		"replaces": "Attack Vehicle",
+		"movement": 5,
+		"strength": 30,
+		"cost": 77,
+		"requiredTech": "Machinery",
+		"upgradesTo": "Horseless Chariot",
+		"obsoleteTech": "Replaceable Parts",
+		"uniques": [
+			"[+20]% Strength <vs [Low Tech] units>",
+			"[-20]% Strength <vs cities> <when attacking>",
+			"Can move after attacking",
+			"No defensive terrain bonus",
+			"[+1] Movement <in [Road] tiles>",
+			"Consumes [1] [Oil]"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "tankshot"
+	},
+	{
+		"name": "Horseless Chariot",
+		"unitType": "Armor",
+		"uniqueTo": "Nuhamshahr",
+		"replaces": "Armored Car",
+		"movement": 5,
+		"strength": 47,
+		"interceptRange": 1,
+		"cost": 150,
+		"requiredTech": "Replaceable Parts",
+		"upgradesTo": "Economy Cruiser",
+		"obsoleteTech": "Combined Arms",
+		"uniques": [
+			"[+33]% Strength <vs cities> <when attacking>",
+			"Can move after attacking",
+			"No defensive terrain bonus",
+			"[+1] Movement <in [Road] tiles>",
+			"Only available <if [Factory] is constructed>",
+			"Consumes [1] [Oil]"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "tankshot"
+	},
+	{
+		"name": "Economy Cruiser",
+		"unitType": "Armor",
+		"uniqueTo": "Nuhamshahr",
+		"replaces": "Tank",
+		"movement": 5,
+		"strength": 58,
+		"interceptRange": 1,
+		"cost": 200,
+		"requiredTech": "Combined Arms",
+		"upgradesTo": "Modern Armor",
+		"obsoleteTech": "Full-Spectrum Dominance",
+		"uniques": [
+			"Can move after attacking",
+			"[+1] Movement <in [Road] tiles>",
+			"[+33]% Strength <vs cities> <when attacking>",
+			"Only available <if [Factory] is constructed>",
+			"Consumes [1] [Oil]"
+		], //removed exclusion from Barbarian unit list
+		"hurryCostModifier": 20,
+		"attackSound": "tankshot"
 	},
 	{
 		"name": "Aswar I Nuhamshahr",
@@ -601,7 +668,7 @@
 		"strength": 40,
 		"cost": 120,
 		"requiredTech": "Rifling",
-		"upgradesTo": "Tank",
+		"upgradesTo": "Econmy Cruiser",
 		"uniques": [
 			"Personnel",
 			"Mounted",
@@ -624,7 +691,7 @@
 		"rangedStrength": 28,
 		"cost": 115,
 		"requiredTech": "Rifling",
-		"upgradesTo": "Helicopter",
+		"upgradesTo": "Economy Cruiser",
 		"uniques": [
 			"Personnel",
 			"Mounted",
@@ -635,5 +702,85 @@
 		],
 		"hurryCostModifier": 20,
 		"attackSound": "shot"
+	},
+	{
+		"name": "Payadag I Yankistan",
+		"unitType": "Shooter",
+		"uniqueTo": "Nuhamshahr",
+		"replaces": "Machine Gun",
+		"range": 2,
+		"movement": 2,
+		"strength": 38,
+		"rangedStrength": 50,
+		"cost": 205,
+		"requiredTech": "Replaceable Parts",
+		"uniques": [
+			"Personnel",
+			"[+33]% Strength <vs [Scrapper] units> <when attacking>",
+			"[+33]% Strength <vs [Shooter] units> <when attacking>",
+			"[-33]% Strength <vs [Armor] units>",
+			"[-75]% Strength <vs cities> <when attacking>",
+			"Only available <if [Town Hall] is constructed>",
+		],
+		"promotions": ["Survivalism"],
+		"hurryCostModifier": 20,
+		"attackSound": "machinegun"
+	},
+	//////////////// BAKTECH UNIQUE UNITS ///////////////
+	{
+		"name": "Tank",
+		"unitType": "Armor",
+		"movement": 4,
+		"strength": 60,
+		"cost": 225,
+		"requiredTech": "Combined Arms",
+		"upgradesTo": "Modern Armor",
+		"obsoleteTech": "Full-Spectrum Dominance",
+		"uniques": [
+			"Can move after attacking",
+			"[-25]% Strength <vs cities> <when attacking>",
+			"No defensive terrain bonus",
+			"Only available <if [Factory] is constructed>",
+			"Consumes [1] [Oil]"
+		], //removed exclusion from Barbarian unit list
+		"hurryCostModifier": 20,
+		"attackSound": "tankshot"
+	},
+	{
+		"name": "Modern Armor",
+		"unitType": "Armor",
+		"movement": 5,
+		"strength": 80,
+		"cost": 375,
+		"requiredTech": "Full-Spectrum Dominance",
+		"upgradesTo": "Advanced Armor",
+		"uniques": [
+			"Can move after attacking",
+			"[-25]% Strength <vs cities> <when attacking>",
+			"No defensive terrain bonus",
+			"Only available <if [Factory] is constructed>",
+			"Consumes [1] [Oil]",
+			"Never appears as a Barbarian unit"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "tankshot"
+	},
+	{
+		"name": "Advanced Armor",
+		"unitType": "Armor",
+		"movement": 5,
+		"strength": 100,
+		"cost": 425,
+		"requiredTech": "Energy Weapons",
+		"uniques": [
+			"Can move after attacking",
+			"No defensive terrain bonus",
+			"Only available <if [Automated Factory] is constructed>",
+			"Consumes [2] [Oil]",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Powered Armor", "Drone Recon"],
+		"hurryCostModifier": 20,
+		"attackSound": "tankshot"
 	},
 ]
