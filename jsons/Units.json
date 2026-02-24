@@ -421,6 +421,7 @@
 			"Great Person - [War]", 
 			"Unbuildable",
 		],
+		"movement": 3,
 	},
   	{
 		"name": "Great Podcaster",
