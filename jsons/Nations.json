@@ -134,7 +134,7 @@
 		"name": "Agarthaniz",
 		"leaderName": "Agartha Kirk",
 		"adjective": ["Agarthan"],
-		"startBias": ["Mountain","Mining Pit"],
+		"startBias": ["Mountain"],
 		"preferredVictoryType": "Domination",
 		"personality": "Kirk",
 		"favoredReligion": "Neopaganism",
@@ -246,6 +246,7 @@
 		"uniqueName": "Enduring Banner",
 		"uniques": [
 			"Roman Revivalist",
+			"Greek Unifier",
 			"Starts with [Sovereignty] adopted",
 			"Starts with [Theocracy] adopted",
 			"[-33]% maintenance costs <for [Military] units>",
