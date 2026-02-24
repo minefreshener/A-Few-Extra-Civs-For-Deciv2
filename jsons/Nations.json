@@ -1,4 +1,52 @@
 [
+	//////////// ALTERED FACTIONS ///////////////
+		{
+		"name": "Crimson Legion",
+		"leaderName": "Caesar",
+		"adjective": ["Legion"],
+		"preferredVictoryType": "Domination",
+		"personality": "Caesar",
+		"favoredReligion": "Polytheism",
+
+		"startIntroPart1": "Behold! The nations of the past have fallen, their once marvelous cities crumbled into dust. And why? Because they were weak! In their hour of necessity, they could not stand together! They turned on themselves and devoured themselves, and now they are dead. But we are alive, because we are strong! And what is the source of our strength? Our unity! Like the fasces, we are bound together, and with the strength of our bond, we shall rebuild civilization!",
+		"startIntroPart2": "Our enemies are many, but like the nations of old, they are weak and divided. They shall fall before us, and the world shall at last be united under one great banner! Hail victory! Hail Caesar!",
+		"declaringWar": "You have stood in the way of progress for too long.",
+		"attacked": "Do you really believe that you can stand against the tide of history?",
+		"defeated": "You have the strength to prevail. So be it.",
+		"introduction": "Hail. I am Caesar, son of Mars, Consul of the Crimson Legion. Have you come to pay tribute?",
+		"neutralHello": "Hail.",
+		"hateHello": "Your misplaced ideals make you weak.",
+		"denounced": "Do not think that I, Caesar, will allow you to get away with this.",
+		"declaringFriendship": "You have earned the favor of Caesar. Stand proudly as a friend of the Legion.",
+		"tradeRequest": "I offer this, for your consideration.",
+
+		"outerColor": [153, 5, 3],
+		"innerColor": [244, 232, 54],
+		"style": "Legion",
+		"uniqueName": "One Banner",
+		"uniques": [
+			"Roman Revivalist",
+			"When conquering an encampment, earn [25] Gold and recruit a Barbarian unit <with [67]% chance>",
+			"[-33]% maintenance costs <for [Land] units>",
+			"Starts with [Redomestication]",
+			"Starts with [Supremacy] adopted",
+			"Empire enters golden age <upon conquering a city> <after adopting [Supremacy Complete]>"
+		],
+		"cities": ["Postumus", "Rubicon", "Dies Irae", "Tartarus", "Aqua Vitae", "Damocles", "De Facto", "Vae Victis", "Golgotha", "Mors Omnibus", "Carthage", "Lex Talionis",
+			"Kronos", "Extrema Ratio", "Igni Ferroque", "Tycho", "Memento Mori", "Orcus", "Ex Nihilo", "Para Bellum", "Styx", "Manu Forte", "Elysium", "Alea Iacta Est",
+			"Corpus Vile", "Canis Canem Edit", "Ad Astra"
+		],
+		"spyNames": ["Vulpes", "Cato", "Alerio", "Caius", "Ulysses", "Silus", "Picus", "Aurelius", "Severus", "Livius"],
+		"civilopediaText": [
+			{
+				"text": "Behold! The nations of the past have fallen, their once marvelous cities crumbled into dust. And why? Because they were weak! In their hour of necessity, they could not stand together! They turned on themselves and devoured themselves, and now they are dead. But we are alive, because we are strong! And what is the source of our strength? Our unity! Like the fasces, we are bound together, and with the strength of our bond, we shall rebuild civilization!"
+			},
+			{
+				"text": "Our enemies are many, but like the nations of old, they are weak and divided. They shall fall before us, and the world shall at last be united under one great banner! Hail victory! Hail Caesar!"
+			}
+		]
+	},
+	//////////// NEW FACTIONS ///////////////
 	{
 		"name": "Manlandia",
 		"leaderName": "Anderson Fate",
@@ -197,6 +245,7 @@
 		"style": "Legion",
 		"uniqueName": "Enduring Banner",
 		"uniques": [
+			"Roman Revivalist",
 			"Starts with [Sovereignty] adopted",
 			"Starts with [Theocracy] adopted",
 			"[-33]% maintenance costs <for [Military] units>",
