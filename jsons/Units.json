@@ -528,7 +528,7 @@
 		"requiredTech": "Replaceable Parts",
 		"uniques": ["Personnel", "[+2] Sight", "Can move after attacking",
 			"Unable to capture cities"],
-		"promotions": ["Reconnaissance I","Skirmish","[Surveyor] Ability"],
+		"promotions": ["Reconnaissance I","Skirmish","[Surveyor] ability"],
 		"attackSound": "shot"
 	},
 	{
@@ -670,7 +670,7 @@
 		"strength": 40,
 		"cost": 120,
 		"requiredTech": "Rifling",
-		"upgradesTo": "Econmy Cruiser",
+		"upgradesTo": "Economy Cruiser",
 		"uniques": [
 			"Personnel",
 			"Mounted",
@@ -719,6 +719,7 @@
 		"requiredTech": "Replaceable Parts",
 		"uniques": [
 			"Personnel",
+			"[1] additional attacks per turn",
 			"[+33]% Strength <vs [Scrapper] units> <when attacking>",
 			"[+33]% Strength <vs [Shooter] units> <when attacking>",
 			"[-33]% Strength <vs [Armor] units>",
