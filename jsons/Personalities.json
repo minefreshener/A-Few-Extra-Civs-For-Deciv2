@@ -124,6 +124,37 @@
 		}
 	},
 	{
+		"name": "Basil",
+		"production": 7,
+		"food": 6,
+		"gold": 5,
+		"science": 5,
+		"culture": 6,
+		"happiness": 5,
+		"faith": 7,
+		"military": 8,
+		"aggressive": 5,
+		"declareWar": 4,
+		"commerce": 7,
+		"diplomacy": 8,
+		"loyal": 7,
+		"expansion": 5,
+		"priorities": {
+			"Adaptation": 20,
+			"Expansionism": 10,
+			"Sovereignty": 40,
+			"Theocracy": 40,
+			"Rationalism": 20,
+			"Constitution": 10,
+			"Supremacy": 10,
+			"Monopoly": 10,
+			"Collectivism": 10,
+			"Naturalism": 20,
+			"Mechanization": 10,
+			"Bionics": 10
+		}
+	},
+	{
 		"name": "Skuzler",
 		"production": 7,
 		"food": 6,
