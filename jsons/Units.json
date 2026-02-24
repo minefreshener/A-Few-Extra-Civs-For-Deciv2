@@ -114,7 +114,8 @@
 			"Can instantly construct a [Borehole] improvement <by consuming this unit>",
 			"Turn this tile into a [Mountain Tunnel] tile <in [{non-[Natural Wonder]} {Mountain}] tiles> <by consuming this unit>",
 			"Unbuildable",
-		]
+		],
+		"promotions": ["Mountaineer"],
 	},
 	///////////// NEW CRIMSON LEGION UNIQUES ////////////////////
 	{
