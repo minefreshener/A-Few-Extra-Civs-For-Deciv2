@@ -232,7 +232,7 @@
 			"Limited to [1] per Civilization",
 			"Must have an owned [Isolated Island] within [3] tiles",
 			"Provides [4] [Slaves]",
-			"[+2 happiness, +4 Gold] from [Isolated Island] tiles [in this city]",
+			"[+2 Happiness, +4 Gold] from [Isolated Island] tiles [in this city]",
 			"Unbuildable <if [Release Isolated Island Files] is constructed>"
 		]
 	},
@@ -861,6 +861,29 @@
 			"Provides [1] [Power]"
 		],
 		"maintenance": 1
+	},
+	///////////////// NUHAMSHAHR UNIQUES ////////////////////
+	{
+		"name": "Library of Congress",
+		"isWonder": true,
+		"uniqueTo": "Nuhamshahr",
+		"science": 4,
+		"culture": 3,
+		"faith": 2,
+		"cost": 1,
+		"uniques": [
+			"Provides [4] [Books] <when above [0] [Power]>",
+			"[2] free [Pre-War Turret] units appear",
+			"Can only be built <in [Capital] cities>",
+			"Gain a free [Library] [in this city]",
+			"Automatically built in all cities where it is buildable"
+		],
+		"quote": "''",
+		"civilopediaText": [
+			{
+				"text": ""
+			}
+		]
 	},
 	///////////////// ALTERED CITY STATE UNIQUES /////////////
 	{
