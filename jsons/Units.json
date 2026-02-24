@@ -229,6 +229,78 @@
 		"promotions": ["Gas Mask", "Combat Drill", "Powered Armor"],
 		"attackSound": "machinegun"
 	},
+	///////////////////////////// GREEK UNIFIER UNIQUES //////////////////
+	{
+		"name": "Akontistes",
+		"unitType": "Shooter",
+		"uniqueTo": "Greek Unifier",
+		"replaces": "Scout",
+		"movement": 2,
+		"strength": 16,
+		"range": 1,
+		"rangedStrength": 18,
+		"cost": 15,
+		"upgradesTo": "Crossbowman",
+		"hurryCostModifier": 20,
+		"obsoleteTech": "Replaceable Parts",
+		"uniques": ["Low Tech", "Personnel", "Psiloi",],
+		"promotions": ["Skirmish"],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Toxotes",
+		"unitType": "Shooter",
+		"uniqueTo": "Greek Unifier",
+		"replaces": "Archer",
+		"movement": 2,
+		"strength": 14,
+		"range": 2,
+		"rangedStrength": 15,
+		"cost": 25,
+		"hurryCostModifier": 20,
+		"requiredTech": "The Wheel",
+		"obsoleteTech": "Rifling",
+		"upgradesTo": "Crossbowman",
+		"uniques": ["Low Tech", "Personnel", "Psiloi",],
+		"promotions": ["Skirmish"],
+		"attackSound": "arrow"
+	},
+	{
+		"name": "Sphendonetes",
+		"unitType": "Scrapper",
+		"uniqueTo": "Greek Unifier",
+		"replaces": "Spearman",
+		"movement": 2,
+		"strength": 16,
+		"range": 2,
+		"rangedStrength": 10,
+		"cost": 20,
+		"upgradesTo": "Crossbowman",
+		"hurryCostModifier": 20,
+		"obsoleteTech": "Rifling",
+		"uniques": [
+			"Low Tech", "Personnel", "Psiloi",
+			"[+50]% Strength <vs [Low Tech] units>"
+		],
+		"promotions": ["Skirmish"],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Hoplite",
+		"unitType": "Scrapper",
+		"uniqueTo": "Greek Unifier",
+		"replaces": "Militia",
+		"movement": 2,
+		"strength": 40,
+		"cost": 75,
+		"requiredTech": "The Wheel",
+		"obsoleteTech": "Replaceable Parts",
+		"upgradesTo": "Soldier",
+		"uniques": ["Personnel", "Consumes [1] [Weapons]", "[+15]% Strength bonus for [Psiloi] units within [1] tiles",
+			"[+33]% Strength <vs [Low Tech] units>"],
+		"hurryCostModifier": 20,
+		"attackSound": "machinegun"
+	},
   ////////////////// IRANIAN UNIFIER UNITS ///////////////////
 	{
 		"name": "Archer-Spearman",
@@ -247,6 +319,31 @@
 		"uniques": ["Low Tech", "Personnel", "[+33]% Strength <vs [Low Tech] units>","[+50]% Strength <vs [Mounted] units>"],
 		"promotions": ["Combat Drill"],
 		"attackSound": "arrow"
+	},
+	{
+		"name": "Immortal",
+		"unitType": "Scrapper",
+		"uniqueTo": "Iranian Unifier",
+		"replaces": "Exo-Trooper",
+		"movement": 2,
+		"strength": 77,
+		"interceptRange": 1,
+		"cost": 280,
+		"requiredTech": "Energy Weapons",
+		"hurryCostModifier": 20,
+		"uniques": [
+			"Personnel",
+			"May Paradrop to [Land] tiles up to [4] tiles away <in [{Friendly} {Land}] tiles>",
+			"Only available <if [Factory] is constructed>",
+			"Consumes [2] [Weapons]"
+		],
+		"promotions": [
+			"[Persian Immortal] Ability", 
+			"Powered Armor", 
+			"Drone Recon",
+			"Gas Mask"
+		],
+		"attackSound": "phasers"
 	},
 	/////////////// AMERICAN UNIFIER UNITS /////////////
   //////// GERMANIC UNIFIER UNITS /////////////////
@@ -454,7 +551,6 @@
 			"[+5] population [in all cities] <by consuming this unit>",
 			"Can instantly construct a [Prison Farm] improvement <by consuming this unit>",
 			"Great Person - [Food]",
-			"Uncapturable",
 			"Unbuildable"
 		],
 		"movement": 2
@@ -733,7 +829,6 @@
 		"attackSound": "machinegun"
 	},
 	/////////////// LAVENDER LEGION UNIQUE UNITS //////////////
-	
 	//////////////// BALKTECH UNIQUE UNITS ///////////////
 	{
 		"name": "Grivpanvar Division",
