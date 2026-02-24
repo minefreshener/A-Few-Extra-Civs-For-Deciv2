@@ -40,6 +40,35 @@
 			}
 		]
 	},
+//////////// ROMAN REVIVALIST ///////////////
+	{
+		"name": "Senate",
+		"replaces": "Congress",
+		"uniqueTo": "Roman Revivalist",
+		"cost": 100,
+		"requiredTech": "Civil Service",
+		"uniques": [
+			"[+1 Culture, +1 Gold] per [4] population [in all cities]",
+			"[-10]% Unhappiness from [Population] [in all cities]",
+			"Can only be built <in [Capital] cities>",
+			"Only available <in cities without a [Consulate]>",
+			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "Consulate",
+		"replaces": "Council",
+		"uniqueTo": "Roman Revivalist",
+		"cost": 50,
+		"requiredTech": "Civil Service",
+		"uniques": [
+			"Great General provides double combat bonus",
+			"[+20]% Production when constructing [Military] units [in all cities]",
+			"Can only be built <in [Capital] cities>",
+			"Only available <in cities without a [Senate]>",
+			"Destroyed when the city is captured"
+		]
+	},
 ////////////// INCEL UNIFIER ///////////
 	{
 		"name": "State-Provided Girlfriends",
@@ -483,7 +512,7 @@
 			"Provides [1] [Data]"]
 	},
 	{
-		"name": "Hollow Earth Entrance",
+		"name": "Hollow Earth Entrance Site",
 		"isWonder": true,
 		"uniqueTo": "Agarthaniz",
 		"culture": 3,
@@ -496,7 +525,8 @@
 			"[2] free [Tunnel Bore] units appear",
 			"Can only be built <in [Capital] cities>",
 			"Gain a free [Research Lab] [in this city]",
-			"Automatically built in all cities where it is buildable"
+			"Automatically built in all cities where it is buildable",
+			"Never destroyed when the city is captured",
 		],
 		"quote": "''",
 		"civilopediaText": [
@@ -516,7 +546,8 @@
 			"Provides [2] [Data] <when above [0] [Power]>",
 			"Reveals the entire map",
 			"Can only be built <in [Capital] cities>",
-			"Automatically built in all cities where it is buildable"
+			"Automatically built in all cities where it is buildable",
+			"Never destroyed when the city is captured",
 		]
 	},
 	{
@@ -872,17 +903,55 @@
 		"faith": 2,
 		"cost": 1,
 		"uniques": [
-			"Provides [4] [Books] <when above [0] [Power]>",
+			"Provides [5] [Books] <when above [0] [Power]>",
 			"[2] free [Pre-War Turret] units appear",
 			"Can only be built <in [Capital] cities>",
 			"Gain a free [Library] [in this city]",
-			"Automatically built in all cities where it is buildable"
+			"Automatically built in all cities where it is buildable",
+			"Never destroyed when the city is captured",
 		],
 		"quote": "''",
 		"civilopediaText": [
 			{
 				"text": ""
 			}
+		]
+	},
+	{
+		"name": "Representational Body",
+		"replaces": "Congress",
+		"uniqueTo": "Nuhamshahr",
+		"cost": 100,
+		"requiredTech": "Civil Service",
+		"uniques": [
+			"[-20]% Unhappiness from [Population] [in all cities]",
+			"[-50]% Unhappiness from [Specialists] [in all cities]",
+			"[+1 Faith, +1 Culture] per [4] population [in all cities]",
+			"[-1 Production] per [4] population [in all cities]",
+			"Only available <if [Search for Survivors] is constructed>",
+			"Can only be built <in [Capital] cities>",
+			"Only available <in cities without a [Emergency Military Council]>",
+			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "Emergency Military Council",
+		"replaces": "Council",
+		"uniqueTo": "Nuhamshahr",
+		"cost": 50,
+		"requiredTech": "Civil Service",
+		"uniques": [
+			"[+10]% Production when constructing [All] buildings [in all cities]",
+			"[+25]% Natural religion spread [in all cities]",
+			"[+1 Production] per [4] population [in all cities]",
+			"[All] units gain the [Combat Drill] promotion",
+			"[+20]% Unhappiness from [Population] [in all cities]",
+			"[+50]% Unhappiness from [Specialists] [in all cities]",
+			"[-1 Culture] per [4] population [in all cities]",
+			"Only available <if [Search for Survivors] is constructed>",
+			"Can only be built <in [Capital] cities>",
+			"Only available <in cities without a [Representational Body]>",
+			"Destroyed when the city is captured"
 		]
 	},
 	///////////////// ALTERED CITY STATE UNIQUES /////////////
