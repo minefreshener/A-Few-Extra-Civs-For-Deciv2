@@ -297,7 +297,7 @@
 		"cityStrength": 2,
 		"cityHealth": 40,
 		"cost": 1,
-		"uniques": [
+		"uniques": ["City Defense",
 			"Provides [4] [Data] <when above [0] [Power]>",
 			"[2] free [Pre-War Turret] units appear",
 			"Can only be built <in [Capital] cities>",
@@ -508,7 +508,7 @@
 		"gold": 2,
 		"culture": 3,
 		"cost": 1,
-		"uniques": ["Indicates the capital city",
+		"uniques": ["City Defense", "Indicates the capital city",
 			"Provides [1] [Data]"]
 	},
 	{
@@ -793,7 +793,7 @@
 		"cityHealth": 35,
 		"hurryCostModifier": 25,
 		"requiredTech": "Construction",
-		"uniques": ["Destroyed when the city is captured"]
+		"uniques": ["Destroyed when the city is captured", "City Defense"]
 	},
 	{
 		"name": "Defensive Towers",
@@ -802,8 +802,8 @@
 		"cityStrength": 10,
 		"cityHealth": 30,
 		"hurryCostModifier": 0,
-		"uniques": [
-			"Only available <in cities with a [Walls]>",
+		"uniques": ["City Defense",
+			"Only available <in cities with a [Patrol Grounds]>",
 			"Destroyed when the city is captured"
 		],
 		"requiredTech": "Machinery"
@@ -815,8 +815,8 @@
 		"cityStrength": 5,
 		"cityHealth": 90,
 		"hurryCostModifier": 25,
-		"uniques": [
-			"Only available <in cities with a [Walls]>",
+		"uniques": ["City Defense",
+			"Only available <in cities with a [Patrol Grounds]>",
 			"Destroyed when the city is captured"
 		],
 		"requiredTech": "Mining"
@@ -827,8 +827,8 @@
 		"uniqueTo": "Agarthaniz",
 		"cityHealth": 200,
 		"hurryCostModifier": 25,
-		"uniques": [
-			"Only available <in cities with a [Walls]>",
+		"uniques": ["City Defense",
+			"Only available <in cities with a [Patrol Grounds]>",
 			"Destroyed when the city is captured"
 		],
 		"requiredTech": "Steel"
@@ -841,7 +841,8 @@
 		"maintenance": 1,
 		"hurryCostModifier": 0,
 		"uniques": [
-			"Only available <in cities with a [Walls]>",
+			"City Defense",
+			"Only available <in cities with a [Armoured Walls]>",
 			"[Siege] Units adjacent to this city heal [40] HP per turn when healing",
 			"Destroyed when the city is captured"
 		],
@@ -874,6 +875,7 @@
 		"cityHealth": 50,
 		"hurryCostModifier": 25,
 		"uniques": [
+			"City Defense",
 			"Consumes [1] [Power]",
 			"Provides [1] [Data]",
 			"Destroyed when the city is captured",
