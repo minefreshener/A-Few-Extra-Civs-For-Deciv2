@@ -33,6 +33,14 @@
 		"row": 2
 	},
 	{
+		"name": "[Surveyor] ability",
+		"uniques": [
+			"Can build [Land] improvements on tiles"
+		],
+		"column": 6,
+		"row": 11
+	},
+	{
 		"name": "Ballistic Weave",
 		"uniques": ["[+10]% Strength <when defending>", "[+25]% Strength <vs [Ranged] units> <when defending>"]
 	},
