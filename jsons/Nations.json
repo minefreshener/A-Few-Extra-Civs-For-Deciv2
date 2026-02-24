@@ -20,8 +20,8 @@
 		"declaringFriendship": "You're actually a pretty cood dude, dude.",
 		"tradeRequest": "Hey kid! You want some uh' dat good stuff?",
 
-		"outerColor": [45, 60, 120],
-		"innerColor": [0, 255, 255],
+		"outerColor": [61, 0, 109],
+		"innerColor": [114, 162, 233],
 		"style": "Gang",
 		"uniqueName": "Call of the Alpha",
 		"uniques": [
@@ -61,8 +61,8 @@
 		"declaringFriendship": "hey kitten, will you let daddy into your DMs now? pretty please?",
 		"tradeRequest": "h-hi there. w-would you like to trade, Ambassador-sama?",
 
-		"outerColor": [228, 117, 116],
-		"innerColor": [200, 200, 200],
+		"outerColor": [134,238,214],
+		"innerColor": [139,32,23],
 		"style": "Hexlock",
 		"uniqueName": "Superanijmewajfoz",
 		"uniques": [
@@ -146,8 +146,8 @@
 		"declaringFriendship": "",
 		"tradeRequest": "",
 
-		"outerColor": [45, 60, 120],
-		"innerColor": [0, 255, 255],
+		"outerColor": [214, 145, 19],
+		"innerColor": [90, 0, 10],
 		"style": "Military",
 		"uniqueName": "Democratic Legacy",
 		"uniques": [
@@ -174,7 +174,7 @@
 	{
 		"name": "Lavender Legion",
 		"leaderName": "Basil",
-		"adjective": ["Manly-M"],
+		"adjective": ["Roman"],
 		"startBias": ["Jungle"],
 		"preferredVictoryType": "Domination",
 		"personality": "Basil",
@@ -192,21 +192,19 @@
 		"declaringFriendship": "",
 		"tradeRequest": "",
 
-		"outerColor": [45, 60, 120],
-		"innerColor": [0, 255, 255],
+		"outerColor": [70, 0, 118],
+		"innerColor": [240, 199, 0],
 		"style": "Legion",
 		"uniqueName": "Enduring Banner",
 		"uniques": [
 			"Starts with [Sovereignty] adopted",
 			"Starts with [Theocracy] adopted",
 			"[-33]% maintenance costs <for [Military] units>",
-			"[-3 Science] [in all cities] <before discovering [Education]>",
 			"Gain a free [Pantheon] belief <upon adopting [Theocracy Complete]>",
-			"Empire enters golden age <upon adopting [Theocracy Complete]>"
+			"May choose [1] additional belief(s) of any type when [founding] a religion"
 		],
-		"cities": ["Postumos", "Rubikoniki", "Irai", "Tartaros", "Damokles", "Kronos", "Tychos", "Orkos",
-			"Stykes", "Elysion", "Korpos", "", "", "", "", "",
-			"", "", "",],
-		"spyNames": ["Darios", "Anna", "Markos", "Leonidas", "Aleksandros", "Leukonides", "e", "ee", "eee", "eeee"]
+		"cities": ["Tyranos", "Chaos", "Postumos", "Rubikoniki", "Irai", "Tartaros", "Damokles", "Kronos", "Tychos", "Orkos",
+			"Stykes", "Elysion", "Korpos", "Olympos", "Ikonion", "Antion", "Arretion", "Kremona", "Corfinion",],
+		"spyNames": ["Darios", "Anna", "Markos", "Leonidas", "Aleksandros", "Leukonides", "Theodoros", "Demetrios", "eee", "eeee"]
 	},
 ]
