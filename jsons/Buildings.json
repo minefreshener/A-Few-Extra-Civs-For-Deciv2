@@ -536,21 +536,6 @@
 		]
 	},
 	{
-		"name": "World Atlas",
-		"isWonder": true,
-		"uniqueTo": "Agarthaniz",
-		"cost": 0,
-		"culture": 2,
-		"science": 3,
-		"uniques": [
-			"Provides [2] [Data] <when above [0] [Power]>",
-			"Reveals the entire map",
-			"Can only be built <in [Capital] cities>",
-			"Automatically built in all cities where it is buildable",
-			"Never destroyed when the city is captured",
-		]
-	},
-	{
 		"name": "Superiority Party",
 		"replaces": "Congress",
 		"uniqueTo": "Agarthaniz",
