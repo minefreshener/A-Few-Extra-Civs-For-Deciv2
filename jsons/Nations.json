@@ -77,7 +77,7 @@
 			"Starts with [Theocracy] adopted",
 			"[-3 Culture, -3 Science] [in all cities] <when below [0] [Power]> <before discovering [Computers]>",
 		],
-		"cities": ["Wejabolandam", "Wajfolandam", "Fejdorawejringomojdiwolandam", "Gawjam Kijtenniz", "Gawjam Daddiwoz", "Seggiweggilandam", "Gawjam Bijgblahkohiwosuheriz", 
+		"cities": ["Wejabolandam", "Wajfolandam", "Fejdorawejringmojdiwolandam", "Gawjam Kijtenniz", "Gawjam Daddiwoz", "Seggiweggilandam", "Gawjam Bijgblahkohiwosuheriz", 
 			"Gawjam Bojgwajgiz", "Prolejterjutiwolandam", "Gawjam Dudbroz", "Gawjam Manlimanniz", "Gawjam Fembroz", "Gawjam Gejmejroz", "Gawjam Pornofappijwoz", 
 			"Gawjam Sluhtiz", "Gawjam Bijgiwopijnoriz", "Gawjam Pornoz", "Dijshordolandam", "Gawjam Horiz",],
 		"spyNames": ["Moderator 1", "Moderator 2", "Moderator 3", "Moderator 4", "Moderator 5", "Moderator 6", "Moderator 7", "Moderator 8", "Moderator 9", "Moderator 10"]
@@ -86,7 +86,7 @@
 		"name": "Agarthaniz",
 		"leaderName": "Agartha Kirk",
 		"adjective": ["Agarthan"],
-		"startBias": ["Mountain"],
+		"startBias": ["Mountain","Mining Pit"],
 		"preferredVictoryType": "Domination",
 		"personality": "Kirk",
 		"favoredReligion": "Neopaganism",
@@ -103,8 +103,8 @@
 		"declaringFriendship": "Pehaps you are not so inferior to us, there may be room for you yet in Shambhala.",
 		"tradeRequest": "You are going to trade with us, and you are going to like it.",
 
-		"outerColor": [179, 135, 0],
-		"innerColor": [0, 255, 255],
+		"outerColor": [65, 141, 254],
+		"innerColor": [255, 255, 255],
 		"style": "Hexlock",
 		"uniqueName": "People of the Hollow Earth",
 		"uniques": [
@@ -121,8 +121,8 @@
 			"[-5 Science] [in all cities] <before discovering [Computers]>",
 		],
 		"cities": ["Gawjam Agarthaniz", "Gawjam Shambhalaniz", "Gawjam Thulaniz", "Gawjam Arjaniz", "Gawjam Wejaboz", "Gawjam Bijgwajtkohisuheriz", "Gawjam Indjaniz", 
-			"Gawjam Pahiztagnniz", "Bejngladejsholandam", "Gawjam Afhaniz", "Gawjam Ejroniz", "Gawjam Turhiz", "Gawjam Kartwejljanniz", "Gawjam Arabjaniz", 
-			"Ejgijptolandam", "Gawjam Anatoljanniz", "Gawjam Hejlejnikoz", "Gawjam Latijnoz", "Gawjam Hojtlatijnoz",],
+			"Gawjam Pahiztagnniz", "Bejngladejshilandam", "Gawjam Afhaniz", "Gawjam Ejroniz", "Gawjam Turhiz", "Gawjam Kartwejljanniz", "Gawjam Arabjaniz", 
+			"Ejgijptolandam", "Gawjam Anatoljanniz", "Gawjam Hejlejnikoz", "Gawjam Latijnoz", "Gawjam Hotlatijnoz",],
 		"spyNames": ["Numberz F**kstein", "Hanz", "Jergen", "Karl", "Adolphus", "Jenz", "Jan", "Jarlstein", "Kimbro", "Larz"]
 	},
 	{
