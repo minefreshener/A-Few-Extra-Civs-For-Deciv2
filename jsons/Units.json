@@ -892,7 +892,7 @@
 	},
 	/////////////// LAVENDER LEGION UNIQUE UNITS //////////////
 	{
-		"name": "Skutatoi",
+		"name": "Skutatos",
 		"unitType": "Scrapper",
 		"uniqueTo": "Lavender Legion",
 		"replaces": "Machete",
@@ -926,8 +926,7 @@
 		"interceptRange": 1,
 		"cost": 145,
 		"requiredTech": "Rifling",
-		"obsoleteTech": "Combined Arms",
-		"upgradesTo": "Akrites",
+		"upgradesTo": "Neokataphraktos",
 		"requiredResource": "Weapons",
 		"promotions": ["Reconnaissance I", "Reconnaissance II", "Sentry"],
 		"uniques": [
@@ -952,8 +951,8 @@
 		"rangedStrength": 45,
 		"interceptRange": 2,
 		"cost": 115,
-		"requiredTech": "Combined Arms",
-		"upgradesTo": "Attack Helicopter",
+		"requiredTech": "Rifling",
+		"upgradesTo": "Neokataphraktos",
 		"uniques": [
 			"Personnel",
 			"Mounted",
@@ -967,7 +966,7 @@
 		"attackSound": "shot"
 	},
 	{
-		"name": "Kataphractos",
+		"name": "Kataphraktos",
 		"unitType": "Mounted",
 		"uniqueTo": "Lavender Legion",
 		"replaces": "Cavalry",
@@ -976,7 +975,7 @@
 		"interceptRange": 1,
 		"cost": 120,
 		"requiredTech": "Rifling",
-		"upgradesTo": "Neokataphractos",
+		"upgradesTo": "Neokataphraktos",
 		"uniques": [
 			"Personnel",
 			"No defensive terrain bonus",
@@ -990,7 +989,7 @@
 		"attackSound": "shot"
 	},
 	{
-		"name": "Neokataphractos",
+		"name": "Neokataphraktos",
 		"uniqueTo": "Lavender Legion",
 		"replaces": "Tank",
 		"unitType": "Armor",
