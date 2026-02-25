@@ -1162,6 +1162,30 @@
 			"Consumes [2] [Power]"
 		]
 	},
+	//////////////// LAVENDER LEGION UNIQUES //////////////////
+	{
+		"name": "Great Basilica",
+		"isWonder": true,
+		"uniqueTo": "Lavender Legion",
+		"science": 1,
+		"culture": 4,
+		"faith": 2,
+		"cost": 1,
+		"uniques": [
+			"Provides [1] [Books] <when above [0] [Power]>",
+			"[2] free [Skutatos] units appear",
+			"Can only be built <in [Capital] cities>",
+			"Gain a free [Colosseum] [in this city]",
+			"Automatically built in all cities where it is buildable",
+			"Never destroyed when the city is captured",
+		],
+		"quote": "''",
+		"civilopediaText": [
+			{
+				"text": ""
+			}
+		]
+	},
 	///////////////// ALTERED CITY STATE UNIQUES /////////////
 	{
 		"name": "Encyclopedia",
