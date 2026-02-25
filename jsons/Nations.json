@@ -335,11 +335,12 @@
 			"Starts with [Construction]",
 			"Starts with [Iron Working]",
 			"Starts with [Monopoly] adopted",
-			"Cannot build [Enslaved] units"
+			"Cannot build [Enslaved] units",
+			"[-25]% construction time for [Oil Well] improvements",
+			"[-25]% construction time for [Energy farm] improvements",
 		],
-		"cities": ["Gawjam Agarthaniz", "Gawjam Shambhalaniz", "Gawjam Thulaniz", "Gawjam Arjaniz", "Gawjam Wejaboz", "Gawjam Bijgwajtkohisuheriz", "Gawjam Indjaniz", 
-			"Gawjam Pahiztagnniz", "Bejngladejshilandam", "Gawjam Afhaniz", "Gawjam Ejroniz", "Gawjam Turhiz", "Gawjam Kartwejljanniz", "Gawjam Arabjaniz", 
-			"Ejgijptolandam", "Gawjam Anatoljanniz", "Gawjam Hejlejnikoz", "Gawjam Latijnoz", "Gawjam Hotlatijnoz",],
-		"spyNames": ["Numberz F**kstein", "Hanz", "Jergen", "Karl", "Adolphus", "Jenz", "Jan", "Jarlstein", "Kimbro", "Larz"]
+		"cities": ["Wiesbaden", "Kassel", "Darmstadt", "Hanau", "Giessen", "Marburg", "Fulda", "Wetzlar", "Rodgau", "Dreieich",
+			"Bensheim", "Maintal", "Langen", "Bad Vilbel", "Bad Nauheim", "Lampertheim", "Bad Hersfeld", "Friedberg", "Griesheim",],
+		"spyNames": ["Jorgen", "Hans", "Jergen", "Karl", "Adolphus", "Jens", "Jan", "Jarlstein", "Frida", "Lars"]
 	},
 ]
