@@ -138,4 +138,10 @@
 			"[+10] HP when healing",
 		]
 	},
+	{
+		"name": "Heroic Resolve",
+		"uniques": ["All healing effects doubled",
+			"[+50]% XP gained from combat",
+			"[+15]% Strength bonus for [Military] units within [2] tiles"]
+	}
 ]
