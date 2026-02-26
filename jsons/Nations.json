@@ -211,10 +211,9 @@
 			"[+10]% Strength <for [All] units> <when fighting in [Foreign Land] tiles> <during a Golden Age>",
 			"Starts with [Secrets of the Past]",
 			"Starts with [Writing]",
-			"Starts with [Civil Service]",
 			"Starts with [Monopoly] adopted",
 			"Starts with [Collectivism] adopted",
-			"[-3 Science] [in all cities] <before discovering [Education]>",
+			"[-8 Science] [in all cities] <before discovering [Education]>",
 			"Cannot build [Enslaved] units"
 		],
 		"cities": ["Manshahstur", "Nasua", "Kunkur", "Dari", "Dovur", "Rashahstur", "Selahm", "Mermak",
