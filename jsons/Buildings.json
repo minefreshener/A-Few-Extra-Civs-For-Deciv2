@@ -901,7 +901,6 @@
 		"uniqueTo": "Nuhamshahr",
 		"science": 4,
 		"culture": 3,
-		"faith": 2,
 		"cost": 1,
 		"uniques": [
 			"Provides [5] [Books] <when above [0] [Power]>",
@@ -1169,10 +1168,10 @@
 		"uniqueTo": "Lavender Legion",
 		"science": 1,
 		"culture": 4,
-		"faith": 2,
+		"faith": 1,
 		"cost": 1,
 		"uniques": [
-			"Provides [1] [Books] <when above [0] [Power]>",
+			"Provides [1] [Scriptures] <when above [0] [Power]>",
 			"[2] free [Skutatos] units appear",
 			"Can only be built <in [Capital] cities>",
 			"Gain a free [Colosseum] [in this city]",
