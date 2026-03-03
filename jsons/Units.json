@@ -990,9 +990,9 @@
 	},
 	{
 		"name": "Neokataphraktos",
+		"unitType": "Armor",
 		"uniqueTo": "Lavender Legion",
 		"replaces": "Tank",
-		"unitType": "Armor",
 		"movement": 4,
 		"strength": 65,
 		"cost": 225,
@@ -1008,6 +1008,26 @@
 		"promotions": ["Powered Armor","Pursuit"],
 		"hurryCostModifier": 20,
 		"attackSound": "tankshot"
+	},
+	{
+		"name": "Siphonatores",
+		"unitType": "Shooter",
+		"uniqueTo": "Lavender Legion",
+		"replaces": "Stalker",
+		"movement": 2,
+		"strength": 40,
+		"rangedStrength": 40,
+		"range": 1,
+		"cost": 100,
+		"promotions": ["Gas Mask", "Prospector", "Greek Fire"],
+		"requiredTech": "Rifling",
+		"upgradesTo": "NBC Infantry",
+		"uniques": [
+			"Personnel",
+			"Consumes [1] [Weapons]",
+			"Only available <if [Greek Fire Laboratory] is constructed>",
+		],
+		"attackSound": "machinegun"
 	},
 	//////////////// BALKTECH UNIQUE UNITS ///////////////
 	{
