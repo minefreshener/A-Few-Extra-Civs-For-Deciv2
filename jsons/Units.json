@@ -1029,6 +1029,48 @@
 		],
 		"attackSound": "machinegun"
 	},
+	/////////////// STATUS PONTIFICUS UNIQUE UNITS ////////////////
+	{
+		"name": "Middle Finger of God",
+		"unitType": "Missile",
+		"uniqueTo": "Status Pontificus",
+		"movement": 1,
+		"strength": 1000,
+		"rangedStrength": 1000,
+		"range": 50,
+		"cost": 1600,
+		"requiredTech": "Particle Physics",
+		"uniques": [
+			"Only available <if [Manhattan Project] is constructed>",
+			"Nuclear weapon of Strength [10]",
+			"Blast radius [0]",
+			"Consumes [1] [Uranium]",
+			"Consumes [1] [Scriptures]",
+			"Unbuildable"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "nuke"
+	},
+	{
+		"name": "Bitch Slap of God",
+		"unitType": "Missile",
+		"uniqueTo": "Status Pontificus",
+		"movement": 1,
+		"strength": 100,
+		"rangedStrength": 100,
+		"range": 50,
+		"cost": 1600,
+		"requiredTech": "Particle Physics",
+		"uniques": [
+			"Only available <if [Manhattan Project] is constructed>",
+			"Nuclear weapon of Strength [1]",
+			"Blast radius [10]",
+			"Consumes [1] [Uranium]",
+			"Consumes [1] [Scriptures]",
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "nuke"
+	},
 	//////////////// BALKTECH UNIQUE UNITS ///////////////
 	{
 		"name": "Grivpanvar Division",
