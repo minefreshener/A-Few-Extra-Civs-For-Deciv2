@@ -40,6 +40,17 @@
 			}
 		]
 	},
+	/////////////// ALL //////////
+	{
+		"name": "Cnduct Military Excercises",
+		"cost": 50,
+		"uniques": [
+			"Can only be built <in [Capital] cities>",
+			"Rebel units may spawn",
+		],
+		"hurryCostModifier": 25,
+		"requiredTech": "Record Keeping"
+	},
 //////////// ROMAN REVIVALIST ///////////////
 	{
 		"name": "Senate",
