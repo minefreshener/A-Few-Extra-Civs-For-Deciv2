@@ -143,5 +143,15 @@
 		"uniques": ["All healing effects doubled",
 			"[+50]% XP gained from combat",
 			"[+15]% Strength bonus for [Military] units within [2] tiles"]
-	}
+	},
+	{
+		"name": "Greek Fire",
+		"uniques": [
+			"No movement cost to pillage",
+			"Destroys tile improvements when attacking",
+			"[+33]% Strength <vs [Personnel] units> <when attacking>",
+			"[+50]% Strength <vs [Melee Water] units> <when attacking>",
+			"[+50]% Strength <vs [Ranged Water] units> <when attacking>",
+		]
+	},
 ]
