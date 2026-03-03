@@ -1,1 +1,13 @@
-
+[
+  {
+      "name": "Monument to the Gods",
+      "type": "Follower",
+      "uniques": ["[+25]% Production when constructing [All] wonders [in cities following this religion]",
+          "[+25]% Production when constructing [National] wonders [in cities following this religion]"]
+  },
+  {
+		"name": "Divine Progress",
+		"type": "Founder",
+		"uniques": ["[+2 Faith] [in cities following this religion] <for every [Completed Policy branches]>"]
+	},
+]
