@@ -1241,6 +1241,10 @@
 			"[Siege] units gain the [Chemical Weapons] promotion",
 			"[Aircraft] units gain the [Chemical Weapons] promotion",
 			"[Helicopter] units gain the [Chemical Weapons] promotion",
+			"[Ranged Water] units gain the [Chemical Weapons] promotion",
+			"[Melee Water] units gain the [Chemical Weapons] promotion",
+			"[Armor] units gain the [Chemical Weapons] promotion",
+			"[Ranged Water] units gain the [Greek Fire] promotion",
 			"Consumes [1] [Power]",
 			"Consumes [1] [Oil]"
 		]
