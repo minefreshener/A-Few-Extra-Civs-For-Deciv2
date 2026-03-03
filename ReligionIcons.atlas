@@ -130,7 +130,7 @@ ReligionIcons/Zoroastrianism
   offset: 0, 0
   index: -1
 
-ReligionIcons.png
+ReligionIcons2.png
 size: 2048, 128
 format: RGBA8888
 filter: MipMapLinearLinear, Linear
@@ -184,21 +184,21 @@ ReligionIcons/Founder
   orig: 100, 100
   offset: 0, 0
   index: -1
-ReligionIcons/Hinduism
+ReligionIcons/Catholicism
   rotate: false
   xy: 760, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-ReligionIcons/Islam
+ReligionIcons/Neopaganism
   rotate: false
   xy: 868, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-ReligionIcons/Judaism
+ReligionIcons/Anime Worship
   rotate: false
   xy: 976, 4
   size: 100, 100
@@ -226,7 +226,7 @@ ReligionIcons/Religions
   orig: 100, 100
   offset: 0, 0
   index: -1
-ReligionIcons/Shinto
+ReligionIcons/Orthodoxy
   rotate: false
   xy: 1300, 4
   size: 100, 100
