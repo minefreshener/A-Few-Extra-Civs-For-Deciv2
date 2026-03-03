@@ -903,7 +903,7 @@
 		"culture": 3,
 		"cost": 1,
 		"uniques": [
-			"Provides [5] [Books] <when above [0] [Power]>",
+			"Provides [2] [Books] <when above [0] [Power]>",
 			"[2] free [Pre-War Turret] units appear",
 			"Can only be built <in [Capital] cities>",
 			"Gain a free [Library] [in this city]",
