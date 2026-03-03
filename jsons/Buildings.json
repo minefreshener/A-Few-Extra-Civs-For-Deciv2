@@ -1260,6 +1260,18 @@
 			"Consumes [1] [Oil]"
 		]
 	},
+	{
+		"name": "Hippodrome",
+		"uniqueTo": "Lavender Legion",
+		"happiness": 1,
+		"culture": 3,
+		"specialistSlots": {"Engineer": 1},
+		"requiredBuilding": "Stable",
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"uniques": ["Destroyed when the city is captured", "New [Mounted] units start with [15] Experience [in this city]"],
+		"requiredTech": "Steel"
+	},
 	///////////////// STATUS PONTIFICUS UNIQUES //////////////////
 	{
 		"name": "Titanium Cathedral",
