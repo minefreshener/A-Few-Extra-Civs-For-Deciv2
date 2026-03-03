@@ -216,4 +216,35 @@
 			"Bionics": 0
 		}
 	},
+	{
+		"name": "Urban",
+		"production": 5,
+		"food": 5,
+		"gold": 8,
+		"science": 4,
+		"culture": 6,
+		"happiness": 5,
+		"faith": 10,
+		"military": 6,
+		"aggressive": 3,
+		"declareWar": 5,
+		"commerce": 6,
+		"diplomacy": 7,
+		"loyal": 5,
+		"expansion": 5,
+		"priorities": {
+			"Adaptation": 10,
+			"Expansionism": 20,
+			"Sovereignty": 20,
+			"Theocracy": 50,
+			"Rationalism": 3,
+			"Constitution": 10,
+			"Supremacy": 20,
+			"Monopoly": 10,
+			"Collectivism": 10,
+			"Naturalism": 40,
+			"Mechanization": 0,
+			"Bionics": 0
+		}
+	},
 ]
