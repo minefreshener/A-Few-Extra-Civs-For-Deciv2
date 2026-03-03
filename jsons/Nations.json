@@ -180,7 +180,7 @@
 		"name": "Nuhamshahr",
 		"leaderName": "Shah Sirdani III",
 		"adjective": ["Nuhamshahrian"],
-		"startBias": ["Ruins"],
+		"startBias": ["Jungle"],
 		"preferredVictoryType": "Domination",
 		"personality": "Sirdani",
 		"favoredReligion": "Zoroastrianism",
@@ -280,8 +280,8 @@
 		"declaringFriendship": "We shall move on the war path together.",
 		"tradeRequest": "Here, a token from our benefactors.",
 
-		"outerColor": [70, 0, 118],
-		"innerColor": [240, 199, 0],
+		"outerColor": [100, 0, 0],
+		"innerColor": [2, 46, 89],
 		"style": "Military",
 		"uniqueName": "Foreign Immigrant Relocation and Extermination",
 		"uniques": [
@@ -323,8 +323,8 @@
 		"declaringFriendship": "TBD",
 		"tradeRequest": "TBD",
 
-		"outerColor": [65, 141, 254],
-		"innerColor": [255, 255, 255],
+        "outerColor": [255, 255, 255],
+        "innerColor": [18,84,30],
 		"style": "Corporate",
 		"uniqueName": "Big Oil",
 		"uniques": [
@@ -341,5 +341,40 @@
 		"cities": ["Wiesbaden", "Kassel", "Darmstadt", "Hanau", "Giessen", "Marburg", "Fulda", "Wetzlar", "Rodgau", "Dreieich",
 			"Bensheim", "Maintal", "Langen", "Bad Vilbel", "Bad Nauheim", "Lampertheim", "Bad Hersfeld", "Friedberg", "Griesheim",],
 		"spyNames": ["Jorgen", "Hans", "Jergen", "Karl", "Adolphus", "Jens", "Jan", "Jarlstein", "Frida", "Lars"]
+	},
+	{
+		"name": "Status Pontificus",
+		"leaderName": "Urban CLXXIX",
+		"adjective": ["Papal"],
+		"startBias": ["Jungle"],
+		"preferredVictoryType": "Religious",
+		"personality": "Urban",
+		"favoredReligion": "Catholicism",
+
+		"startIntroPart1": "TBD",
+		"startIntroPart2": "TBD",
+		"declaringWar": "TBD",
+		"attacked": "TBD",
+		"defeated": "TBD",
+		"introduction": "Greetings, fellow leader",
+		"neutralHello": "Greetings.",
+		"hateHello": "Yes?",
+		"denounced": "If we have our way, there will be no more libelous dribble from your mouth.",
+		"declaringFriendship": "TBD",
+		"tradeRequest": "TBD",
+
+        "outerColor": [245,248,185],
+        "innerColor": [240, 199, 0],
+		"style": "Legion",
+		"uniqueName": "Endurance of the Church",
+		"uniques": [
+			"Starts with [Theocracy] adopted",
+			"May choose [3] additional belief(s) of any type when [founding] a religion",
+			"Starts with [Writing]",
+			"[+15]% Strength <for [Land] units> <when fighting in [Foreign Land] tiles>",
+		],
+		"cities": ["Roma", "Vatican City", "", "Rubikoniki", "Irai", "Tartaros", "Damokles", "Kronos", "Tychos", "Orkos",
+			"Stykes", "Elysion", "Korpos", "Olympos", "Ikonion", "Antion", "Arretion", "Kremona", "Corfinion",],
+		"spyNames": ["Darios", "Anna", "Markos", "Leonidas", "Aleksandros", "Leukonides", "Theodoros", "Demetrios", "eee", "eeee"]
 	},
 ]
