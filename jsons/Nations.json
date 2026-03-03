@@ -180,7 +180,7 @@
 		"name": "Nuhamshahr",
 		"leaderName": "Shah Sirdani III",
 		"adjective": ["Nuhamshahrian"],
-		"startBias": ["Books"],
+		"startBias": ["Ruins"],
 		"preferredVictoryType": "Domination",
 		"personality": "Sirdani",
 		"favoredReligion": "Zoroastrianism",
@@ -228,7 +228,7 @@
 		"startBias": ["Jungle"],
 		"preferredVictoryType": "Domination",
 		"personality": "Basil",
-		"favoredReligion": "Imperial Cult",
+		"favoredReligion": "Orthodoxy",
 
 		"startIntroPart1": "TBD",
 		"startIntroPart2": "TBD",
@@ -266,7 +266,7 @@
 		"startBias": ["Desert"],
 		"preferredVictoryType": "Domination",
 		"personality": "Skuzler",
-		"favoredReligion": "Imperial Cult",
+		"favoredReligion": "Neopaganism",
 
 		"startIntroPart1": "TBA",
 		"startIntroPart2": "TBA",
