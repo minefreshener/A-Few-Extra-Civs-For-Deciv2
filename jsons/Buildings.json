@@ -1249,6 +1249,30 @@
 			"Consumes [1] [Oil]"
 		]
 	},
+	///////////////// STATUS PONTIFICUS UNIQUES //////////////////
+	{
+		"name": "Titanium Cathedral",
+		"isWonder": true,
+		"uniqueTo": "Status Pontificus",
+		"cityStrength": 3,
+		"cityHealth": 50,
+		"culture": 3,
+		"faith": 1,
+		"cost": 1,
+		"uniques": [
+			"Provides [1] [Scriptures] <when above [0] [Power]>",
+			"Can only be built <in [Capital] cities>",
+			"Gain a free [Cathedral] [in this city]",
+			"Automatically built in all cities where it is buildable",
+			"Never destroyed when the city is captured",
+		],
+		"quote": "''",
+		"civilopediaText": [
+			{
+				"text": ""
+			}
+		]
+	},
 	///////////////// ALTERED CITY STATE UNIQUES /////////////
 	{
 		"name": "Encyclopedia",
