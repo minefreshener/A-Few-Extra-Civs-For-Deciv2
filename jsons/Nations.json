@@ -514,12 +514,12 @@
 			"\"Borrows\" city names from other civilizations in the game"
 		],
 		"cities": ["Stonewall"],
-		"spyNames": ["Jorgen", "Hans", "Jergen", "Karl", "Adolphus", "Jens", "Jan", "Jarlstein", "Frida", "Lars"]
+		"spyNames": ["X", "Skye", "Kai", "Tor", "Abbie", "Viv", "Tay", "Bloom", "Aster", "Fingers"]
 	},
 	{
-		"name": "Arche Appalakhia",
-		"leaderName": "Kletos Appalakhios",
-		"adjective": ["Fukouna"],
+		"name": "Arche Appalachea",
+		"leaderName": "Kletos Appalachios",
+		"adjective": ["Appalachian"],
 		"startBias": ["Mountain"],
 		"preferredVictoryType": "Domination",
 		"personality": "Kletos",
@@ -587,5 +587,38 @@
 		"cities": ["Wiesbaden", "Kassel", "Darmstadt", "Hanau", "Giessen", "Marburg", "Fulda", "Wetzlar", "Rodgau", "Dreieich",
 			"Bensheim", "Maintal", "Langen", "Bad Vilbel", "Bad Nauheim", "Lampertheim", "Bad Hersfeld", "Friedberg", "Griesheim",],
 		"spyNames": ["Jorgen", "Hans", "Jergen", "Karl", "Adolphus", "Jens", "Jan", "Jarlstein", "Frida", "Lars"]
+	},
+	{
+		"name": "The Entente",
+		"leaderName": "Van Lange",
+		"adjective": ["Entente"],
+		"startBias": ["Hill"],
+		"preferredVictoryType": "Domination",
+		"personality": "Van Lange",
+		"favoredReligion": "Posadism",
+
+		// "startIntroPart1": "",
+		// "startIntroPart2": "",
+		"declaringWar": "TBD",
+		"attacked": "TBD",
+		"defeated": "TBD",
+		"introduction": "TBD",
+		"neutralHello": "TBD",
+		"hateHello": "TBD",
+		"denounced": "TBD",
+		"declaringFriendship": "TBD",
+		"tradeRequest": "TBD",
+
+        "outerColor": [255, 255, 255],
+        "innerColor": [18,84,30],
+		"style": "Military",
+		"uniqueName": "Dug In",
+		"uniques": [
+			"[All] units gain the [Entrenched] promotion",
+			"[+1 Culture, +1 Production] from every [Trench]",
+		],
+		"cities": ["Bunkirk", "Dugdig", "Somme Body", "Soil AF", "Galipolitical", "Hole", "Big Hole", "Very Big Hole", "Officer's Tavern", "Brothelville",
+			"Largetown", "Critical Hit", "Wenches in the Trenches", "Tommy", "Closewatch", "Sniper Den", "Green Boy", "Away Depot", "Here Be Donkey Riding Methheads",],
+		"spyNames": ["Pete", "James", "Cletus", "Titus", "Sport", "Sorry Ass", "Jack", "John", "Bucky", "Larry"]
 	},
 ]
