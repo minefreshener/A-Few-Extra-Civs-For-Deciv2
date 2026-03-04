@@ -1035,18 +1035,17 @@
 		"unitType": "Siege",
 		"uniqueTo": "Order of Chudnar",
 		"replaces": "Pre-War Turret",
-		"range": 2,
+		"range": 1,
 		"movement": 1,
-		"strength": 20,
-		"rangedStrength": 20,
-		"interceptRange": 1,
-		"cost": 200,
+		"strength": 10,
+		"rangedStrength": 25,
+		"interceptRange": 2,
+		"cost": 60,
 		"uniques": [
-			"[+20]% Strength <when attacking>",
-			"Only available <for [City-States] Civilizations>",
+			"[1] additional attacks per turn",
 			"Only available <with a garrison>",
-			"Limited to [5] per Civilization"
 		],
+		"promotions": ["Sentry"],
 		"attackSound": "machinegun"
 	},
 	/////////////// STATUS PONTIFICUS UNIQUE UNITS ////////////////
