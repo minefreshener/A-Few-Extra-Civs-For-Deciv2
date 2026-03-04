@@ -1029,6 +1029,26 @@
 		],
 		"attackSound": "machinegun"
 	},
+	////////////// ORDER OF CHUDNAR UNIQUE UNITS ////////////////
+	{
+		"name": "Sentry Gun",
+		"unitType": "Siege",
+		"uniqueTo": "Order of Chudnar",
+		"replaces": "Pre-War Turret",
+		"range": 2,
+		"movement": 1,
+		"strength": 20,
+		"rangedStrength": 20,
+		"interceptRange": 1,
+		"cost": 200,
+		"uniques": [
+			"[+20]% Strength <when attacking>",
+			"Only available <for [City-States] Civilizations>",
+			"Only available <with a garrison>",
+			"Limited to [5] per Civilization"
+		],
+		"attackSound": "machinegun"
+	},
 	/////////////// STATUS PONTIFICUS UNIQUE UNITS ////////////////
 	{
 		"name": "Middle Finger of God",
