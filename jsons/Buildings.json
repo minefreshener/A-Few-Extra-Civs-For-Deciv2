@@ -1270,7 +1270,7 @@
 		"maintenance": 2,
 		"hurryCostModifier": 25,
 		"uniques": ["Destroyed when the city is captured", "New [Mounted] units start with [15] Experience [in this city]"],
-		"requiredTech": "Steel"
+		"requiredTech": "Construction"
 	},
 	///////////////// STATUS PONTIFICUS UNIQUES //////////////////
 	{
@@ -1296,6 +1296,7 @@
 			}
 		]
 	},
+	///////////////// FUKOUNA BAKUFU UNIQUES ////////////////
 	///////////////// ALTERED CITY STATE UNIQUES /////////////
 	{
 		"name": "Encyclopedia",
