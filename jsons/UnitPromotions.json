@@ -154,4 +154,28 @@
 			"[+50]% Strength <vs [Ranged Water] units> <when attacking>",
 		]
 	},
+	{
+		"name": "Oath of Chudnar",
+		"uniques": [
+			"Heals [10] damage if it kills a unit",
+			"Earn [20]% of the damage done to [All] units as [Faith]",
+			"No movement cost to pillage",
+			"[+20]% XP gained from combat",
+			"Free [Rancher] appears <upon defeating a [Military] unit> <with [10]% chance>",
+		]
+	},
+	{
+		"name": "Bushido",
+		"uniques": [
+			"[+50]% XP gained from combat",
+			"No damage penalty for wounded units"
+		]
+	},
+	{
+		"name": "Hard Knocks",
+		"uniques": [
+			"[+50]% XP gained from combat",
+			"[-3] HP when healing",
+		]
+	},
 ]
