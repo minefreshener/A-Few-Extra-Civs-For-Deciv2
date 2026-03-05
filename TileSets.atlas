@@ -1,1 +1,19 @@
-
+TileSets.png
+size: 2048, 256
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+TileSets/FantasyHex/Tiles/Armed Mining Camp
+  rotate: false
+  xy: 722, 220
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Artificial atoll
+  rotate: false
+  xy: 842, 224
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
