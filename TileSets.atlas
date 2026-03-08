@@ -17,3 +17,16 @@ TileSets/FantasyHex/Tiles/Artificial atoll
   orig: 32, 28
   offset: 0, 0
   index: -1
+
+TileSetsAlpha.png
+size: 2048, 512
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+TileSets/FantasyHex/Tiles/Server Farm
+  rotate: false
+  xy: 1844, 272
+  size: 32, 36
+  orig: 32, 36
+  offset: 0, 0
+  index: -1
