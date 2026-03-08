@@ -8,6 +8,9 @@
   {
 		"name": "Divine Progress",
 		"type": "Founder",
-		"uniques": ["[+2 Faith] [in cities following this religion] <for every [Completed Policy branches]>"]
+		"uniques": [
+			"[+2 Faith] [in cities following this religion] <for every [Completed Policy branches]>",
+			"[-50]% weight to this choice for AI decisions"
+		]
 	},
 ]
