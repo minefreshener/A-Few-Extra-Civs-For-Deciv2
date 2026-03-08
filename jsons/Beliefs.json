@@ -1,16 +1,813 @@
 [
+	////////////////// NEW BELIEFS //////////////
   {
       "name": "Monument to the Gods",
       "type": "Follower",
-      "uniques": ["[+25]% Production when constructing [All] wonders [in cities following this religion]",
-          "[+25]% Production when constructing [National] wonders [in cities following this religion]"]
+      "uniques": [
+		  "[+25]% Production when constructing [All] wonders [in cities following this religion]",
+          "[+25]% Production when constructing [National] wonders [in cities following this religion]",
+	  ]
   },
   {
 		"name": "Divine Progress",
 		"type": "Founder",
 		"uniques": [
 			"[+2 Faith] [in cities following this religion] <for every [Completed Policy branches]>",
-			"[-50]% weight to this choice for AI decisions"
+			"[+100]% weight to this choice for AI decisions <for [Stonewall Foundation] Civilizations>"
 		]
 	},
+	//////////// CHANGED BELIEFS /////////////
+	{
+		"name": "Ancestor Worship",
+		"type": "Pantheon",
+		"uniques": ["[+2 Culture] from every [Shrine]"]
+	},
+	{
+		"name": "Atomic Children",
+		"type": "Pantheon",
+		"uniques": [
+			"[+2 Culture, +2 Faith] from every [Fallout]",
+			"[+2 Culture, +2 Faith] from every [Toxic Waste]",
+			"[+2 Culture, +2 Faith] from every [Uranium]",
+			"[+100]% weight to this choice for AI decisions <for [Proklyatyye] Civilizations>"
+		]
+	},
+	{
+		"name": "Blessed Green",
+		"type": "Pantheon",
+		"uniques": [
+			"[+1 Culture] from every [Tree plantation]",
+			"[+1 Culture] from every [Farm]",
+			"[+1 Culture] from every [Grassland]",
+			"[+1 Culture] from every [Factory farm]",
+			"[+1 Culture] from every [Fortified Farm]",
+			"[+100]% weight to this choice for AI decisions <for [Enclavers] Civilizations>"
+		]
+	},
+	{
+		"name": "Blessed Steel",
+		"type": "Pantheon",
+		"uniques": [
+			"[+1 Culture, +1 Faith] from every [{Metal} {resource}]",
+			"[+1 Culture, +1 Faith] from every [{Scrap} {resource}]"
+		]
+	},
+	{
+		"name": "Cautionary Tales",
+		"type": "Pantheon",
+		"uniques": [
+			"[+2 Faith] from every [Library]",
+			"[+1 Happiness] from every [Museum]"
+		]
+	},
+	{
+		"name": "Divine Judgment",
+		"type": "Pantheon",
+		"uniques": [
+			"[+2 Faith] from every [Barracks]",
+			"[+2 Happiness] from every [Bomb Shelter]"
+		]
+	},
+	{
+		"name": "Domain of the Old Gods",
+		"type": "Pantheon",
+		"uniques": [
+			"[+1 Faith] from every [Urban area] <within [2] tiles of a [City center]>",
+			"[+1 Faith] from every [Sunken Ruins]",
+			"[+100]% weight to this choice for AI decisions <for [Children of Rust] Civilizations>"
+		]
+	},
+	{
+		"name": "Equine Mysticism",
+		"type": "Pantheon",
+		"uniques": [
+			"[+2 Faith] from every [{Horses} {resource}]",
+			"[+2 Production] from every [Stable]",
+			"[+100]% weight to this choice for AI decisions <for [The Hunnu] Civilizations>"
+		]
+	},
+	{
+		"name": "Fertility Rites",
+		"type": "Pantheon",
+		"uniques": [
+			"[+10]% growth [in this city]",
+			"[+1 Food, +1 Faith] from every [Food Store]",
+			"[+100]% weight to this choice for AI decisions <for [Manlandia] Civilizations>"
+		]
+	},
+	{
+		"name": "God of Beasts",
+		"type": "Pantheon",
+		"uniques": [
+			"[+1 Culture] from every [{Horses} {resource}]",
+			"[+1 Culture] from every [{Cattle} {resource}]",
+			"[+1 Culture] from every [{Goats} {resource}]",
+			"[+1 Culture] from every [{Deer} {resource}]",
+			"[+1 Culture] from every [{Hogs} {resource}]",
+			"[+100]% weight to this choice for AI decisions <for [Fugg Burger] Civilizations>"
+		]
+	},
+	{
+		"name": "God of Labor",
+		"type": "Pantheon",
+		"uniques": [
+			"[+2 Production] [in cities following this religion] <in cities with at least [3] [Population]>",
+			"[+1 Faith, +1 Production] from every [Factory]",
+			"[+100]% weight to this choice for AI decisions <for [Crimson Line] Civilizations>"
+		]
+	},
+	{
+		"name": "God of the Sea",
+		"type": "Pantheon",
+		"uniques": [
+			"[+1 Production, +1 Faith] from every [Water resource]",
+			"[+100]% weight to this choice for AI decisions <for [The Mariners] Civilizations>"
+		]
+	},
+	{
+		"name": "God of Commerce",
+		"type": "Pantheon",
+		"uniques": [
+			"[+2 Gold, +1 Faith] from each Trade Route",
+			"[+1 Faith] from every [Market]"
+		]
+	},
+	{
+		"name": "God of Love",
+		"type": "Pantheon",
+		"uniques": [
+			"[+1 Happiness, +1 Faith] [in cities following this religion] <in cities with at least [3] [Population]>", 
+			"[+100]% weight to this choice for AI decisions <for [Stonewall Foundation] Civilizations>"
+		]
+	},
+	{
+		"name": "God of Walls",
+		"type": "Pantheon",
+		"uniques": [
+			"[+50]% Strength for cities <when attacking>",
+			"[+1 Culture, +1 Faith] from every [Walls]"
+		]
+	},
+	{
+		"name": "Lord of the Hunt",
+		"type": "Pantheon",
+		"uniques": [
+			"[+1 Food] from every [Camp]",
+			"[+1 Food] from every [Bioculture]"
+		]
+	},
+	{
+		"name": "Ancient Wonders",
+		"type": "Pantheon",
+		"uniques": [
+			"[+5 Faith] from every [Natural Wonder]"
+		]
+	},
+	{
+		"name": "Sacred Rivers",
+		"type": "Pantheon",
+		"uniques": ["[+1 Happiness, +1 Faith] in cities on [River] tiles"]
+	},
+	{
+		"name": "God of Winter",
+		"type": "Pantheon",
+		"uniques": [
+			"[+1 Faith] from every [Tundra] <within [2] tiles of a [City center]>",
+			"[+1 Faith] from every [Permafrost] <within [2] tiles of a [City center]>",
+			"[+100]% weight to this choice for AI decisions <for [Winterhearth] Civilizations>"
+		]
+	},
+	{
+		"name": "Harvest Festival",
+		"type": "Pantheon",
+		"uniques": [
+			"[+1 Faith] from every [{Grain} {resource}]",
+			"[+1 Faith] from every [{Tubers} {resource}]",
+			"[+1 Faith] from every [{Maize} {resource}]",
+			"[+1 Faith] from every [{Cactus} {resource}]",
+		]
+	},
+	{
+		"name": "Home and Hearth",
+		"type": "Pantheon",
+		"uniques": [
+			"[+1 Food, +1 Production, +1 Gold, +1 Science, +1 Culture, +1 Faith, +1 Happiness] from every [Bomb Shelter]",
+			"[+1 Food, +1 Production, +1 Gold, +1 Science, +1 Culture, +1 Faith, +1 Happiness] per [5] population [in capital]"
+		]
+	},
+	{
+		"name": "Hymns of Praise",
+		"type": "Pantheon",
+		"uniques": [
+			"[+2 Gold, +1 Happiness] from every [Shrine]",
+			"[+100]% weight to this choice for AI decisions <for [Status Pontificus] Civilizations>"
+		]
+	},
+	{
+		"name": "Lord of the Flies",
+		"type": "Pantheon",
+		"uniques": [
+			"[+1 Culture, +1 Faith] from every [{Insects} {resource}]",
+			"[+1 Culture, +1 Faith] from every [{Hostile Fauna} {resource}]"
+		]
+	},
+	{
+		"name": "Old World Idols",
+		"type": "Pantheon",
+		"uniques": [
+			"[+1 Culture, +1 Faith] from every [{Gems} {resource}]",
+			"[+1 Culture, +1 Faith] from every [{Silver} {resource}]"
+		]
+	},
+	{
+		"name": "Patron Saint of Scavengers",
+		"type": "Pantheon",
+		"uniques": [
+			"[+1 Production, +1 Faith] from every [{Electronics} {resource}]",
+			"[+1 Production, +1 Faith] from every [{Machine Parts} {resource}]",
+			"[+1 Production, +1 Faith] from every [{Plastics} {resource}]",
+			"[+1 Production, +1 Faith] from every [{Scrap} {resource}]",
+			"[+1 Production, +1 Faith] from every [{Weapons} {resource}]",
+			"[+100]% weight to this choice for AI decisions <for [Children of Rust] Civilizations>"
+		]
+	},
+	{
+		"name": "Pray for Water",
+		"type": "Pantheon",
+		"uniques": [
+			"[+1 Faith] from every [Desert] <within [2] tiles of a [City center]>",
+			"[+100]% weight to this choice for AI decisions <for [The Caliphate] Civilizations>",
+			"[+100]% weight to this choice for AI decisions <for [The Harbingers] Civilizations>"
+		]
+	},
+	{
+		"name": "Religious Settlements",
+		"type": "Pantheon",
+		"uniques": [
+			"[-25]% Culture cost of natural border growth [in this city]",
+			"[-25]% Gold cost of acquiring tiles [in this city]",
+			"[+25]% Production when constructing [Civilian] units [in this city]"
+		]
+	},
+	{
+		"name": "Respect the Wind",
+		"type": "Pantheon",
+		"uniques": [
+			"[+1 Faith] from every [Hill] <in tiles without [Urban area]> <within [2] tiles of a [City center]>",
+			"[+2 Production, +1 Faith] from every [Wind farm]"
+		]
+	},
+	{
+		"name": "Sacred Bog",
+		"type": "Pantheon",
+		"uniques": ["[+1 Production, +1 Faith] from every [Swamp]"]
+	},
+	{
+		"name": "Sacred Ruins",
+		"type": "Pantheon",
+		"uniques": [
+			"[+1 Culture] from every [Urban area] <within [2] tiles of a [City center]>",
+			"[+1 Culture] from every [Sunken Ruins]",
+			"[+50]% weight to this choice for AI decisions <for [Children of Rust] Civilizations>"
+		]
+	},
+	{
+		"name": "Sacrificial Fire",
+		"type": "Pantheon",
+		"uniques": [
+			"[+10]% Production when constructing [{Military} {Land}] units [in this city]",
+			"Earn [50]% of [Military] unit's [Strength] as [Faith] when killed within 4 tiles of a city following this religion",
+			"[+100]% weight to this choice for AI decisions <for [Cult of Ignis] Civilizations>",
+			"[+100]% weight to this choice for AI decisions <for [Order of Chudnar] Civilizations>"
+		]
+	},
+	{
+		"name": "Spiritual Research",
+		"type": "Pantheon",
+		"uniques": [
+			"[+1 Science, +1 Faith] from every [{Artifacts} {resource}]",
+			"[+1 Science, +1 Faith] from every [{Books} {resource}]",
+			"[+1 Science, +1 Faith] from every [{Data} {resource}]",
+			"[+1 Science, +1 Faith] from every [{Encrypted Data} {resource}]",
+			"[+100]% weight to this choice for AI decisions <for [Hexlock] Civilizations>",
+			"[+100]% weight to this choice for AI decisions <for [Agarthaniz] Civilizations>"
+		]
+	},
+	{
+		"name": "Strength of the Earth",
+		"type": "Pantheon",
+		"uniques": [
+			"[+1 Faith] from every [Mine] <within [2] tiles of a [City center]>",
+			"[+1 Faith] from every [Armed Mining Camp] <within [2] tiles of a [City center]>",
+			"[+1 Faith] from every [Borehole] <within [2] tiles of a [City center]>",
+			"[+1 Faith] from every [Manufactory]"
+		]
+	},
+	{
+		"name": "Works of Genius",
+		"type": "Pantheon",
+		"uniques": [
+			"[+25]% Great Person generation [in cities following this religion]",
+			"[+2 Science, +1 Faith] [in cities following this religion] <in cities with at least [1] [Specialists]>"
+		]
+	},
+	////// Follower
+	{
+		"name": "Faith Healers",
+		"type": "Follower",
+		"uniques": [
+			"All newly-trained [Personnel] units [in cities following this religion] receive the [Healing Hands] promotion",
+			"[All] Units adjacent to this city heal [+10] HP per turn when healing",
+			"[+2 Faith] from every [Hospital]",
+			"[+100]% weight to this choice for AI decisions <for [Stonewall Foundation] Civilizations>",
+		]
+	},
+	{
+		"name": "Feast of Flesh",
+		"type": "Follower",
+		"uniques": [
+			"[+2 Food, +1 Happiness] from every [Ranch]",
+			"[+50]% weight to this choice for AI decisions <for [Fugg Burger] Civilizations>",
+		]
+	},
+	{
+		"name": "Feed the Faithful",
+		"type": "Follower",
+		"uniques": [
+			"[+1 Food] from every [Shrine]",
+			"[+1 Food] from every [Monastery]",
+			"[+1 Food] from every [Megachurch]",
+			"[+50]% weight to this choice for AI decisions <for [Fugg Burger] Civilizations>",
+		]
+	},
+	{
+		"name": "Followers of Old World Crafts",
+		"type": "Follower",
+		"uniques": [
+			"[+1 Gold, +1 Culture] from every [Jeweler]",
+			"[+1 Gold, +1 Culture] from every [Timepiece Maker]",
+			"[+1 Gold, +1 Culture] from every [Distillery]",
+			"[+1 Gold, +1 Culture] from every [Soaper]",
+			"[+1 Gold, +1 Culture] from every [Media Center]",
+			"[+100]% weight to this choice for AI decisions <for [Nuhamshahr] Civilizations>",
+		]
+	},
+	{
+		"name": "Great Commission",
+		"type": "Follower",
+		"uniques": [
+			"[+1 Gold, +1 Faith] from every [Harbor]",
+			"[+1 Gold, +1 Faith] from every [Seaport]",
+			"[+100]% weight to this choice for AI decisions <for [The Mariners] Civilizations>",
+		]
+	},
+	{
+		"name": "Happiness in Faith",
+		"type": "Follower",
+		"uniques": [
+			"[+2 Production, +1 Culture, +1 Happiness] from every [Monastery]",
+			"[+100]% weight to this choice for AI decisions <for [Status Pontificus] Civilizations>",
+		]
+	},
+	{
+		"name": "Labor of Love",
+		"type": "Follower",
+		"uniques": ["[+1]% [Production] from every follower, up to [+10]%"]
+	},
+	{
+		"name": "Mandatory Rationing",
+		"type": "Follower",
+		"uniques": ["[+2 Food, +2 Gold, -1 Happiness] [in cities following this religion]"]
+	},
+	{
+		"name": "Obey the Elders",
+		"type": "Follower",
+		"uniques": ["[+2 Food, +2 Production] [in cities following this religion] <in cities with at least [1] [Specialists]>"]
+	},
+	{
+		"name": "Public Prayer",
+		"type": "Follower",
+		"uniques": ["[+2 Faith, +1 Culture] from every [Town Hall]"]
+	},
+	{
+		"name": "Sacred Waters",
+		"type": "Follower",
+		"uniques": [
+			"[+1 Happiness, +1 Faith] [in cities following this religion] <in [River] tiles>",
+			"[+1 Food, +1 Faith] from every [Hydroponic Farming]",
+			"[+1 Gold, +1 Faith] from every [Greywater Treatment Plant]",
+			"[+100]% weight to this choice for AI decisions <for [The Harbingers] Civilizations>",
+		]
+	},
+	{
+		"name": "Sanctified Innovations",
+		"type": "Follower",
+		"uniques": [
+			"[+1 Production, +1 Science, +1 Faith] from every [National Wonder]",
+			"[+100]% weight to this choice for AI decisions <for [Nuhamshahr] Civilizations>",
+		]
+	},
+	{
+		"name": "Trust the Science",
+		"type": "Follower",
+		"uniques": [
+			"[+1 Science, +1 Faith] from every [University] <in cities with at least [5] [Followers of this Religion]>",
+			"[+1 Science, +1 Faith] from every [Public School] <in cities with at least [5] [Followers of this Religion]>",
+			"[+100]% weight to this choice for AI decisions <for [Hexlock] Civilizations>",
+		]
+	},
+	{
+		"name": "Veneration of the Elders",
+		"type": "Follower",
+		"uniques": ["[+3 Production, +3 Gold, -1 Happiness] [in cities following this religion] <in cities with at least [10] [Population]>"]
+	},
+	{
+		"name": "Zen Meditation",
+		"type": "Follower",
+		"uniques": ["[+2 Culture, +1 Happiness] [in cities following this religion] <in cities with at least [2] [Specialists]>"]
+	},
+	{
+		"name": "Cathedrals",
+		"type": "Follower",
+		"uniques": [
+			"May buy [Cathedral] buildings for [150] [Faith] [in cities following this religion]",
+			"[+100]% weight to this choice for AI decisions <for [Status Pontificus] Civilizations>",
+			"Only available <before adopting [Communion Centers]> <before adopting [Divinity Schools]> <before adopting [Dojos]> <before adopting [Gardens]> <before adopting [Holy Fortresses]> <before adopting [Meeting Houses]> <before adopting [Mission Sites]> <before adopting [Pyramids]> <hidden from users>"
+		]
+	},
+	{
+		"name": "Communion Centers",
+		"type": "Follower",
+		"uniques": [
+			"May buy [Communion] buildings with [Faith] [in cities following this religion]",
+			"[+50]% weight to this choice for AI decisions <for [Status Pontificus] Civilizations>",
+			"Only available <before adopting [Cathedrals]> <before adopting [Divinity Schools]> <before adopting [Dojos]> <before adopting [Gardens]> <before adopting [Holy Fortresses]> <before adopting [Meeting Houses]> <before adopting [Mission Sites]> <before adopting [Pyramids]> <hidden from users>"
+		]
+	},
+	{
+		"name": "Divinity Schools",
+		"type": "Follower",
+		"uniques": [
+			"May buy [Divinity School] buildings for [200] [Faith] [in cities following this religion]",
+			"[+100]% weight to this choice for AI decisions <for [Hexlock] Civilizations>",
+			"[+100]% weight to this choice for AI decisions <for [Agarthaniz] Civilizations>",
+			"Only available <before adopting [Cathedrals]> <before adopting [Communion Centers]> <before adopting [Dojos]> <before adopting [Gardens]> <before adopting [Holy Fortresses]> <before adopting [Meeting Houses]> <before adopting [Mission Sites]> <before adopting [Pyramids]> <hidden from users>"
+		]
+	},
+	{
+		"name": "Dojos",
+		"type": "Follower",
+		"uniques": [
+			"May buy [Dojo] buildings for [200] [Faith] [in cities following this religion]",
+			"[+100]% weight to this choice for AI decisions <for [Cult of Ignis] Civilizations>",
+			"[+100]% weight to this choice for AI decisions <for [Order of Chudnar] Civilizations>",
+			"Only available <before adopting [Cathedrals]> <before adopting [Communion Centers]> <before adopting [Divinity Schools]> <before adopting [Gardens]> <before adopting [Holy Fortresses]> <before adopting [Meeting Houses]> <before adopting [Mission Sites]> <before adopting [Pyramids]> <hidden from users>"
+		]
+	},
+	{
+		"name": "Gardens",
+		"type": "Follower",
+		"uniques": [
+			"May buy [Garden] buildings for [200] [Faith] [in cities following this religion]",
+			"[+100]% weight to this choice for AI decisions <for [Enclavers] Civilizations>",
+			"[+100]% weight to this choice for AI decisions <for [New Afrika] Civilizations>",
+			"Only available <before adopting [Cathedrals]> <before adopting [Communion Centers]> <before adopting [Divinity Schools]> <before adopting [Dojos]> <before adopting [Holy Fortresses]> <before adopting [Meeting Houses]> <before adopting [Mission Sites]> <before adopting [Pyramids]> <hidden from users>"
+		]
+	},
+	{
+		"name": "Holy Fortresses",
+		"type": "Follower",
+		"uniques": [
+			"May buy [Holy Fortress] buildings for [200] [Faith] [in cities following this religion]",
+			"[+100]% weight to this choice for AI decisions <for [The Entente] Civilizations>",
+			"Only available <before adopting [Cathedrals]> <before adopting [Communion Centers]> <before adopting [Divinity Schools]> <before adopting [Dojos]> <before adopting [Gardens]> <before adopting [Meeting Houses]> <before adopting [Mission Sites]> <before adopting [Pyramids]> <hidden from users>"
+		]
+	},
+	{
+		"name": "Meeting Houses",
+		"type": "Follower",
+		"uniques": [
+			"May buy [Meeting House] buildings with [Faith] [in cities following this religion]",
+			"Only available <before adopting [Cathedrals]> <before adopting [Communion Centers]> <before adopting [Divinity Schools]> <before adopting [Dojos]> <before adopting [Gardens]> <before adopting [Holy Fortresses]> <before adopting [Mission Sites]> <before adopting [Pyramids]> <hidden from users>"
+		]
+	},
+	{
+		"name": "Mission Sites",
+		"type": "Follower",
+		"uniques": [
+			"May buy [Mission Site] buildings with [Faith] [in cities following this religion]",
+			"Only available <before adopting [Cathedrals]> <before adopting [Communion Centers]> <before adopting [Divinity Schools]> <before adopting [Dojos]> <before adopting [Gardens]> <before adopting [Holy Fortresses]> <before adopting [Meeting Houses]> <before adopting [Pyramids]> <hidden from users>"
+		]
+	},
+	{
+		"name": "Pyramids",
+		"type": "Follower",
+		"uniques": [
+			"May buy [Pyramid] buildings for [200] [Faith] [in cities following this religion]",
+			"Only available <before adopting [Cathedrals]> <before adopting [Communion Centers]> <before adopting [Divinity Schools]> <before adopting [Dojos]> <before adopting [Gardens]> <before adopting [Holy Fortresses]> <before adopting [Meeting Houses]> <before adopting [Mission Sites]> <hidden from users>"
+		]
+	},
+	///////// Founder
+	{
+		"name": "Acolytes of a New God",
+		"type": "Founder",
+		"uniques": [
+			"Gain [200] [Faith] <upon conquering a city> <(modified by game speed)>",
+			"[+100]% weight to this choice for AI decisions <for [Order of Chudnar] Civilizations>",
+		]
+	},
+	{
+		"name": "Great Awakening",
+		"type": "Founder",
+		"uniques": [
+			"[+2 Science, +1 Culture] for each global city following this religion"
+		]
+	},
+	{
+		"name": "Church Property",
+		"type": "Founder",
+		"uniques": ["[+3 Gold] for each global city following this religion"]
+	},
+	{
+		"name": "Cross-Cultural Dialogue",
+		"type": "Founder",
+		"uniques": [
+			"[+1 Science] from every [5] global followers [in all cities]",
+			"[+100]% weight to this choice for AI decisions <for [Nuhamshahr] Civilizations>",
+			"[-100]% weight to this choice for AI decisions <for [F.I.R.E.] Civilizations>",
+		]
+	},
+	{
+		"name": "Esotericism",
+		"type": "Founder",
+		"uniques": [
+			"[+1 Faith] from every [4] global followers [in all cities]",
+			"[+100]% weight to this choice for AI decisions <for [Stonewall Foundation] Civilizations>",
+		]
+	},
+	{
+		"name": "Humanitarian Missions",
+		"type": "Founder",
+		"uniques": ["Gifts of Gold to City-States generate [+30]% more Influence"]
+	},
+	{
+		"name": "Illuminated Order",
+		"type": "Founder",
+		"uniques": [
+			"[+70 Culture] when a city adopts this religion for the first time <(modified by game speed)>",
+			"[+100]% weight to this choice for AI decisions <for [Cult of Ignis] Civilizations>",
+		]
+	},
+	{
+		"name": "Primacy",
+		"type": "Founder",
+		"uniques": [
+			"Allied City-States provide [Faith] equal to [100]% of what they produce for themselves",
+			"Allied City-States provide [Culture] equal to [10]% of what they produce for themselves",
+			"[-100]% weight to this choice for AI decisions <when number of [Remaining [City-States] Civilizations] is less than [2]>",
+			"[-50]% weight to this choice for AI decisions <when number of [Remaining [City-States] Civilizations] is less than [4]>",
+			"[+100]% weight to this choice for AI decisions <for [Status Pontificus] Civilizations>",
+		]
+	},
+	{
+		"name": "Peace Loving",
+		"type": "Founder",
+		"uniques": [
+			"[+1 Happiness] from every [5] global followers [in non-enemy foreign cities]"
+		]
+	},
+	{
+		"name": "Pilgrimage",
+		"type": "Founder",
+		"uniques": ["[+2 Faith] for each global city following this religion"]
+	},
+	{
+		"name": "Tithe",
+		"type": "Founder",
+		"uniques": ["[+1 Gold] from every [4] global followers [in all cities]"]
+	},
+	{
+		"name": "World Church",
+		"type": "Founder",
+		"uniques": [
+			"[+1 Culture] from every [5] global followers [in foreign cities]"
+		]
+	},
+	/////// Enhancer
+	{
+		"name": "Defender of the Faith",
+		"type": "Enhancer",
+		"uniques": [
+			"[+15]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>",
+			"Only available <before adopting [Just War]>",
+			"[+100]% weight to this choice for AI decisions <for [The Entente] Civilizations>",
+		]
+	},
+	{
+		"name": "Funeral Rites",
+		"type": "Enhancer",
+		"uniques": [
+			"Gain [100] [Faith] <upon expending a [Great Person] unit> <(modified by game speed)>",
+			"[+2 Faith] from every [Great Improvement]",
+		]
+	},
+	{
+		"name": "Just War",
+		"type": "Enhancer",
+		"uniques": [
+			"[+15]% Strength <for [All] units> <when fighting in [Enemy Land] tiles>",
+			"Only available <before adopting [Defender of the Faith]>",
+			"[+100]% weight to this choice for AI decisions <for [F.I.R.E.] Civilizations>",
+			"[+50]% weight to this choice for AI decisions <for [Cult of Ignis] Civilizations>",
+			"[+100]% weight to this choice for AI decisions <for [Crimson Legion] Civilizations>",
+			"[+100]% weight to this choice for AI decisions <for [Order of Chudnar] Civilizations>",
+		]
+	},
+	{
+		"name": "Missionary Zeal",
+		"type": "Enhancer",
+		"uniques": [
+			"[Faith] cost of purchasing [Philosopher] units [-25]%",
+			"[+25]% Spread Religion Strength <for [Philosopher] units>",
+			"[Philosopher] units gain the [Zeal] promotion"
+		]
+	},
+	{
+		"name": "Path of the Sage",
+		"type": "Enhancer",
+		"uniques": [
+			"[+25]% Spread Religion Strength <for [Great Sage] units>",
+			"[-25]% Faith cost of generating Great Prophet equivalents",
+			"[Faith] cost of purchasing [Great Sage] units [-25]%",
+			"[Great Sage] units gain the [Zeal] promotion"
+		]
+	},
+	{
+		"name": "Power of Light",
+		"type": "Enhancer",
+		"uniques": [
+			"[+1] Sight <for [All] units>",
+			"Earn [33]% of killed [Military] unit's [Strength] as [Faith]",
+			"[+100]% weight to this choice for AI decisions <for [Cult of Ignis] Civilizations>",
+		]
+	},
+	{
+		"name": "Religious Troubadours",
+		"type": "Enhancer",
+		"uniques": [
+			"[+2 Faith] from each Trade Route",
+			"[+50]% Natural religion spread [in all cities connected to capital]",
+			"Only available <before adopting [Religious Unity]>",
+			"Only available <before adopting [The Radiant City]>",
+		]
+	},
+	{
+		"name": "Religious Unity",
+		"type": "Enhancer",
+		"uniques": [
+			"[+100]% Natural religion spread [in City-State cities]",
+			"Resting point for Influence with City-States following this religion [+15]",
+			"[-100]% weight to this choice for AI decisions <when number of [Remaining [City-States] Civilizations] is less than [2]>",
+			"[-50]% weight to this choice for AI decisions <when number of [Remaining [City-States] Civilizations] is less than [4]>",
+			"Only available <before adopting [Religious Troubadours]>",
+			"Only available <before adopting [The Radiant City]>",
+			"[+100]% weight to this choice for AI decisions <for [The Caliphate] Civilizations>",
+		]
+	},
+	{
+		"name": "The Radiant City",
+		"type": "Enhancer",
+		"uniques": [
+			"[+100]% Natural religion spread [in capital]",
+			"Only available <before adopting [Exodus of the Evangelists]>",
+			"Only available <before adopting [Religious Troubadours]>",
+			"Only available <before adopting [Religious Unity]>",
+		]
+	},
+	{
+		"name": "Thought Control",
+		"type": "Enhancer",
+		"uniques": [
+			"Comment [Cost of purchasing Censor units (and their replacements) -25%]",
+			"[Gold] cost of purchasing [Censor] units [-25]% <hidden from users>",
+			"[Faith] cost of purchasing [Censor] units [-25]% <hidden from users>",
+			"[Censor] units gain the [Control] promotion",
+			"[+100]% weight to this choice for AI decisions <for [F.I.R.E.] Civilizations>",
+		]
+	},
+	{
+		"name": "Unity of the Sages",
+		"type": "Enhancer",
+		"uniques": [
+			"[+4 Faith, +2 Production] from every [Seminary]",
+			"[+4 Faith, +2 Production] from every [Oracle]",
+			"[+4 Faith, +2 Production] from every [Endowment House]"
+		]
+		// TODO: Should also have the Unity of the Prophets effect of Censors/Sages only reducing foreign religion followers by half once BNW content is implemented
+	},
+	{
+		"name": "Annihilationism",
+		"type": "Enhancer",
+		"uniques": [
+			"Cities are razed [3] times as fast",
+			"Only available <after adopting [Exodus of the Evangelists]>",
+			"[+100]% weight to this choice for AI decisions <for [Agarthaniz] Civilizations>",
+		]
+	},
+	{
+		"name": "Art of War",
+		"type": "Enhancer",
+		"uniques": [
+			"Comment [May buy Military Land units with Faith in cities following this religion (cost increases with era)]",
+			"May buy [{Military} {Land}] units for [200] [Faith] [in cities following this religion] <before the [Rebuilding era]> <hidden from users>",
+			"May buy [{Military} {Land}] units for [300] [Faith] [in cities following this religion] <during the [Rebuilding era]> <hidden from users>",
+			"May buy [{Military} {Land}] units for [400] [Faith] [in cities following this religion] <during the [Industrial era]> <hidden from users>",
+			"May buy [{Military} {Land}] units for [600] [Faith] [in cities following this religion] <during the [Postmodern era]> <hidden from users>",
+			"May buy [{Military} {Land}] units for [800] [Faith] [in cities following this religion] <during the [Information era]> <hidden from users>",
+			"May buy [{Military} {Land}] units for [1000] [Faith] [in cities following this religion] <starting from the [New Future era]> <hidden from users>",
+			"Only available <after adopting [Exodus of the Evangelists]>",
+			"[+100]% weight to this choice for AI decisions <for [Crimson Legion] Civilizations>",
+			"[+100]% weight to this choice for AI decisions <for [Cult of Ignis] Civilizations>",
+		
+	},
+	{
+		"name": "Atomic Judgment",
+		"type": "Enhancer",
+		"uniques": [
+			"Provides [4] [Uranium]",
+			"[+20]% Strength <for [Nuclear Weapon] units> <when attacking>",
+			"Only available <after adopting [Exodus of the Evangelists]>",
+		]
+	},
+	{
+		"name": "Blessing of Peace",
+		"type": "Enhancer",
+		"uniques": [
+			"[+2 Food] from every [Barracks]",
+			"[+20]% growth [in cities following this religion] <when not at war>",
+			"Only available <after adopting [Exodus of the Evangelists]>",
+			"[+100]% weight to this choice for AI decisions <for [Nuhamshahr] Civilizations>",
+		]
+	},
+	{
+		"name": "Hopeful Habitability",
+		"type": "Enhancer",
+		"uniques": [
+			"[+1 Food, +1 Faith] from every [Artificial atoll]",
+			"[+1 Food, +1 Faith] from every [Artificial glacier]",
+			"[+1 Food, +1 Faith] from every [Artificial oasis]",
+			"[+1 Food, +1 Faith] from every [Grassland]",
+			"[+1 Food, +1 Faith] from every [Jungle Replanting Zone]",
+			"[+1 Food, +1 Faith] from every [Nature preserve]",
+			"[+1 Food, +1 Faith] from every [Tree plantation]",
+			"Only available <after adopting [Exodus of the Evangelists]>",
+		]
+	},
+	{
+		"name": "Jesuit Education",
+		"type": "Enhancer",
+		"uniques": [
+			"May buy [Library] buildings with [Faith] for [2] times their normal Production cost",
+			"May buy [University] buildings with [Faith] for [2] times their normal Production cost",
+			"May buy [Observatory] buildings with [Faith] for [2] times their normal Production cost",
+			"May buy [Public School] buildings with [Faith] for [2] times their normal Production cost",
+			"May buy [Research Lab] buildings with [Faith] for [2] times their normal Production cost",
+			"Only available <after adopting [Exodus of the Evangelists]>",
+			"[+100]% weight to this choice for AI decisions <for [Hexlock] Civilizations>",
+		]
+	},
+	{
+		"name": "New Zion",
+		"type": "Enhancer",
+		"uniques": [
+			"[+1 Production, +1 Food, +1 Gold, +1 Culture, +1 Faith] from every [Seminary]",
+			"[+1 Production, +1 Food, +1 Gold, +1 Culture, +1 Faith] from every [Oracle]",
+			"[+1 Production, +1 Food, +1 Gold, +1 Culture, +1 Faith] from every [Endowment House]",
+			"Only available <after adopting [Exodus of the Evangelists]>"
+		]
+	},
+	{
+		"name": "Puritan Ethic",
+		"type": "Enhancer",
+		"uniques": [
+			"May buy [Forge] buildings with [Faith] for [2] times their normal Production cost",
+			"May buy [Oil Refinery] buildings with [Faith] for [2] times their normal Production cost",
+			"May buy [Blast Furnace] buildings with [Faith] for [2] times their normal Production cost",
+			"May buy [Aluminum Smelter] buildings with [Faith] for [2] times their normal Production cost",
+			"May buy [Factory] buildings with [Faith] for [2] times their normal Production cost",
+			"May buy [Materials Recovery Facility] buildings with [Faith] for [2] times their normal Production cost",
+			"Only available <after adopting [Exodus of the Evangelists]>",
+			"[+100]% weight to this choice for AI decisions <for [Order of Chudnar] Civilizations>",
+		]
+	},
+	{
+		"name": "Sacred Sites",
+		"type": "Enhancer",
+		"uniques": [
+			"[+4 Gold, +4 Culture] [in cities following this religion] <in cities with a [World Wonder]>",
+			"[+2 Gold, +2 Culture, +2 Faith] from every [Worship Center]",
+			"Only available <after adopting [Exodus of the Evangelists]>",
+			"[+100]% weight to this choice for AI decisions <for [Status Pontificus] Civilizations>",
+		]
+	}
 ]
