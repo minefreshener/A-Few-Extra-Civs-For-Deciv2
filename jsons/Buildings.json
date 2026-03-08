@@ -1272,6 +1272,29 @@
 		"uniques": ["Destroyed when the city is captured", "New [Mounted] units start with [15] Experience [in this city]"],
 		"requiredTech": "Construction"
 	},
+	//////////////// ORDER OF CHUDNAR UNIQUES ////////////////
+	{
+		"name": "Holy Manufactory of Chudnar",
+		"isWonder": true,
+		"uniqueTo": "Order of Chudnar",
+		"culture": 2,
+		"faith": 1,
+		"cost": 0,
+		"uniques": [
+			"[+2 Production] [in this city] <after discovering [Iron Working]>",
+			"Provides [2] [Weapons]",
+			"Free [Wasteland Patrol] appears",
+			"Can only be built <in [Capital] cities>",
+			"Gain a free [Military Workshop] [in this city]",
+			"Automatically built in all cities where it is buildable"
+		],
+		"quote": "Be thy hands, anointed, with holy oil.\nBe thy breast, anointed, with holy oil.\nBe thy head, anointed, with holy oil.\nAs kings, priests, and prophets were anointed.\nAnd as Solomon was anointed king by Zadok the priest and Nathan the prophet, so be thee anointed.",
+		"civilopediaText": [
+			{
+				"text": "Be thy hands, anointed, with holy oil.\nBe thy breast, anointed, with holy oil.\nBe thy head, anointed, with holy oil.\nAs kings, priests, and prophets were anointed.\nAnd as Solomon was anointed king by Zadok the priest and Nathan the prophet, so be thee anointed."
+			}
+		]
+	},
 	///////////////// STATUS PONTIFICUS UNIQUES //////////////////
 	{
 		"name": "Titanium Cathedral",
