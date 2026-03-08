@@ -20,7 +20,7 @@
 		"name": "Pre-War Turret",
 		"unitType": "Siege",
 		"range": 2,
-		"movement": 1,
+		"movement": 0,
 		"strength": 30,
 		"rangedStrength": 40,
 		"interceptRange": 2,
@@ -29,7 +29,9 @@
 			"[+20]% Strength <when attacking>",
 			"Only available <for [City-States] Civilizations>",
 			"Only available <with a garrison>",
-			"Limited to [5] per Civilization"
+			"Limited to [3] per Civilization",
+			"[+1] Movement <in [Road] tiles>",
+			"[+2] Movement <in [Railroad] tiles>",
 		],
 		"attackSound": "machinegun"
 	},
