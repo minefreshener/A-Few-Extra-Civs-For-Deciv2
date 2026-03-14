@@ -1052,53 +1052,69 @@
 	},
 	{
 		"name": "Prophet of Chudnar",
-		"unitType": "Scrapper",
+		"unitType": "Shooter",
+		"uniqueTo": "Order of Chudnar",
+		"replaces": "Great Sage",
+		"movement": 4,
+		"strength": 40,
+		"range": 2,
+		"rangedStrength": 25,
+		"interceptRange": 1,
+		"upgradesTo": "Infantry",
 		"uniques": [
-			"Can instantly construct a [Seminary] improvement <by consuming this unit> <if it hasn't used other actions yet>",
-			"Can Spread Religion <for [2] movement> <[3] times> <after which this unit is consumed>",
-			"Removes other religions when spreading religion",
-			"May found a religion <by consuming this unit> <if it hasn't used other actions yet>",
-            "May enhance a religion <by consuming this unit> <if it hasn't used other actions yet>",
-			"May enter foreign tiles without open borders",
 			"Great Person - [Faith]",
 			"Unbuildable",
 			"Uncapturable",
 			"Religious Unit",
 			"Only available <when religion is enabled>",
-			"Takes your religion over the one in their birth city"
+			"Takes your religion over the one in their birth city",
+			"Personnel"
 		],
 		"promotions": ["[Prophet of Chudnar] Ability"],
 		"movement": 2,
 		"religiousStrength": 1000
 	},
 	{
-		"name": "Philosopher",
-		"unitType": "Civilian",
+		"name": "Battle Priest",
+		"unitType": "Scrapper",
+		"uniqueTo": "Order of Chudnar",
+		"replaces": "Philosopher",
+		"movement": 3,
+		"strength": 30,
 		"uniques": [
 			"Can Spread Religion <for [4] movement> <[2] times> <after which this unit is consumed>",
 			"May enter foreign tiles without open borders, but loses [100] religious strength each turn it ends there",
 			"Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]",
 			"[-1] Sight",
 			"Unbuildable",
-			"Uncapturable",
 			"Religious Unit",
-			"Only available <when religion is enabled>"
+			"Only available <when religion is enabled>",
+			"Personnel",
+			"[+10]% Strength bonus for [Military] units within [1] tiles"
 		],
 		"movement": 4,
 		"religiousStrength": 1000
 	},
 	{
-		"name": "Censor",
+		"name": "Heretic Hunter",
 		"unitType": "Civilian",
+		"uniqueTo": "Order of Chudnar",
+		"replaces": "Censor",
+		"movement": 4,
+		"strength": 35,
+		"range": 2,
+		"rangedStrength": 30,
+		"interceptRange": 1,
+		"upgradesTo": "NBC Marksman",
 		"uniques": [
 			"Prevents spreading of religion to the city it is next to",
 			"Can remove other religions from cities <in [Friendly] tiles> <[2] times> <after which this unit is consumed>",
 			"Can be purchased with [Faith] [in all cities in which the majority religion is an enhanced religion]",
 			"[+1] Sight",
 			"Unbuildable",
-			"Uncapturable",
 			"Religious Unit",
-			"Only available <when religion is enabled>"
+			"Only available <when religion is enabled>",
+			"Personnel"
 		],
 		"movement": 3
 	},
@@ -1148,6 +1164,71 @@
 	},
 	/////////////// FUKOUNA BAKUFU UNIQUE UNITS ////////////////
 	////////////////// STONEWALL FOUNDATION UNIQUE UNITS /////////////
+	{
+		"name": "ENBYC Infantry",
+		"unitType": "Scrapper",
+		"uniqueTo": "Stonewall Foundation",
+		"replaces": "NBC Infantry",
+		"movement": 2,
+		"strength": 55,
+		"interceptRange": 1,
+		"cost": 230,
+		"requiredTech": "Plastics",
+		"upgradesTo": "Exo-Trooper",
+		"hurryCostModifier": 20,
+		"uniques": [
+			"Personnel",
+			"Only available <if [Factory] is constructed>",
+			"Consumes [1] [Weapons]"
+		],
+		"promotions": ["Gas Mask", "Combat Drill"],
+		"attackSound": "machinegun"
+	},
+	{
+		"name": "ENBYC Marksman",
+		"unitType": "Shooter",
+		"uniqueTo": "Stonewall Foundation",
+		"replaces": "NBC Marksman",
+		"range": 1,
+		"movement": 2,
+		"strength": 50,
+		"rangedStrength": 40,
+		"interceptRange": 2,
+		"cost": 225,
+		"requiredTech": "Plastics",
+		"upgradesTo": "Black Ops",
+		"hurryCostModifier": 20,
+		"uniques": [
+			"Personnel",
+			"Only available <if [Factory] is constructed>",
+			"Consumes [1] [Weapons]"
+		],
+		"promotions": ["Reconnaissance I", "Gas Mask", "Sentry"],
+		"attackSound": "shot"
+	},
+	{
+		"name": "ENBYC Conscript",
+		"unitType": "Scrapper",
+		"uniqueTo": "Stonewall Foundation",
+		"replaces": "NBC Conscript",
+		"movement": 2,
+		"strength": 45,
+		"interceptRange": 1,
+		"cost": 125,
+		"requiredTech": "Plastics",
+		// "upgradesTo": "NBC Infantry", ??
+		"hurryCostModifier": 20,
+		"uniques": [
+			"Personnel",
+			"Only available <if [Factory] is constructed>",
+			"[-25]% construction time for [All] improvements",
+			"Can build [All Road] improvements on tiles",
+			"Can build [Fort] improvements on tiles",
+			"Can build [Trench] improvements on tiles",
+		],
+		"promotions": ["Gas Mask", "Combat Drill"],
+		"attackSound": "machinegun"
+	},
 	////////////////// ARCHE APPALACHEA UNIQUE UNITS ///////////////////
 	/////////////////// SAMURIKOS UNIQUE UNITS ///////////////
 	////////////////////// THE ENTENTE UNIQUE UNITS //////////////
