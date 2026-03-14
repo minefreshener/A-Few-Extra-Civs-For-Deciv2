@@ -1274,7 +1274,7 @@
 	},
 	//////////////// ORDER OF CHUDNAR UNIQUES ////////////////
 	{
-		"name": "Holy Manufactory of Chudnar",
+		"name": "Prophet's Pulpit",
 		"isWonder": true,
 		"uniqueTo": "Order of Chudnar",
 		"culture": 2,
@@ -1288,10 +1288,10 @@
 			"Gain a free [Military Workshop] [in this city]",
 			"Automatically built in all cities where it is buildable"
 		],
-		"quote": "",
+		"quote": "Thou shalt not kill? Thou shalt not steal?? Love thy neighbor??? What a load of hooey! Jesus is too woke!!! We need our prayers answered by a new god, a better god! we must follow the word of CHUDNAR: DESTROYER OF LIBERALS!!!!!!!!!",
 		"civilopediaText": [
 			{
-				"text": ""
+				"text": "Thou shalt not kill? Thou shalt not steal?? Love thy neighbor??? What a load of hooey! Jesus is too woke!!! We need our prayers answered by a new god, a better god! we must follow the word of CHUDNAR: DESTROYER OF LIBERALS!!!!!!!!!"
 			}
 		]
 	},
@@ -1308,6 +1308,173 @@
 			"[+1 Production] [in this city] <when above [0] [Power]>",
 			"Provides [1] [Weapons]",
 		]
+	},
+	{
+		"name": "Healthcare Corporation",
+		"replaces": "Earth Clinic",
+		"uniqueTo": "Order of Chudnar",
+		"food": 3,
+		"gold": 5,
+		"cost": 300,
+		"maintenance": 3,
+		"uniques": [
+			"Only available <after adopting [Monopoly]>",
+			"Destroyed when the city is captured",
+			"[All] Units adjacent to this city heal [+20] HP per turn when healing",
+			"[+3 Food] [in this city] <when above [2] [Power]>",
+		]
+	},
+	{
+		"name": "Chudnaric Confluence",
+		"replaces": "Sociopolitical Institute",
+		"uniqueTo": "Order of Chudnar",
+		"culture": 1,
+		"faith": 1,
+		"specialistSlots": {"Administrator": 1},
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"uniques": ["[+1 Faith] [in this city] <for every [Completed Policy branches]>"],
+		"requiredTech": "Civil Service"
+	},
+	{
+		"name": "Shamanic Circle",
+		"replaces": "Congress",
+		"uniqueTo": "Order of Chudnar",
+		"cost": 100,
+		"requiredTech": "Civil Service",
+		"uniques": [
+			"[+1 Culture, +1 Faith] per [4] population [in all cities]",
+			"[-5]% Unhappiness from [Population] [in all cities]",
+			"[+10]% Production when constructing [Military] units [in all cities]",
+			"Only available <if [Search for Survivors] is constructed>",
+			"Can only be built <in [Capital] cities>",
+			"Only available <in cities without a [Governor's Mansion]>",
+			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "Governor's Mansion",
+		"replaces": "Council",
+		"uniqueTo": "Order of Chudnar",
+		"cost": 100,
+		"requiredTech": "Civil Service",
+		"uniques": [
+			"[+5]% Production when constructing [All] buildings [in all cities]",
+			"[+20]% Production when constructing [Military] units [in all cities]",
+			"[+1 Gold] per [4] population [in all cities]",
+			"Only available <if [Search for Survivors] is constructed>",
+			"Can only be built <in [Capital] cities>",
+			"Only available <in cities without a [Shamanic Circle]>",
+			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "Ministry of Propaganda",
+		"replaces": "National College",
+		"uniqueTo": "Order of Chudnar",
+		"faith": 2,
+		"culture": 2,
+		"percentStatBonus": {"culture": 20},
+		"cost": 125,
+		"isNationalWonder": true,
+		"uniques": [
+			"[-10]% Unhappiness from [Population] [in all cities]",
+			"Only available <if [Library] is constructed in all [non-[Puppeted]] cities>",
+			"Cost increases by [30] per owned city"
+		],
+		"requiredTech": "Education"
+	},
+	{
+		"name": "Chudnaric Manufactory",
+		"isNationalWonder": true,
+		"replaces": "Grand Monastery",
+		"uniqueTo": "Order of Chudnar",
+		"production": 3,
+		"faith": 6,
+		"cost": 125,
+		"requiredTech": "Civil Service",
+		"uniques": [
+			"Only available <if [Military Workshop] is constructed in all [non-[Puppeted]] cities>",
+			"Cost increases by [30] per owned city",
+			"Can only be built <in [Holy] cities>",
+			"Only available <after adopting [Theocracy]>",
+			"Only available <when religion is enabled>",
+			"All newly-trained [Philosopher] units [in this city] receive the [Devout] promotion",
+			"All newly-trained [Great Sage] units [in this city] receive the [Devout] promotion",
+			"[+15]% Production when constructing [Military] units [in this city]",
+			"Provides [3] [Weapons]",
+		]
+	},
+	{
+		"name": "Shrine to Chudnar",
+		"replaces": "Shrine",
+		"uniqueTo": "Order of Chudnar",
+		"faith": 1,
+		"cost": 40,
+		"requiredTech": "Secrets of the Past",
+		"uniques": [
+			"[+5]% Production when constructing [Military] units [in this city]",
+			"Only available <when religion is enabled>"
+		]
+	},
+	{
+		"name": "Martial Monastery",
+		"replaces": "Monastery",
+		"uniqueTo": "Order of Chudnar",
+		"faith": 2,
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"requiredTech": "Education",
+		"uniques": [
+			"[+10]% Production when constructing [Military] units [in this city]",
+			"Only available <in cities with a [Shrine]>",
+			"Only available <when religion is enabled>"
+		]
+	},
+	{
+		"name": "Rallying Grounds",
+		"replaces": "Megachurch",
+		"uniqueTo": "Order of Chudnar",
+		"faith": 4,
+		"percentStatBonus": {"faith": 20},
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"requiredTech": "Social Engineering",
+		"uniques": [
+			"Only available <in cities with a [Monastery]>",
+			"Only available <when religion is enabled>",
+			"[+25]% Natural religion spread [in this city] <when above [-2] [Power]>",
+			"[+15]% Production when constructing [Military] units [in this city]",
+			"[+1 Faith, +1 Production, +1 Gold] from [Weapons] tiles [in this city]"
+		]
+	},
+	{
+		"name": "Fossil Annihilator",
+		"replaces": "Oil Plant",
+		"uniqueTo": "Order of Chudnar",
+		"maintenance": 1,
+		"cost": 150,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"Provides [5] [Power]",
+			"Provides [3] [Power] <when above [-2] [Oil]>",
+			"Provides [2] [Power] <after discovering [Steam Power]>",
+			"Consumes [2] [Oil]",
+		],
+		"requiredTech": "Chemistry"
+	},
+	{
+		"name": "Garbage Burning Plant",
+		"replaces": "Advanced Energy Recycling Plant",
+		"uniqueTo": "Order of Chudnar",
+		"maintenance": 3,
+		"cost": 750,
+		"hurryCostModifier": 33,
+		"percentStatBonus": { "production": -5 },
+		"uniques": [
+			"Provides [4] [Power]",
+		],
+		"requiredTech": "Energy Weapons"
 	},
 	///////////////// STATUS PONTIFICUS UNIQUES //////////////////
 	{
@@ -1334,6 +1501,17 @@
 		]
 	},
 	///////////////// FUKOUNA BAKUFU UNIQUES ////////////////
+	/////////// FUGG BURGER UNIQUES /////////////////
+	{
+		"name": "Methane Capture",
+		"replaces": "Carbon Capture",
+		"uniqueTo": "Fugg Burger",
+		"maintenance": 3,
+		"hurryCostModifier": 0,
+		"uniques": ["[+1 Production] from [Pasture] tiles [in this city]",
+			"Consumes [1] [Power]"],
+		"requiredTech": "Atmosphere Remediation"
+	},
 	///////////////// ALTERED CITY STATE UNIQUES /////////////
 	{
 		"name": "Encyclopedia",
