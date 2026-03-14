@@ -1501,6 +1501,24 @@
 		]
 	},
 	///////////////// FUKOUNA BAKUFU UNIQUES ////////////////
+	///////////// ARCHE APPALACHEA UNIQUES ////////////////
+	{
+		"name": "Non-Denominational Church",
+		"replaces": "Megachurch",
+		"uniqueTo": "Arche Appalachea",
+		"faith": 2,
+		"culture": 2,
+		"percentStatBonus": {"faith": 5},
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"requiredTech": "Social Engineering",
+		"uniques": [
+			"Only available <in cities with a [Monastery]>",
+			"Only available <when religion is enabled>",
+			"[+65]% Natural religion spread [in this city] <when above [-2] [Power]>",
+			"Consumes [1] [Power]"
+		]
+	},
 	/////////// FUGG BURGER UNIQUES /////////////////
 	{
 		"name": "Methane Capture",
