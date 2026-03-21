@@ -1506,6 +1506,8 @@
 	},
 	{
 		"name": "Deport Survivors",
+		"replaces": "Search for Survivors",
+		"uniqueTo": "F.I.R.E.",
 		"cost": 30,
 		"isNationalWonder": true,
 		"uniques": [
@@ -1516,30 +1518,19 @@
 		]
 	},
 	{
-		"name": "Ally with Isolationists",
+		"name": "Deport Isolationists",
 		"isNationalWonder": true,
-		"requiredTech": "Sailing",
-		"cost": 40,
-		"happiness": 2,
-		"uniques": [
-			"Must have an owned [Isolated Island] within [3] tiles",
-			"[+3 Science, +3 Gold, +2 Culture] from [Isolated Island] tiles [in this city]",
-			"Unbuildable <if [Annex Isolationists] is constructed>"
-		]
-	},
-	{
-		"name": "Annex Isolationists",
-		"isNationalWonder": true,
+		"replaces": "Annex Isolationists",
+		"uniqueTo": "F.I.R.E.",
 		"requiredTech": "Sailing",
 		"cost": 200,
-		"happiness": -2,
-		"culture": -2,
+		"happiness": 2,
+		"gold": 4,
 		"uniques": [
 			"Must have an owned [Isolated Island] within [3] tiles",
-			"[+1] population [in this city]",
-			"[+2 Food, +5 Production] from [Isolated Island] tiles [in all cities]",
+			"[-1] population [in this city]",
+			"[+5 Food, +5 Production, -5 Culture] from [Isolated Island] tiles [in all cities]",
 			"Provides [2] [Weapons]",
-			"Provides [2] [Slaves]",
 			"Unbuildable <if [Ally with Isolationists] is constructed>"
 		],
 		"civilopediaText": [
@@ -1577,6 +1568,7 @@
 		"uniques": [
 			"[-1 Culture, +2 Gold] per [4] population [in all cities]",
 			"[+3 Gold] from [Prison Farm] tiles [in all cities]",
+			"[+3 Gold] from [Outpost] tiles [in all cities]",
 			"[-25]% Unhappiness from [Population] [in all cities]",
 			"[+3 Production, +5 Gold] [in this city] <when below [-3] [Slaves]>",
 			"[+2 Production, +2 Gold] [in all cities] <when below [-3] [Slaves]>",
