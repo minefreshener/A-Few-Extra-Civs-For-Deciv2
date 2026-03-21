@@ -1477,6 +1477,194 @@
 		"requiredTech": "Energy Weapons"
 	},
 	////////////////// F.I.R.E. UNIQUES ////////////////////
+	{
+		"name": "The Melting Pot",
+		"isWonder": true,
+		"uniqueTo": "F.I.R.E.",
+		"culture": 2,
+		"faith": 1,
+		"cost": 0,
+		"uniques": [
+			"[+2 Production] [in this city] <after discovering [Civil Service]>",
+			"[+5 Production] [in this city] <when above [5] [Slaves]>",
+			"[+3 Production] [in all cities] <when above [5] [Slaves]>",
+			"[-5 Production] [in this city] <when below [-3] [Slaves]>",
+			"[-3 Production] [in all cities] <when below [-3] [Slaves]>",
+			"[-5 Production] [in this city] <when below [-5] [Slaves]>",
+			"[-3 Production] [in all cities] <when below [-5] [Slaves]>",
+			"Can only be built <in [Capital] cities>",
+			"Gain a free [Forge] [in this city]",
+			"Gain a free [Factory] [in this city]",
+			"Automatically built in all cities where it is buildable"
+		],
+		"quote": "Thou shalt not kill? Thou shalt not steal?? Love thy neighbor??? What a load of hooey! Jesus is too woke!!! We need our prayers answered by a new god, a better god! we must follow the word of CHUDNAR: DESTROYER OF LIBERALS!!!!!!!!!",
+		"civilopediaText": [
+			{
+				"text": "Thou shalt not kill? Thou shalt not steal?? Love thy neighbor??? What a load of hooey! Jesus is too woke!!! We need our prayers answered by a new god, a better god! we must follow the word of CHUDNAR: DESTROYER OF LIBERALS!!!!!!!!!"
+			}
+		]
+	},
+	{
+		"name": "Deport Survivors",
+		"cost": 30,
+		"isNationalWonder": true,
+		"uniques": [
+			"[-1] population [in all cities]",
+			"[-10]% Unhappiness from [Population] [in this city]",
+			"Provides [1] [Slaves]",
+			"Free [Border Captain] appears"
+		]
+	},
+	{
+		"name": "Ally with Isolationists",
+		"isNationalWonder": true,
+		"requiredTech": "Sailing",
+		"cost": 40,
+		"happiness": 2,
+		"uniques": [
+			"Must have an owned [Isolated Island] within [3] tiles",
+			"[+3 Science, +3 Gold, +2 Culture] from [Isolated Island] tiles [in this city]",
+			"Unbuildable <if [Annex Isolationists] is constructed>"
+		]
+	},
+	{
+		"name": "Annex Isolationists",
+		"isNationalWonder": true,
+		"requiredTech": "Sailing",
+		"cost": 200,
+		"happiness": -2,
+		"culture": -2,
+		"uniques": [
+			"Must have an owned [Isolated Island] within [3] tiles",
+			"[+1] population [in this city]",
+			"[+2 Food, +5 Production] from [Isolated Island] tiles [in all cities]",
+			"Provides [2] [Weapons]",
+			"Provides [2] [Slaves]",
+			"Unbuildable <if [Ally with Isolationists] is constructed>"
+		],
+		"civilopediaText": [
+			{
+				"text": "'Ephialtes the son of Eurydemos, a Malian, came to speech with him, supposing that he would win a very great reward from the king; and this man told him of the path which leads over the mountain to Thermopylae, and brought about the destruction of those Greeks who remained in that place.' - Herodotus"
+			}
+		]
+	},
+	{
+		"name": "Immigration Council",
+		"replaces": "Congress",
+		"uniqueTo": "F.I.R.E.",
+		"cost": 100,
+		"requiredTech": "Civil Service",
+		"uniques": [
+			"[-1 Culture, +2 Production] per [4] population [in all cities]",
+			"[+5]% Unhappiness from [Population] [in all cities]",
+			"[+10]% Production when constructing [Military] units [in all cities]",
+			"Provides [2] [Slaves]",
+			"[+4 Food] [in all cities] <when above [5] [Slaves]>",
+			"[-1 Food] [in all cities] <when below [-3] [Slaves]>",
+			"[-2 Food] [in all cities] <when below [-5] [Slaves]>",
+			"Only available <if [Deport Survivors] is constructed>",
+			"Can only be built <in [Capital] cities>",
+			"Only available <in cities without a [Deportation Quota]>",
+			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "Deportation Quota",
+		"replaces": "Council",
+		"uniqueTo": "F.I.R.E.",
+		"cost": 100,
+		"requiredTech": "Civil Service",
+		"uniques": [
+			"[-1 Culture, +2 Gold] per [4] population [in all cities]",
+			"[+3 Gold] from [Prison Farm] tiles [in all cities]",
+			"[-25]% Unhappiness from [Population] [in all cities]",
+			"[+3 Production, +5 Gold] [in this city] <when below [-3] [Slaves]>",
+			"[+2 Production, +2 Gold] [in all cities] <when below [-3] [Slaves]>",
+			"[+3 Production, +5 Gold] [in this city] <when below [-5] [Slaves]>",
+			"[+2 Production, +2 Gold] [in all cities] <when below [-5] [Slaves]>",
+			"Only available <if [Deport Survivors] is constructed>",
+			"Can only be built <in [Capital] cities>",
+			"Only available <in cities without a [Immigration Council]>",
+			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "Migrant Worker Camp",
+		"replaces": "Work Camp",
+		"uniqueTo": "F.I.R.E.",
+		"percentStatBonus": {"production": 20},
+		"percentStatBonus": {"happiness": -10},
+		"production": 5,
+		"happiness": -4,
+		"maintenance": 6,
+		"hurryCostModifier": 0,
+		"uniques": [
+			"Consumes [1] [Slaves]",
+			"Only available <with [Slaves]>"
+		],
+		"requiredTech": "Construction"
+	},
+	{
+		"name": "Internment Camp",
+		"replaces": "Prison Camp",
+		"uniqueTo": "F.I.R.E.",
+		"happiness": -2,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"Can only be built <in [Annexed] cities>",
+			"Provides [3] [Slaves]",
+			"Destroyed when the city is captured"
+		],
+		"requiredTech": "Construction"
+	},
+	{
+		"name": "Border Station",
+		"replaces": "Listening Post",
+		"uniqueTo": "F.I.R.E.",
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"[-10]% enemy spy effectiveness [in this city]",
+			"Removes extra unhappiness from annexed cities",
+			"Destroyed when the city is captured",
+		],
+		"requiredTech": "Record Keeping"
+	},
+	{
+		"name": "Deportation Station",
+		"replaces": "Town Hall",
+		"uniqueTo": "F.I.R.E.",
+		"culture": -3,
+		"gold": 3,
+		"specialistSlots": {"Administrator": 1},
+		"maintenance": 1,
+		"uniques": [
+			"[-40]% Culture cost of natural border growth [in this city]",
+			"[-40]% Gold cost of acquiring tiles [in this city]",
+			"[-1 Happiness] [in this city] <when above [2] [Power]>",
+			"Provides [1] [Slaves] <when above [2] [Power]>",
+		],
+		"hurryCostModifier": 25,
+		"requiredTech": "Civil Service"
+	},
+	{
+		"name": "Flesh Plant",
+		"uniqueTo": "F.I.R.E.",
+		"maintenance": 4,
+		"cost": 250,
+		"hurryCostModifier": 25,
+		"percentStatBonus": {"food": 10},
+		"uniques": [
+			"Provides [1] [Power]",
+			"Consumes [1] [Slaves]",
+			"Provides [2] [Power] <when above [3] [Slaves]>",
+			"[+1 Production] [in this city] <when above [3] [Slaves]>",
+			"[+2 Production] [in this city] <when above [5] [Slaves]>",
+			"Only available <in cities with a [Internment Camp]>",
+			"Only available <in cities without a [Decomposition Accelerator]>",
+		],
+		"requiredTech": "Steam Power"
+	},
 	/////////////// HESSIA UNIQUES //////////////////
 	///////////////// STATUS PONTIFICUS UNIQUES //////////////////
 	{
