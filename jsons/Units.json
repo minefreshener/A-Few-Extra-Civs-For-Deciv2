@@ -1372,6 +1372,22 @@
 		"attackSound": "shot"
 	},
 	//////////// F.I.R.E. UNIQUE UNITS ////////////////////
+	{
+		"name": "Border Captain",
+		"unitType": "Civilian",
+		"uniqueTo": "F.I.R.E.",
+		"replaces": "Great General",
+		"uniques": [
+			"Empire enters a [8]-turn Golden Age <by consuming this unit>",
+			"[+20]% Strength bonus for [Military] units within [2] tiles",
+			"Can instantly construct a [Outpost] improvement <by consuming this unit>",
+			"Can be earned through combat <for [Land] units>",
+			"Is part of Great Person group [General]",
+			"Great Person - [War]", 
+			"Unbuildable",
+		],
+		"movement": 3,
+	},
 	////////////////// HESSIA UNIQUE UNITS /////////////////
 	/////////////// STATUS PONTIFICUS UNIQUE UNITS ////////////////
 	{
