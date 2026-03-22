@@ -1875,7 +1875,9 @@
 			"Provides [2] [Weapons]",
 			"Must not be on [Hill]",
 			"Only available <in cities without a [Alma Tank Depot]>",
-			"Never destroyed when the city is captured"
+			"Never destroyed when the city is captured",
+			"May buy [Salvaged Helicopter] units for [300] [Faith] [in this city] at an increasing price ([200])",
+			"May buy [Salvaged Bomber] units for [300] [Faith] [in this city] at an increasing price ([200])"
 		]
 	},
 	{
@@ -1889,7 +1891,8 @@
 		"uniques": [
 			"Provides [2] [Weapons]",
 			"Only available <in cities without a [Alma Air Base]>",
-			"Never destroyed when the city is captured"
+			"Never destroyed when the city is captured",
+			"May buy [Ancient Armor] units for [500] [Faith] [in this city] at an increasing price ([500])"
 		]
 	},
 	{
@@ -1904,7 +1907,9 @@
 		"uniques": [
 			"Never destroyed when the city is captured",
 			"Free [Howitzer] appears",
-			"[+1] population [in this city]"
+			"[+1] population [in this city]",
+			"May buy [Howitzer] units for [200] [Faith] [in this city] at an increasing price ([500])",
+			"May buy [Alma State Guard] units for [100] [Faith] [in this city] at an increasing price ([100])"
 		]
 	},
 	{
@@ -1920,6 +1925,8 @@
 			"Provides [2] [Oil]",
 			"Provides [1] [Power]",
 			"Never destroyed when the city is captured",
+			"May buy [Alma Honor Guard] units for [50] [Faith] [in this city] at an increasing price ([10])",
+			"May buy [Alma Frontier Guard] units for [30] [Faith] [in this city] at an increasing price ([10])"
 		],
 		"cost": 40,
 	},
@@ -2010,6 +2017,7 @@
 			"[+1] population [in this city]",
 			"[4] free [Ancient Armor] units appear",
 			"[3] free [Pre-War Turret] units appear",
+			"May buy [State Guard] units for [100] [Faith] [in this city] at an increasing price ([100])"
 		]
 	},
 	{
