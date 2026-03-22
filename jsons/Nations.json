@@ -257,7 +257,7 @@
 		],
 		"cities": ["Tyranos", "Chaos", "Postumos", "Rubikoniki", "Irai", "Tartaros", "Damokles", "Kronos", "Tychos", "Orkos",
 			"Stykes", "Elysion", "Korpos", "Olympos", "Ikonion", "Antion", "Arretion", "Kremona", "Corfinion",],
-		"spyNames": ["Darios", "Anna", "Markos", "Leonidas", "Aleksandros", "Leukonides", "Theodoros", "Demetrios", "eee", "eeee"]
+		"spyNames": ["Darios", "Anna", "Markos", "Leonidas", "Aleksandros", "Leukonides", "Theodoros", "Demetrios", "Titos", "Kletos"]
 	},
 	{
 		"name": "Order of Chudnar",
@@ -345,7 +345,6 @@
 		"uniqueName": "Foreign Immigrant Relocation and Extermination",
 		"uniques": [
 			"American Unifier",
-			"Fascist State",
 			"Starts with [Construction]",
 			"Starts with [Supremacy] adopted",
 			"[-100]% maintenance costs <for [Enslaved] units>",
