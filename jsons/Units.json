@@ -1388,6 +1388,56 @@
 		],
 		"movement": 3,
 	},
+	{
+		"name": "Overseer",
+		"unitType": "Civilian",
+		"uniqueTo": "F.I.R.E.",
+		"replaces": "Great Farmer",
+		"uniques": [
+			"Empire enters a [8]-turn Golden Age <by consuming this unit>",
+			"Can instantly construct a [Prison farm] improvement <by consuming this unit>",
+			"Great Person - [Food]",
+			"Unbuildable"
+		],
+		"movement": 2
+	},
+	{
+		"name": "Migrant Worker",
+		"unitType": "Civilian",
+		"uniqueTo": "F.I.R.E.",
+		"replaces": "Worker",
+		"movement": 3,
+		"hurryCostModifier": 20,
+		"upgradesTo": "Mechanized Worker",
+		"uniques": [
+			"Enslaved",
+			"Can build [Land] improvements on tiles",
+			"May create improvements on water resources",
+			"Can build [Water] improvements on tiles",
+			"Automation is a primary action"
+		],
+		"cost": 50
+	},
+	{
+		"name": "Skuz Trooper",
+		"unitType": "Scrapper",
+		"uniqueTo": "F.I.R.E.",
+		"replaces": "NBC Infantry",
+		"movement": 3,
+		"strength": 57,
+		"interceptRange": 1,
+		"cost": 230,
+		"requiredTech": "Plastics",
+		"upgradesTo": "Exo-Trooper",
+		"hurryCostModifier": 20,
+		"uniques": [
+			"Personnel",
+			"Only available <if [Factory] is constructed>",
+			"Consumes [1] [Weapons]"
+		],
+		"promotions": ["Gas Mask","Survivalism","March"],
+		"attackSound": "machinegun"
+	},
 	////////////////// HESSIA UNIQUE UNITS /////////////////
 	/////////////// STATUS PONTIFICUS UNIQUE UNITS ////////////////
 	{
