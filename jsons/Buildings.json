@@ -51,6 +51,31 @@
 		"hurryCostModifier": 25,
 		"requiredTech": "Record Keeping"
 	},
+	{
+		"name": "Battery Array",
+		"maintenance": 3,
+		"hurryCostModifier": 25,
+		"requiredNearbyImprovedResources": ["Lithium"],
+		"uniques": [
+			"[+1 Production, +1 Science] from [Lithium] tiles [in this city]",
+			"Consumes [1] [Power]",
+			"Provides [3] [Power]"
+		],
+		"requiredTech": "Manufacturing"
+	},
+	{
+		"name": "Cobalt Smelter",
+		"maintenance": 1,
+		"production": 3,
+		"hurryCostModifier": 25,
+		"requiredNearbyImprovedResources": ["Cobalt"],
+		"uniques": [
+			"[+2 Production] from [Cobalt] tiles [in this city]",
+			"Consumes [1] [Power]",
+			"Provides [1] [Cobalt]"
+		],
+		"requiredTech": "Replaceable Parts"
+	},
 //////////// ROMAN REVIVALIST ///////////////
 	{
 		"name": "Senate",
@@ -1653,11 +1678,158 @@
 			"[+1 Production] [in this city] <when above [3] [Slaves]>",
 			"[+2 Production] [in this city] <when above [5] [Slaves]>",
 			"Only available <in cities with a [Internment Camp]>",
-			"Only available <in cities without a [Decomposition Accelerator]>",
 		],
 		"requiredTech": "Steam Power"
 	},
 	/////////////// HESSIA UNIQUES //////////////////
+	{
+		"name": "Ancient Hangar",
+		"isWonder": true,
+		"uniqueTo": "HESSIA",
+		"production": 1,
+		"culture": 1,
+		"cost": 0,
+		"uniques": [
+			"Free [Salvaged Bomber] appears",
+			"Automatically built in all cities where it is buildable",
+			"Can only be built <in [Capital] cities>",
+			"Gain a free [Industrial Warehouse] [in this city]"
+		],
+		"quote": "'Whatsoever any man either doth or saith, thou must be good; not for any man's sake, but for thine own nature's sake; as if either gold, or the emerald, or purple, should ever be saying to themselves, Whatsoever any man either doth or saith, I must still be an emerald, and I must keep my colour.' - Marcus Aurelius",
+		"civilopediaText": [
+			{
+				"text": "'Whatsoever any man either doth or saith, thou must be good; not for any man's sake, but for thine own nature's sake; as if either gold, or the emerald, or purple, should ever be saying to themselves, Whatsoever any man either doth or saith, I must still be an emerald, and I must keep my colour.' - Marcus Aurelius"
+			}
+		]
+	},
+	{
+		"name": "Board of Executives",
+		"replaces": "Congress",
+		"uniqueTo": "HESSIA",
+		"cost": 100,
+		"requiredTech": "Civil Service",
+		"uniques": [
+			"[+1 Gold] per [4] population [in all cities]",
+			"[-15]% Gold cost of acquiring tiles [in all cities]",
+			"Provides [1] [Oil] <during a Golden Age>",
+			"Only available <if [Search for Survivors] is constructed>",
+			"Can only be built <in [Capital] cities>",
+			"Only available <in cities without a [Mercenary Guild]>",
+			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "Mercenary Guild",
+		"replaces": "Council",
+		"uniqueTo": "HESSIA",
+		"cost": 50,
+		"requiredTech": "Civil Service",
+		"uniques": [
+			"[+10]% Production when constructing [City Defense] buildings [in all cities]",
+			"[+10]% Production when constructing [Military] units [in all cities]",
+			"Provides [2] [Oil] <when at war>",
+			"Only available <if [Search for Survivors] is constructed>",
+			"Can only be built <in [Capital] cities>",
+			"Only available <in cities without a [Board of Executives]>",
+			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "Industrial Warehouse",
+		"replaces": "Food Store",
+		"uniqueTo": "HESSIA",
+		"cost": 10,
+		"hurryCostModifier": -25,
+		"uniques": [
+			"[5]% Food is carried over after population increases [in this city]",
+			"[+1 Food] [in this city] <with [Salt]>",
+			"[+1 Production, +1 Gold] [in this city] <with [Electronics]>",
+			"[+1 Production, +1 Gold] [in this city] <with [Machine Parts]>",
+			"[+1 Production, +1 Culture, +1 Gold] [in this city] <with [Oil]>"
+		]
+	},
+	{
+		"name": "HR Office",
+		"replaces": "Town Hall",
+		"uniqueTo": "HESSIA",
+		"specialistSlots": { "Administrator": 2 },
+		"maintenance": 2,
+		"uniques": [
+			"[-50]% Gold cost of acquiring tiles [in this city]",
+			"[+1 Happiness, +1 Culture] [in this city] <when above [0] [Power]>"
+		],
+		"hurryCostModifier": 25,
+		"requiredTech": "Civil Service"
+	},
+	{
+		"name": "Company Store",
+		"replaces": "Market",
+		"uniqueTo": "HESSIA",
+		"gold": 4,
+		"specialistSlots": { "Merchant": 1 },
+		"hurryCostModifier": 25,
+		"requiredTech": "Trade",
+		"uniques": [
+			"[+1 Gold] from [Strategic resource] tiles [in this city]",
+			"[+1 Production, -1 Gold] from [Luxury resource] tiles [in this city]"
+		]
+	},
+	{
+		"name": "Toy Production Line",
+		"requiredBuilding": "Factory",
+		"uniqueTo": "HESSIA",
+		"percentStatBonus": {"production": 10},
+		"uniques": [
+			"Provides [1] [Artifacts] <when above [0] [Power]>",
+			"Consumes [1] [Power]",
+			"Only available <after adopting [Monopoly]>",
+			"Only available <in cities without a [Content Farm]>",
+			"Only available <in cities without a [Electronics Production Line]>",
+			"Only available <in cities without a [Publishing House]>",
+			"Only available <in cities without a [Machinery Production Line]>",
+			"Limited to [2] per Civilization"
+		],
+		"requiredTech": "Replaceable Parts"
+	},
+	{
+		"name": "Deep Extractor",
+		"replaces": "Oil Refinery",
+		"uniqueTo": "HESSIA",
+		"requiredNearbyImprovedResources": ["Oil"],
+		"maintenance": 3,
+		"cost": 150,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"Provides [2] [Oil]",
+			"Provides [1] [Oil] <after discovering [Radar]>",
+			"Provides [1] [Oil] <after discovering [Advanced Materials]>",
+			"[+1 Production] [in this city] <with [Electronics]>",
+			"[+2 Production, +1 Gold] from [Oil] tiles [in this city]",
+			"Consumes [2] [Power]",
+			"Only available <in cities without a [Oil Plant]>"
+		],
+		"requiredTech": "Chemistry"
+	},
+	{
+		"name": "Advanced Oil Plant",
+		"replaces": "Oil Plant",
+		"uniqueTo": "HESSIA",
+		"maintenance": 3,
+		"cost": 150,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"Provides [4] [Power]",
+			"Provides [1] [Power] <when above [-2] [Oil]>",
+			"Provides [1] [Power] <after discovering [Steam Power]>",
+			"Provides [2] [Power] <after discovering [Advanced Materials]>",
+			"Consumes [1] [Oil]",
+			"Only available <in cities without a [Oil Refinery]>",
+			"Only available <in cities without a [Nuclear Plant]>",
+			"Only available <in cities without a [Advanced Energy Recycling Plant]>",
+			"Only available <in cities with a [Library]>"
+		],
+		"requiredTech": "Chemistry"
+	},
 	///////////////// STATUS PONTIFICUS UNIQUES //////////////////
 	{
 		"name": "Titanium Cathedral",
