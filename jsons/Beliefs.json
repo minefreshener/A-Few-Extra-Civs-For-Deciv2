@@ -16,12 +16,24 @@
 			"[+100]% weight to this choice for AI decisions <for [Stonewall Foundation] Civilizations>"
 		]
 	},
+	{
+		"name": "Divine Defenses",
+		"type": "Pantheon",
+		"uniques": [
+			"[+1 Faith] from every [Trench]",
+			"[+1 Faith] from every [Fort]",
+			"[+1 Faith] from every [Caer]",
+			"[+1 Faith] from every [Fortified Farm]",
+			"[+1 Faith] from every [Armed Mining Camp]",
+			"[+2 Faith] from every [Citadel]",
+			"[+2 Faith] from every [Outpost]",
+			"[+100]% weight to this choice for AI decisions <for [The Entente] Civilizations>"
+		]
+	},
 	//////////// CHANGED BELIEFS /////////////
 	{
 		"name": "Ancestor Worship",
 		"type": "Pantheon",
-		"uniques": ["[+2 Culture] from every [Shrine]"]
-	},
 	{
 		"name": "Atomic Children",
 		"type": "Pantheon",
