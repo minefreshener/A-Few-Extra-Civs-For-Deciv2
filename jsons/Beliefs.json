@@ -34,6 +34,8 @@
 	{
 		"name": "Ancestor Worship",
 		"type": "Pantheon",
+		"uniques": ["[+2 Culture] from every [Shrine]"]
+	},
 	{
 		"name": "Atomic Children",
 		"type": "Pantheon",
