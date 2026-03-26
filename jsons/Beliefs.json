@@ -34,6 +34,8 @@
 	{
 		"name": "Ancestor Worship",
 		"type": "Pantheon",
+		"uniques": ["[+2 Culture] from every [Shrine]"]
+	},
 	{
 		"name": "Atomic Children",
 		"type": "Pantheon",
@@ -740,7 +742,7 @@
 			"Only available <after adopting [Exodus of the Evangelists]>",
 			"[+100]% weight to this choice for AI decisions <for [Crimson Legion] Civilizations>",
 			"[+100]% weight to this choice for AI decisions <for [Cult of Ignis] Civilizations>",
-		
+		]
 	},
 	{
 		"name": "Atomic Judgment",

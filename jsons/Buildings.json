@@ -1294,7 +1294,7 @@
 		"requiredBuilding": "Stable",
 		"maintenance": 2,
 		"hurryCostModifier": 25,
-		"uniques": ["Destroyed when the city is captured", "New [Mounted] units start with [15] Experience [in this city]"],
+		"uniques": ["Destroyed when the city is captured", "New [Mounted] units start with [15] XP [in this city]"],
 		"requiredTech": "Construction"
 	},
 	//////////////// ORDER OF CHUDNAR UNIQUES ////////////////
