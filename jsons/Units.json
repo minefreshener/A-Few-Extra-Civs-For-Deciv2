@@ -1551,6 +1551,122 @@
 	////////////////// ARCHE APPALACHEA UNIQUE UNITS ///////////////////
 	/////////////////// SAMURIKOS UNIQUE UNITS ///////////////
 	////////////////////// THE ENTENTE UNIQUE UNITS //////////////
+	{
+		"name": "Assault Engine",
+		"unitType": "Armor",
+		"uniqueTo": "The Entente",
+		"replaces": "Ancient Armor",
+		"movement": 4,
+		"strength": 55,
+		"range": 1,
+		"rangedStrength": 45,
+		"interceptRange": 1,
+		"cost": 190,
+		"requiredTech": "Replaceable Parts",
+		"upgradesTo": "Orwellian Armor",
+		"uniques": [
+			"Can move after attacking",
+			"No defensive terrain bonus",
+			"Only available <if [Factory] is constructed>",
+			"Consumes [2] [Steam]"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "machinegun"
+	},
+	{
+		"name": "Landship",
+		"unitType": "Armor",
+		"uniqueTo": "The Entente",
+		"replaces": "Tank",
+		"movement": 3,
+		"strength": 70,
+		"range": 1,
+		"rangedStrength": 50,
+		"interceptRange": 2,
+		"cost": 225,
+		"requiredTech": "Combined Arms",
+		"upgradesTo": "Orwellian Armor",
+		"obsoleteTech": "Full-Spectrum Dominance",
+		"uniques": [
+			"Can move after attacking",
+			"[-25]% Strength <vs cities> <when attacking>",
+			"No defensive terrain bonus",
+			"Only available <if [Factory] is constructed>",
+			"Consumes [1] [Oil]"
+		], //removed exclusion from Barbarian unit list
+		"hurryCostModifier": 20,
+		"attackSound": "tankshot"
+	},
+	{
+		"name": "Orwellian Armor",
+		"unitType": "Armor",
+		"uniqueTo": "The Entente",
+		"replaces": "Modern Armor",
+		"movement": 4,
+		"strength": 95,
+		"range": 1,
+		"rangedStrength": 65,
+		"interceptRange": 2,
+		"cost": 375,
+		"requiredTech": "Full-Spectrum Dominance",
+		"upgradesTo": "Advanced Armor",
+		"uniques": [
+			"Can move after attacking",
+			"No defensive terrain bonus",
+			"Only available <if [Factory] is constructed>",
+			"Consumes [1] [Oil]",
+			"Never appears as a Barbarian unit"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "tankshot"
+	},
+	{
+		"name": "Landship Of The Line",
+		"unitType": "Armor",
+		"uniqueTo": "The Entente",
+		"replaces": "Advanced Armor",
+		"movement": 5,
+		"strength": 125,
+		"range": 2,
+		"rangedStrength": 75,
+		"interceptRange": 3,
+		"cost": 600,
+		"requiredTech": "Energy Weapons",
+		"uniques": [
+			"Can move after attacking",
+			"No defensive terrain bonus",
+			"Only available <if [Automated Factory] is constructed>",
+			"Consumes [1] [Oil]",
+			"Consumes [3] [Steam]",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Powered Armor", "Drone Recon"],
+		"hurryCostModifier": 20,
+		"attackSound": "tankshot"
+	},
+	{
+		"name": "ULV",
+		"unitType": "Armor",
+		"uniqueTo": "The Entente",
+		"replaces": "Quadcopter Drone",
+		"interceptRange": 2,
+		"movement": 5,
+		"strength": 70,
+		"cost": 200,
+		"requiredTech": "Robotics",
+		"uniques": [
+			"Automated",
+			"Can move after attacking",
+			"[-25]% Strength <vs cities> <when attacking>",
+			"Withdraws before melee combat <with [50]% chance>",
+			"Only available <if [Armor Production Line] is constructed>",
+			"Consumes [1] [Aluminum]",
+			"Never appears as a Barbarian unit"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "machinegun",
+		"promotions": ["Automated", "Powered Armor"]
+	},
 	/////////////////// FUGG BURGER UNIQUE UNITS //////////////
 	{
 		"name": "Cattle Rustler",
