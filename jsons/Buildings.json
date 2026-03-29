@@ -1994,10 +1994,26 @@
 		"name": "Defensive Network",
 		"uniqueTo": "The Entente",
 		"cityHealth": 25,
-		"maintenance": 1,
+		"maintenance": 2,
 		"requiredTech": "Civil Service",
-		"uniques": ["[+1 Production, +1 Culture] from [Fort] tiles [in this city]", "[+1 Production] from [Trench] tiles [in this city]", 
-			"[+2 Production] from [Citadel] tiles [in this city]", "City Defense"]
+		"uniques": ["[+1 Production, +1 Culture] from [Fort] tiles [in this city]","[+2 Production] from [Citadel] tiles [in this city]", "City Defense"]
+	},
+	{
+		"name": "Fortified Reserviors",
+		"uniqueTo": "The Entente",
+		"cityHealth": 25,
+		"maintenance": 2,
+		"requiredTech": "Radar",
+		"uniques": ["[+1 Gold] from [Fort] tiles [in this city]", "[+2 Gold] from [Citadel] tiles [in this city]", "City Defense"]
+	},
+	{
+		"name": "Supply Lines",
+		"uniqueTo": "The Entente",
+		"cityHealth": 25,
+		"maintenance": 6,
+		"requiredTech": "Networking",
+		"uniques": ["[+1 Food] from [Fort] tiles [in this city]", "[+1 Food] from [Trench] tiles [in this city]", 
+			"[+1 Food] from [Citadel] tiles [in this city]", "City Defense"]
 	},
 	{
 		"name": "Booby Traps",
