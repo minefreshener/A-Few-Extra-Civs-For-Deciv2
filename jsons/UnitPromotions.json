@@ -15,6 +15,19 @@
         "row": 2
 	},
 	{
+		"name": "Drone Recon",
+		"uniques": [
+			"Can see over obstacles",
+			"[+1] Sight <when [Embarked]>",
+			"[+25]% XP gained from combat",
+			"Only available <if [Ground Control Center] is constructed>",
+			"Only available <for units without [Promotion Nullifier]>"
+		],
+		"unitTypes": ["Scrapper", "Shooter", "Scout", "Armor"],
+		"column": 0,
+		"row": 2
+	},
+	{
 		"name": "Blooded",
 		"uniques": [
 			"[-10]% Strength for enemy [Military] units in adjacent [Land] tiles"
