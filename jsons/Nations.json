@@ -617,6 +617,7 @@
 			"[Personnel] units gain the [Trench Warfare] promotion",
 			"[Armor] units gain the [Trench Warfare] promotion",
 			"[+1 Culture, +1 Production] from every [Trench]",
+			"[-25]% construction time for [Trench] improvements",
 		],
 		"cities": ["Bunkirk", "Dugdig", "Somme Body", "Soil AF", "Galipolitical", "Hole", "Big Hole", "Very Big Hole", "Officer's Tavern", "Brothelville",
 			"Largetown", "Critical Hit", "Wenches in the Trenches", "Tommy", "Closewatch", "Sniper Den", "Green Boy", "Away Depot", "Here Be Donkey Riding Methheads",],
