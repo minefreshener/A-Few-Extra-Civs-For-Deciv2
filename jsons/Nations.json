@@ -614,6 +614,8 @@
 		"uniqueName": "Dug In",
 		"uniques": [
 			"[All] units gain the [Entrenched] promotion",
+			"[Personnel] units gain the [Trench Warfare] promotion",
+			"[Armor] units gain the [Trench Warfare] promotion",
 			"[+1 Culture, +1 Production] from every [Trench]",
 		],
 		"cities": ["Bunkirk", "Dugdig", "Somme Body", "Soil AF", "Galipolitical", "Hole", "Big Hole", "Very Big Hole", "Officer's Tavern", "Brothelville",
