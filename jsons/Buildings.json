@@ -1928,7 +1928,7 @@
 			"[+2 Happiness] [in all cities] <when above [0] [Weapons]>",
 			"[+25]% Production when constructing [City Defense] buildings [in all cities]",
 			"[+25]% Production when constructing [Military] units [in all cities]",
-			"Provides [2] [weapons] <when at war>",
+			"Provides [2] [Weapons] <when at war>",
 			"Only available <if [Search for Survivors] is constructed>",
 			"Can only be built <in [Capital] cities>",
 			"Only available <in cities without a [Civil Administration]>",
