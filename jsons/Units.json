@@ -1439,6 +1439,43 @@
 		"attackSound": "machinegun"
 	},
 	////////////////// HESSIA UNIQUE UNITS /////////////////
+	{
+		"name": "Hessian Mercenary",
+		"unitType": "Scrapper",
+		"uniqueTo": "HESSIA",
+		"replaces": "Stalker",
+		"movement": 2,
+		"strength": 54,
+		"interceptRange": 1,
+		"cost": 200,
+		"requiredTech": "Plastics",
+		"upgradesTo": "Exo-Trooper",
+		"uniques": ["Personnel",
+			"Consumes [1] [Weapons]",
+			"Can move immediately once bought",
+			"Unbuildable",
+			"Only available <after adopting [Monopoly Complete]>"],
+		"promotions": ["Gas Mask", "Prospector", "Combat Drill", "Trench Warfare"],
+		"attackSound": "machinegun"
+	},
+	{
+		"name": "Exploding Truck",
+		"unitType": "Armor",
+		"uniqueTo": "HESSIA",
+		"movement": 4,
+		"strength": 30,
+		"cost": 90,
+		"requiredTech": "Chemistry",
+		"obsoleteTech": "Radar",
+		"uniques": [
+			"Double movement in [Road]",
+			"Self-destructs when attacking",
+			"[+200]% Strength <when attacking>",
+			"[-50]% Strength <when defending>"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "nuke"
+	},
 	/////////////// STATUS PONTIFICUS UNIQUE UNITS ////////////////
 	{
 		"name": "Middle Finger of God",
