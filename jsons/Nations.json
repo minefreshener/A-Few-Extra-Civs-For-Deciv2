@@ -280,8 +280,8 @@
 		"declaringFriendship": "TBD",
 		"tradeRequest": "TBD",
 
-        "outerColor": [255, 255, 255],
-        "innerColor": [18,84,30],
+		"outerColor": [255, 150, 0],
+		"innerColor": [153, 5, 3],
 		"style": "Ignis",
 		"uniqueName": "Blessed Barrels",
 		"uniques": [
@@ -456,8 +456,8 @@
 		"declaringFriendship": "TBD",
 		"tradeRequest": "TBD",
 
-        "outerColor": [255, 255, 255],
-        "innerColor": [18,84,30],
+        "outerColor": [137, 89, 163],
+        "innerColor": [113, 233, 248],
 		"style": "Hexlock",
 		"uniqueName": "Harnessing Misfortune",
 		"uniques": [
@@ -498,8 +498,8 @@
 		"declaringFriendship": "TBD",
 		"tradeRequest": "TBD",
 
-        "outerColor": [255, 255, 255],
-        "innerColor": [18,84,30],
+        "outerColor": [64, 8, 114],
+        "innerColor": [255, 255, 102],
 		"style": "Tribal",
 		"uniqueName": "Battle For Progress",
 		"uniques": [
@@ -536,8 +536,8 @@
 		"declaringFriendship": "TBD",
 		"tradeRequest": "TBD",
 
-        "outerColor": [255, 255, 255],
-        "innerColor": [18,84,30],
+        "outerColor": [117, 115, 113],
+        "innerColor": [28,51,119],
 		"style": "Gang",
 		"uniqueName": "Men of The Mountains",
 		"uniques": [
@@ -575,10 +575,10 @@
 		"declaringFriendship": "TBD",
 		"tradeRequest": "TBD",
 
-        "outerColor": [255, 255, 255],
-        "innerColor": [18,84,30],
+        "outerColor": [28,51,119],
+        "innerColor": [255,255,255],
 		"style": "Corporate",
-		"uniqueName": "Big Oil",
+		"uniqueName": "TBD",
 		"uniques": [
 			"American Unifier", 
 			"Georgian Unifier",
@@ -608,8 +608,8 @@
 		"declaringFriendship": "TBD",
 		"tradeRequest": "TBD",
 
-        "outerColor": [255, 255, 255],
-        "innerColor": [18,84,30],
+        "outerColor": [116, 67, 5],
+        "innerColor": [189,90,80],
 		"style": "Military",
 		"uniqueName": "Dug In",
 		"uniques": [
@@ -644,8 +644,8 @@
 		"declaringFriendship": "TBD",
 		"tradeRequest": "TBD",
 
-        "outerColor": [255, 255, 255],
-        "innerColor": [18,84,30],
+        "outerColor": [92, 32, 92],
+        "innerColor": [40, 178, 0],
 		"style": "Corporate",
 		"uniqueName": "Beef Barons",
 		"uniques": [
