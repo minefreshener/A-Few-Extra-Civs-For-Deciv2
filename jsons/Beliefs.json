@@ -10,7 +10,7 @@
   },
   {
 		"name": "Divine Progress",
-		"type": "Founder",
+		"type": "Follower",
 		"uniques": [
 			"[+2 Faith] [in cities following this religion] <for every [Completed Policy branches]>",
 			"[+100]% weight to this choice for AI decisions <for [Stonewall Foundation] Civilizations>"
@@ -28,6 +28,88 @@
 			"[+2 Faith] from every [Citadel]",
 			"[+2 Faith] from every [Outpost]",
 			"[+100]% weight to this choice for AI decisions <for [The Entente] Civilizations>"
+		]
+	},
+	{
+		"name": "Sanctified Safety",
+		"type": "Enhancer",
+		"uniques": [
+			"May buy [Choke Points] buildings with [Faith] for [2] times their normal Production cost",
+			"May buy [Walls] buildings with [Faith] for [2] times their normal Production cost",
+			"May buy [Defensive Emplacements] buildings with [Faith] for [2] times their normal Production cost",
+			"May buy [Coastal Defenses] buildings with [Faith] for [2] times their normal Production cost",
+			"May buy [Bunker] buildings with [Faith] for [2] times their normal Production cost",
+			"May buy [Active Denial System] buildings with [Faith] for [2] times their normal Production cost",
+			"[+100]% weight to this choice for AI decisions <for [The Entente] Civilizations>"
+		]
+	},
+	{
+		"name": "Pack for War",
+		"type": "Enhancer",
+		"uniques": [
+			"May buy [Barracks] buildings with [Faith] for [2] times their normal Production cost",
+			"May buy [Armory] buildings with [Faith] for [2] times their normal Production cost",
+			"May buy [Battery] buildings with [Faith] for [2] times their normal Production cost",
+			"May buy [Armaments Production Line] buildings with [Faith] for [2] times their normal Production cost",
+			"May buy [Armour Production Line] buildings with [Faith] for [2] times their normal Production cost",
+			"May buy [Ground Control Center] buildings with [Faith] for [2] times their normal Production cost",
+			"[+100]% weight to this choice for AI decisions <for [The Entente] Civilizations>",
+			"[+100]% weight to this choice for AI decisions <for [The Patriots] Civilizations>",
+		]
+	},
+	{
+		"name": "Thunder Makers",
+		"type": "Enhancer",
+		"uniques": [
+			"May buy [Smart grid] buildings with [Faith] for [2] times their normal Production cost",
+			"May buy [Coal Plant] buildings with [Faith] for [2] times their normal Production cost",
+			"May buy [Coal Power Plant] buildings with [Faith] for [2] times their normal Production cost",
+			"May buy [Oil Plant] buildings with [Faith] for [2] times their normal Production cost",
+			"May buy [Oil Power Plant] buildings with [Faith] for [2] times their normal Production cost",
+			"May buy [Hydro Plant] buildings with [Faith] for [2] times their normal Production cost",
+			"May buy [Tidal Plant] buildings with [Faith] for [2] times their normal Production cost",
+			"May buy [Nuclear Plant] buildings with [Faith] for [2] times their normal Production cost",
+			"May buy [Nuclear Power Plant] buildings with [Faith] for [2] times their normal Production cost",
+			"May buy [Heat Plant] buildings with [Faith] for [2] times their normal Production cost",
+		]
+	},
+	{
+		"name": "Promised Land",
+		"type": "Enhancer",
+		"uniques": [
+			"May buy [Greenhouse] buildings with [Faith] for [2] times their normal Production cost",
+			"May buy [Community Garden] buildings with [Faith] for [2] times their normal Production cost",
+			"May buy [Soil Sterilization] buildings with [Faith] for [2] times their normal Production cost",
+			"May buy [Protected Area] buildings with [Faith] for [2] times their normal Production cost",
+			"May buy [Carbon Capture] buildings with [Faith] for [2] times their normal Production cost",
+			"May buy [Eco-Sanctuary] buildings with [Faith] for [2] times their normal Production cost",
+		]
+	},
+	{
+		"name": "Holy Waters",
+		"type": "Enhancer",
+		"uniques": [
+			"May buy [National Reservoir System] buildings with [Faith] for [2] times their normal Production cost",
+			"May buy [Water Storage] buildings with [Faith] for [2] times their normal Production cost",
+			"May buy [Condenser Cooler] buildings with [Faith] for [2] times their normal Production cost",
+			"May buy [Water Plant] buildings with [Faith] for [2] times their normal Production cost",
+			"May buy [Greywater Treatment Plant] buildings with [Faith] for [2] times their normal Production cost",
+			"May buy [Desalination Plant] buildings with [Faith] for [2] times their normal Production cost",
+			"May buy [Hydroponic Farming] buildings with [Faith] for [2] times their normal Production cost",
+			"May buy [Rainwater Purifier] buildings with [Faith] for [2] times their normal Production cost",
+			"[+100]% weight to this choice for AI decisions <for [The Harbingers] Civilizations>",
+		]
+	},
+	{
+		"name": "Holy Servers",
+		"type": "Enhancer",
+		"uniques": [
+			"May buy [Content Farm] buildings with [Faith] for [2] times their normal Production cost",
+			"May buy [Data Center] buildings with [Faith] for [2] times their normal Production cost",
+			"May buy [Alternet Cafe] buildings with [Faith] for [2] times their normal Production cost",
+			"May buy [Decryption Center] buildings with [Faith] for [2] times their normal Production cost",
+			"May buy [Megachurch] buildings with [Faith] for [2] times their normal Production cost",
+			"[+100]% weight to this choice for AI decisions <for [Wejaboz] Civilizations>",
 		]
 	},
 	//////////// CHANGED BELIEFS /////////////
