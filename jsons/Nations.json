@@ -657,7 +657,7 @@
 			"[-25]% construction time for [Pasture] improvements",
 			"[-25]% construction time for [Farm] improvements",
 			"[All] units gain the [Ranchhand] promotion",
-			"[-1 Water, +1 Food, +1 Production] from every [Cattle]",
+			"[-1 Gold, +1 Food, +1 Production] from every [Cattle]",
 		],
 		"cities": ["Big Meat", "Slaughterhouse 6", "The Rainforest", "Fuggma", "Sad Sack", "Happy Sack", "Gravy Capuccino", "Grindstone", "Herdstown", "Fat Stacks",
 			"Fat Loads", "Dairy", "Ol' Bessie", "Production Site 57", "Production Site 12", "Production Site 67", "Warehouse 18", "Warehouse 35", "Warehouse 69",],
