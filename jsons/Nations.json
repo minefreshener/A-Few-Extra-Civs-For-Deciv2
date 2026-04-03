@@ -613,7 +613,7 @@
 		"style": "Military",
 		"uniqueName": "Dug In",
 		"uniques": [
-			"[All] units gain the [Entrenched] promotion",
+			"[All] units gain the [Entrench] promotion",
 			"[Personnel] units gain the [Trench Warfare] promotion",
 			"[Armor] units gain the [Trench Warfare] promotion",
 			"[+1 Culture, +1 Production] from every [Trench]",
@@ -656,7 +656,6 @@
 			"Starts with [Monopoly] adopted",
 			"[-25]% construction time for [Pasture] improvements",
 			"[-25]% construction time for [Farm] improvements",
-			"[All] units gain the [Ranchhand] promotion",
 			"[-1 Gold, +1 Food, +1 Production] from every [Cattle]",
 		],
 		"cities": ["Big Meat", "Slaughterhouse 6", "The Rainforest", "Fuggma", "Sad Sack", "Happy Sack", "Gravy Capuccino", "Grindstone", "Herdstown", "Fat Stacks",
