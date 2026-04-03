@@ -1592,7 +1592,7 @@
 		"requiredTech": "Civil Service",
 		"uniques": [
 			"[-1 Culture, +2 Gold] per [4] population [in all cities]",
-			"[+3 Gold] from [Prison Farm] tiles [in all cities]",
+			"[+3 Gold] from [Prison farm] tiles [in all cities]",
 			"[+3 Gold] from [Outpost] tiles [in all cities]",
 			"[-25]% Unhappiness from [Population] [in all cities]",
 			"[+3 Production, +5 Gold] [in this city] <when below [-3] [Slaves]>",
