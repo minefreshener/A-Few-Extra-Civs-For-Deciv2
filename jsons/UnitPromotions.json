@@ -214,7 +214,5 @@
 			"[+10] HP when healing <in [Fort] tiles>",
 			"[+10]% Strength <when fighting in [Trench] tiles>",
 		],
-		"column": 6,
-		"row": 11
 	},
 ]
