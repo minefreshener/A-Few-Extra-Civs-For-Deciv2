@@ -1700,7 +1700,7 @@
 		"interceptRange": 2,
 		"cost": 225,
 		"requiredTech": "Combined Arms",
-		"upgradesTo": "Orwellian Armor",
+		"upgradesTo": "Wellsian Armor",
 		"obsoleteTech": "Full-Spectrum Dominance",
 		"uniques": [
 			"Can move after attacking",
@@ -1713,7 +1713,7 @@
 		"attackSound": "tankshot"
 	},
 	{
-		"name": "Orwellian Armor",
+		"name": "Wellsian Armor",
 		"unitType": "Armor",
 		"uniqueTo": "The Entente",
 		"replaces": "Modern Armor",
