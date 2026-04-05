@@ -1678,7 +1678,7 @@
 		"interceptRange": 1,
 		"cost": 190,
 		"requiredTech": "Replaceable Parts",
-		"upgradesTo": "Orwellian Armor",
+		"upgradesTo": "Wellsian Armor",
 		"uniques": [
 			"Can move after attacking",
 			"No defensive terrain bonus",
