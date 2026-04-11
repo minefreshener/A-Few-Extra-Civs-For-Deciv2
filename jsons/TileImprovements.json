@@ -14,4 +14,97 @@
 			"Pillaging this improvement yields approximately [+30 Gold]"
 		]
 	},
+	{
+		"name": "Mine",
+		"terrainsCanBeBuiltOn": ["Hill"],
+		"production": 1,
+		"turnsToBuild": 9,
+		"techRequired": "Mining",
+		"uniques": [
+			"[+1 Production] <after discovering [Steam Power]>",
+			"Can only be built to improve a resource <in [resource] tiles>",
+			"Pillaging this improvement yields approximately [+10 Gold]"
+		],
+		"shortcutKey": "M"
+	},
+	{
+		"name": "Pasture",
+		"turnsToBuild": 7,
+		"techRequired": "Redomestication",
+		"uniques": [
+			"Food source",
+			"[+1 Food] <after discovering [Ecology]>",
+			"Can only be built to improve a resource",
+			"Pillaging this improvement yields approximately [+10 Gold]"
+		],
+		"shortcutKey": "P"
+	},
+	{
+		"name": "Research site",
+		"turnsToBuild": 7,
+		"science": 1,
+		"techRequired": "Secrets of the Past",
+		"uniques": [
+			"Does not need removal of [Forest]",
+			"Does not need removal of [Jungle]",
+			"[+1 Science] <after discovering [Laboratory]>",
+			"Can only be built to improve a resource",
+			"Pillaging this improvement yields approximately [+10 Gold]"
+		],
+		"shortcutKey": "H"
+	},
+	{
+		"name": "Fishing Boats",
+		"techRequired": "Sailing",
+		"terrainsCanBeBuiltOn": ["Coast", "Sea Nursery", "Ocean"],
+		"turnsToBuild": 6,
+		"uniques": [
+			"Food source",
+			"[+1 Food] <after discovering [Oceanography]>",
+			"Can only be built to improve a resource",
+			"Pillaging this improvement yields approximately [+10 Gold]"
+		],
+		"shortcutKey": "B"
+	},
+	{
+		"name": "Armed Mining Camp",
+		"uniqueTo": "Able to build Armed Mining Camp",
+		"terrainsCanBeBuiltOn": ["Hill"],
+		"production": 1,
+		"turnsToBuild": 9,
+		"techRequired": "Engineering",
+		"uniques": [
+			"Gives a defensive bonus of [50]%",
+			"[+1 Production] <after discovering [Steam Power]>",
+			"[+1 Production] <in [non-[resource]] tiles> <after discovering [Railroads]>",
+			"Can only be built to improve a resource <in [resource] tiles>",
+			"Pillaging this improvement yields approximately [+20 Gold]"
+		],
+		"shortcutKey": "A"
+	},
+	{
+		"name": "Fortified Farm",
+		"uniqueTo": "Able to build Fortified Farm",
+		"terrainsCanBeBuiltOn": ["Badlands", "Desert", "Swamp"],
+		"food": 1,
+		"production": 1,
+		"turnsToBuild": 7,
+		"techRequired": "Engineering",
+		"uniques": [
+			"Food source",
+			"Can also be built on tiles adjacent to fresh water",
+			"[+1 Production] <in [Hill] tiles>",
+			"[+1 Production] <after adopting [Adaptation Complete]>",
+			"[+1 Food] <after discovering [Ecology]>",
+			"[+1 Food] <after discovering [Land Remediation]>",
+			"Gives a defensive bonus of [50]%",
+			"Adjacent enemy units ending their turn take [10] damage",
+			"Cannot be built on [Impeded terrain] tiles",
+			"Cannot be built on [Water] tiles",
+			"Cannot be built on [Strategic resource] tiles",
+			"Cannot be built on [Luxury resource] tiles",
+			"Can only be built to improve a resource <in [Bonus resource] tiles>",
+			"Pillaging this improvement yields approximately [+10 Food, +10 Gold]"
+		]
+	},
 ]
