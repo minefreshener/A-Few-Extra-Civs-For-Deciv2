@@ -49,6 +49,47 @@
 			}
 		]
 	},
+	///////////// CITY STATES //////////////
+	{
+		"name": "Washington DC",
+		"adjective": ["Washingtonian"],
+		"cityStateType": "Washington",
+		"startBias": ["Hill"],
+		"style": "Military",
+		"uniques": [
+			"American Unifier",
+			"Starts with [Civil Service]",
+			"Starts with [Constitution] adopted",
+			"[+25]% Great Person generation [in all cities]",
+			"[-10]% Culture cost of adopting new Policies",
+			"Cannot build [Enslaved] units",
+		],
+		"declaringWar": "",
+		"attacked": "",
+		"defeated": "",
+		"outerColor": [0, 0, 0],
+		"innerColor": [28,51,119],
+		"cities": ["Washington DC"]
+	},
+	{
+		"name": "Elmore",
+		"adjective": ["Elmorian"],
+		"cityStateType": "Prayer",
+		"startBias": ["Badlands"],
+		"style": "Gang",
+		"uniques": [
+			"American Unifier",
+			"Starts with [Education]",
+			"Starts with [Theocracy] adopted",
+			"Cannot build [Enslaved] units",
+		],
+		"declaringWar": "",
+		"attacked": "",
+		"defeated": "",
+		"outerColor": [0, 0, 0],
+		"innerColor": [114, 162, 233],
+		"cities": ["Elmore City"]
+	},
 	//////////// NEW FACTIONS ///////////////
 	{
 		"name": "Manlandia",
