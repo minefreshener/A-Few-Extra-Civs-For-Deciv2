@@ -1,3 +1,4 @@
+[
     {
         "name": "Culture",
         "friendBonusUniques": [
@@ -103,3 +104,4 @@
         ],
         "color": [55, 55, 255]
     },
+]
