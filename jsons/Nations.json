@@ -49,6 +49,110 @@
 			}
 		]
 	},
+	{
+		"name": "Aurelian Group",
+		"leaderName": "Genevieve Aurelia",
+		"adjective": ["Aurelian"],
+		"startBias": ["Mountain"],
+		"preferredVictoryType": "Scientific",
+		"personality": "Aurelia",
+		// "favoredReligion": "TBA",
+
+		"startIntroPart1": "Here at Aurelian Group, we specialize not only in efficient extraction and refining of metals and minerals, but also in repurposing depleted mines to meet various other demands. It is through our expertise in the latter that we were able to save over a million people when the Cataclysm struck Australia. As the only surviving major entity from before the Cataclysm left standing in this land, it falls to us to take charge and lift our fallen nation out of the ashes.",
+		"startIntroPart2": "The Aurelian Group will rebuild Australia's future.",
+		"declaringWar": "For the good of these lands and the people residing in them, you must be liquidated.",
+		"attacked": "The Aurelian Group will not stand idly by while the wasteland is under siege. All workers are called to arms!",
+		"defeated": "Have all our rebuilding efforts gone to waste? This is bloody unacceptable!",
+		"introduction": "It brings me comfort to see another outpost of civilization in these savage lands. I'm Genevieve Aurelia, CEO of the Aurelian Group, and it's a pleasure to make your acquaintance.",
+		"neutralHello": "Good day to you, friend.",
+		"hateHello": "Step forward, vile savage, but keep your distance all the same.",
+		"denounced": "Baseless slander built on a crumbling foundation.",
+		"declaringFriendship": "We share a mutual interest in maintaining stability and protecting those in need. Aurelian Group would like to forge a lasting friendship with you.",
+		"tradeRequest": "Shall we make a deal?",
+
+		"outerColor": [245, 245, 245],
+		"innerColor": [179, 135, 0],
+		"style": "Corporate",
+		"uniqueName": "Enduring Engineering",
+		"uniques": [
+			"Able to build Armed Mining Camp",
+			"[+10]% Strength <for [{Military} {Land}] units> <when fighting in [Rough terrain] tiles>",
+			"[+1 Production, +1 Science] from every [Forge]",
+			"[+1 Production, +1 Science] from every [Blast Furnace]",
+			"[+1 Production, +1 Science] from every [Factory]",
+			"[+1 Production, +1 Science] from every [Materials Recovery Facility]",
+			"[Great Engineer] is earned [33]% faster",
+			"Starts with [Construction]",
+			"Starts with [Iron Working]",
+			"Starts with [Machinery]",
+			"[-2 Happiness] [in all cities]"
+		],
+		"cities": ["Broken Hill", "Lightning Ridge", "Coober Pedy", "Andamooka", "Mintabee", "Cairn Hill", "Kotara", "Fassifern",
+			"Morriset", "Quilpie", "Lymington", "Waratah", "Awaba", "Jesmond", "Burwood", "Duckenfield", "Glebe End", "Hartley Vale",
+			"Wallsend", "Stockrington", "New Lambton", "Blackhill", "Ironbank", "Mandalong", "Myuna", "Swansea", "Wiluna", "Wyee",
+			"Seahampton", "Newstan", "Worsley"],
+		"spyNames": ["Donaldson", "Marheine", "Leigh", "Nott", "Macquarie", "Wickham", "Fernleigh", "Eales", "McCormack", "Stockton"]
+	},
+	{
+		"name": "Enclavers",
+		"leaderName": "Timothy D. West",
+		"adjective": ["Survivalist"],
+		"startBias": ["Hill"],
+		"preferredVictoryType": "Scientific",
+		"personality": "Survivalist",
+		"favoredReligion": "Liberty",
+
+		"startIntroPart1": "Take a look out there, kid. There used to be green trees everywhere, and bright blue water, and white snow on the mountain tops. I know it's hard for you to believe, but there was a time when everything wasn't covered in ash. But those dumb sons of bitches had to go and ruin it all. They didn't know how good they had it, and they killed themselves. But they didn't kill us. Know why? Because we knew how to survive, that's why. We knew how to make do with less, how to hide when they came hunting, and how to hit them where it hurt. That's why we're still here. And that's why we're going to keep living.",
+		"startIntroPart2": "The world looks like shit right now, but it's our land and we love it, and we're going to till that soil and grow things from it, and make this place livable again. Now get out there and make us proud, kid.",
+		"declaringWar": "Not on our watch!",
+		"attacked": "You'll have to take it from our cold, dead hands!",
+		"defeated": "You can never take my freedom!",
+		"introduction": "I'm Timothy D. West, First Citizen of the Enclave. You are welcome to trade here as long as you respect our rights. We'll be watching.",
+		"neutralHello": "How's it going, neighbour?",
+		"neutralLetsHearIt": ["Go on.", "What do you say?", "You may begin."],
+		"neutralNo": ["We absolutely refuse.", "No!", "I refuse."],
+		"neutralYes": ["Very good.", "Of course, yes.", "That is very good."],
+		"hateHello": "Don't make any sudden moves.",
+		"hateLetsHearIt": ["Speak!", "What do you say?", "Go on."],
+		"hateNo": [
+			"That is not possible!",
+			"We are not agreeing to that!",
+			"I beg your pardon?"
+		],
+		"hateYes": ["That is fine.", "That is good enough.", "Very well..."],
+		"denounced": "Hey, no one insults us like that!",
+		"declaringFriendship": "I can see we'll make good neighbors.",
+		"afterPeace": "Alright, let's settle down and try to get along.",
+		"tradeRequest": "Let's make a fair trade, as equals.",
+
+		"outerColor": [252, 227, 0],
+		"innerColor": [54, 72, 72],
+		"style": "Military",
+		"uniqueName": "Hills Have Eyes",
+		"uniques": [
+			"Able to build Fortified Farm",
+			"Units ignore terrain costs when moving into any tile with Hills",
+			"No Maintenance costs for improvements in [Hill] tiles",
+			"Land units may cross [Mountain] tiles after the first [Great General] is earned",
+			"[Low Tech] units gain the [Guerilla Warfare I] promotion",
+			"[Personnel] units gain the [Guerilla Warfare I] promotion",
+			"Starts with [Redomestication]"
+		],
+		"cities": ["The Enclave", "Farnham's Freehold", "Minuteman Ridge", "Cooper's Corner", "Rattlesnake Hill", "Rawles' Retreat", "Sagebrush Valley", "Cobb's Ranch",
+			"Stephens' Shelter", "The Alamo", "Saxon Farm", "Pugsley's Haven", "Browne's Trail", "Oathkeeper Watch", "Jellison Ranch", "Boyd's Retreat", "Tappan Farm",
+			"Skousen Ranch", "30-50 Feral Hogs"
+		],
+		"spyNames": ["Gummer", "Krantz", "Cawdor", "Neville", "Eli", "Quinelle", "Rouke", "Redeker", "Verney", "Brown"
+		],
+		"civilopediaText": [
+			{
+				"text": "Take a look out there, kid. There used to be green trees everywhere, and bright blue water, and white snow on the mountain tops. I know it's hard for you to believe, but there was a time when everything wasn't covered in ash. But those dumb sons of bitches had to go and ruin it all. They didn't know how good they had it, and they killed themselves. But they didn't kill us. Know why? Because we knew how to survive, that's why. We knew how to make do with less, how to hide when they came hunting, and how to hit them where it hurt. That's why we're still here. And that's why we're going to keep living."
+			},
+			{
+				"text": "The world looks like shit right now, but it's our land and we love it, and we're going to till that soil and grow things from it, and make this place livable again. Now get out there and make us proud, kid."
+			}
+		]
+	},
 	///////////// CITY STATES //////////////
 	{
 		"name": "Washington DC",
@@ -80,6 +184,7 @@
 		"style": "Gang",
 		"uniques": [
 			"American Unifier",
+			"Able to build Fortified Farm",
 			"Starts with [Education]",
 			"Starts with [Theocracy] adopted",
 			"Cannot build [Enslaved] units",
