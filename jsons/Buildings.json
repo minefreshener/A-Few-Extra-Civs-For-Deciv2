@@ -119,6 +119,21 @@
 		],
 		"requiredTech": "Engineering"
 	},
+	////////////// AMERICAN UNIFIER ///////////////
+	{
+		"name": "Mall",
+		"uniqueTo": "American Unifier",
+		"specialistSlots": { "Merchant": 1 },
+		"hurryCostModifier": 25,
+		"requiredTech": "Currency",
+		"uniques": [
+			"[+1 Gold] from [Artifacts] tiles [in this city]",
+			"[+1 Gold] from [Books] tiles [in this city]",
+			"[+1 Gold] from [Electronics] tiles [in this city]",
+			"[+1 Gold] from [Machine Parts] tiles [in this city]",
+			"[+1 Gold] from [Weapons] tiles [in this city]",
+		]
+	},
 	///////////// GREEK UNIFIER /////////////////
 	{
 		"name": "Akropolis",
