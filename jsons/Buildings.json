@@ -2081,6 +2081,20 @@
 			"Consumes [1] [Power]"],
 		"requiredTech": "Atmosphere Remediation"
 	},
+	///////////// NEW CITY STATE UNIQUES //////////////
+	{
+		"name": "Washington Monument",
+		"uniqueTo": "Washington DC",
+		"replaces": "Monument",
+		"cost": 0,
+		"culture": 7,
+		"cityStrength": 10,
+		"uniques": [
+			"Never destroyed when the city is captured",
+			"Free [Liberty Guard] appears",
+			"Provides [3] [Artifacts]",
+		]
+	},
 	///////////////// ALTERED CITY STATE UNIQUES /////////////
 	{
 		"name": "Encyclopedia",
