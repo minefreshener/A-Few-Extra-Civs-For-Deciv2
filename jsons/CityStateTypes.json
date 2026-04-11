@@ -86,14 +86,20 @@
     {
         "name": "Washington",
         "friendBonusUniques": [
-            "[+6 Culture] <before the [Neofeudal era]>",
-            "[+12 Culture] <starting from the [Neofeudal era]> <before the [Industrial era]>",
-            "[+26 Culture] <starting from the [Industrial era]>"
+            "[+3 Culture] <before the [Neofeudal era]>",
+            "[+6 Culture] <starting from the [Neofeudal era]> <before the [Industrial era]>",
+            "[+13 Culture] <starting from the [Industrial era]>",
+            "[+6 Culture] <before the [Neofeudal era]> <for [American Unifier] Civilizations>",
+            "[+12 Culture] <starting from the [Neofeudal era]> <before the [Industrial era]> <for [American Unifier] Civilizations>",
+            "[+26 Culture] <starting from the [Industrial era]> <for [American Unifier] Civilizations>"
         ],
         "allyBonusUniques": [
             "[+6 Culture] <before the [Neofeudal era]>",
             "[+12 Culture] <starting from the [Neofeudal era]> <before the [Industrial era]>",
-            "[+26 Culture] <starting from the [Industrial era]>"
+            "[+26 Culture] <starting from the [Industrial era]>",
+            "[+10 Culture] <before the [Neofeudal era]> <for [American Unifier] Civilizations>",
+            "[+18 Culture] <starting from the [Neofeudal era]> <before the [Industrial era]> <for [American Unifier] Civilizations>",
+            "[+32 Culture] <starting from the [Industrial era]> <for [American Unifier] Civilizations>"
         ],
-        "color": [255, 216, 0]
+        "color": [55, 55, 255]
     },
