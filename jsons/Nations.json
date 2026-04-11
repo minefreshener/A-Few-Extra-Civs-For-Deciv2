@@ -329,6 +329,7 @@
 		"uniqueName": "Blessed Barrels",
 		"uniques": [
 			"American Unifier",
+			"Able to build Fortified Farm",
 			"Starts with [Theocracy] adopted",
 			"Starts with [Supremacy] adopted",
 			"[+1 Culture, +2 Faith] from every [Weapons]",
@@ -430,6 +431,7 @@
 		"uniqueName": "Big Oil",
 		"uniques": [
 			"Germanic Unifier",
+			"Able to build Armed Mining Camp",
 			"[-33]% maintenance costs <for [Armor] units>",
 			"[+100]% [Oil] resource production",
 			"Starts with [Construction]",
@@ -587,6 +589,7 @@
 		"uniques": [
 			"American Unifier",
 			"Greek Unifier",
+			"Able to build Fortified Farm",
 			"[All] units gain the [Mountaineer] promotion",
 			"[Ranged] units gain the [Guerilla Warfare I] promotion",
 			"Units ignore terrain costs when moving into any tile with Hills",
@@ -657,6 +660,8 @@
 		"style": "Military",
 		"uniqueName": "Dug In",
 		"uniques": [
+			"Able to build Fortified Farm",
+			"Able to build Armed Mining Camp",
 			"[All] units gain the [Entrench] promotion",
 			"[Personnel] units gain the [Trench Warfare] promotion",
 			"[Armor] units gain the [Trench Warfare] promotion",
@@ -732,11 +737,13 @@
 		"style": "",
 		"uniqueName": "",
 		"uniques": [
+			"Able to build Fortified Farm",
 			"[-50]% maintenance costs <for [Low Tech] units>",
 			"Starts with [Iron Working]",
 			"Starts with [Redomestication]",
 			"Starts with [Theocracy] adopted",
 			"[-50]% construction time for [Farm] improvements",
+			"[-25]% construction time for [Fortified Farm] improvements",
 			"Cannot build [Enslaved] units",
 		],
 		"cities": ["Big Meat", "Slaughterhouse 6", "The Rainforest", "Fuggma", "Sad Sack", "Happy Sack", "Gravy Capuccino", "Grindstone", "Herdstown", "Fat Stacks",
