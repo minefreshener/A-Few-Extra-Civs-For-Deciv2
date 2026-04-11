@@ -2081,6 +2081,35 @@
 			"Consumes [1] [Power]"],
 		"requiredTech": "Atmosphere Remediation"
 	},
+	///////////////// AMISH REPUBLIC UNIQUES ///////////////
+	{
+		"name": "Draft Animal Breeder",
+		"isNationalWonder": true,
+		"replaces": "Heavy Equipment",
+		"uniqueTo": "Amish Republic",
+		"production": 3,
+		"cost": 150,
+		"requiredTech": "Engineering",
+		"requiredNearbyImprovedResources": ["Cattle", "Horses"],
+		"uniques": [
+			"[-25]% construction time for [All] improvements",
+			"[2] free [Mounted Worker] units appear"
+		]
+	},
+	{
+		"name": "Domestic De-electrification",
+		"isNationalWonder": true,
+		"replaces": "Domestic Electrification",
+		"uniqueTo": "Amish Republic",
+		"culture": 1,
+		"cost": 150,
+		"uniques": [
+			"[+1 Culture, +1 Happiness, -2 Science] [in all cities connected to capital] <when above [0] [Power]>",
+			"Can only be built <in [Capital] cities>",
+		],
+		"hurryCostModifier": 25,
+		"requiredTech": "Engineering"
+	},
 	///////////// NEW CITY STATE UNIQUES //////////////
 	{
 		"name": "Washington Monument",
