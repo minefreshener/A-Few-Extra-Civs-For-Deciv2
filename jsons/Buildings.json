@@ -2110,6 +2110,131 @@
 		"hurryCostModifier": 25,
 		"requiredTech": "Engineering"
 	},
+	{
+		"name": "Rainwater Collector",
+		"replaces": "Condenser Cooler",
+		"uniqueTo": "Amish Republic",
+		"percentStatBonus": {"gold": 5},
+		"uniques": [
+			"[+2 Gold] from [Moisture trap] tiles [in this city]",
+			"Must have an owned [Moisture trap] within [3] tiles",
+			"Consumes [1] [Power]",
+		],
+		"requiredTech": "Moisture Harvesting"
+	},
+	{
+		"name": "Flax Mill",
+		"replaces": "Windmill Generator",
+		"uniqueTo": "Amish Republic",
+		"production": 2,
+		"maintenance": 0,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"[+1 Production] from [{Land} {Wind farm}] tiles [in this city]",
+			"Provides [1] [Fabrics]"
+		],
+		"requiredTech": "Steel"
+	},
+	{
+		"name": "Grain Mill",
+		"uniqueTo": "Amish Republic",
+		"production": 2,
+		"maintenance": 0,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"[+1 Food] from [{Land} {Wind farm}] tiles [in this city]",
+		],
+		"requiredTech": "Steel"
+	},
+	{
+		"name": "Paper Mill",
+		"uniqueTo": "Amish Republic",
+		"production": 2,
+		"maintenance": 0,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"[+1 Culture] from [{Land} {Wind farm}] tiles [in this city]",
+			"Provides [1] [Books]"
+		],
+		"requiredTech": "Steel"
+	},
+	{
+		"name": "Sunday School",
+		"replaces": "Public School",
+		"uniqueTo": "Amish Republic",
+		"science": 2,
+		"maintenance": 0,
+		"hurryCostModifier": 0,
+		"uniques": [
+			"[+1 Faith] per [2] population [in this city] <after discovering [Networking]>",
+			"[+2 Faith] [in this city] <when above [0] [Power]>",
+			"Only available <in cities with a [Library]>"
+		],
+		"requiredTech": "Civil Service"
+	},
+	{
+		"name": "Cottage Industry",
+		"replaces": "Factory",
+		"uniqueTo": "Amish Republic",
+		"percentStatBonus": { "production": 5 },
+		"specialistSlots": { "Engineer": 5 },
+		"maintenance": 0,
+		"hurryCostModifier": 0,
+		"uniques": [
+			"Only available <in cities with a [Library]>",
+			"[+1 Production] per [4] population [in this city]",
+			"[+1 Production] [in this city] <with [Machine Parts]>",
+			"[+1 Production] from [Machine Parts] tiles [in this city]",
+		],
+		"requiredTech": "Manufacturing",
+		"civilopediaText": [
+			{
+				"text": "This building is required for the construction of advanced units."
+			}
+		]
+	},
+	{
+		"name": "Scripture Production Line",
+		"replaces": "Electronics Production Line",
+		"uniqueTo": "Amish Republic",
+		"requiredBuilding": "Cottage Industry",
+		"uniques": [
+			"Provides [1] [Scriptures]",
+			"Only available <after adopting [Theocracy]>",
+			"Only available <in cities without a [Content Farm]>",
+			"Only available <in cities without a [Machinery Production Line]>",
+			"Only available <in cities without a [Publishing House]>",
+			"Limited to [2] per Civilization"
+		],
+		"requiredTech": "Electronics"
+	},
+	{
+		"name": "Postal Network",
+		"replaces": "Communications Network",
+		"uniqueTo": "Amish Republic",
+		"isNationalWonder": true,
+		"requiredTech": "Radio",
+		"cost": 300,
+		"uniques": [
+			"[+1 Production, +3 Culture, +1 Happiness] [in all cities connected to capital]",
+			"[+10]% [Production] [in all cities connected to capital]",
+			"[+10]% [Culture] [in all cities connected to capital]"
+		]
+	},
+	{
+		"name": "Cannery",
+		"replaces": "Food Processing Plant",
+		"uniqueTo": "Amish Republic",
+		"food": 2,
+		"percentStatBonus": {"food": 5},
+		"maintenance": 0,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"All newly-trained [Personnel] units [in this city] receive the [Resupply] promotion",
+			"[+1 Food, +1 Production] from [Plastics] tiles [in this city]",
+		],
+		"requiredTech": "Refrigeration"
+	},
 	///////////// NEW CITY STATE UNIQUES //////////////
 	{
 		"name": "Washington Monument",
