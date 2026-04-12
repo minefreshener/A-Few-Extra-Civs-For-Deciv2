@@ -855,4 +855,39 @@
 			"Fat Loads", "Dairy", "Ol' Bessie", "Production Site 57", "Production Site 12", "Production Site 67", "Warehouse 18", "Warehouse 35", "Warehouse 69",],
 		"spyNames": ["Fat Pete", "Fat Amy", "Fat Jackie", "Fat Lucas", "Fat Larry", "Fat James", "Fat Johny", "Fat Pat", "Fat Tommy", "Skinny Vinny"]
 	},
+	{
+		"name": "Empire Of The Sun",
+		"leaderName": "Luminius",
+		"adjective": ["Sunlandian"],
+		"startBias": ["Power"],
+		"preferredVictoryType": "Diplomatic",
+		"personality": "Luminius",
+		"favoredReligion": "Earth Mother",
+
+		// "startIntroPart1": "",
+		// "startIntroPart2": "",
+		"declaringWar": "",
+		"attacked": "",
+		"defeated": "TBD",
+		"introduction": "TBD",
+		"neutralHello": "TBD",
+		"hateHello": "TBD",
+		"denounced": "TBD",
+		"declaringFriendship": "TBD",
+		"tradeRequest": "TBD",
+
+        "outerColor": [92, 32, 92],
+        "innerColor": [40, 178, 0],
+		"style": "",
+		"uniqueName": "",
+		"uniques": [
+			"Starts with [Writing]",
+			"[-25]% construction time for [Wind Farm] improvements",
+			"[-25]% construction time for [Solar Collector] improvements",
+			"Cannot build [Enslaved] units",
+		],
+		"cities": ["Big Meat", "Slaughterhouse 6", "The Rainforest", "Fuggma", "Sad Sack", "Happy Sack", "Gravy Capuccino", "Grindstone", "Herdstown", "Fat Stacks",
+			"Fat Loads", "Dairy", "Ol' Bessie", "Production Site 57", "Production Site 12", "Production Site 67", "Warehouse 18", "Warehouse 35", "Warehouse 69",],
+		"spyNames": ["Fat Pete", "Fat Amy", "Fat Jackie", "Fat Lucas", "Fat Larry", "Fat James", "Fat Johny", "Fat Pat", "Fat Tommy", "Skinny Vinny"]
+	},
 ]
