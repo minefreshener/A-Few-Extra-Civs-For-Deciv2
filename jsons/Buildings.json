@@ -1869,6 +1869,43 @@
 			}
 		]
 	},
+	{
+		"name": "Theological Guild",
+		"replaces": "University",
+		"uniqueTo": "Status Pontificus",
+		"maintenance": 1,
+		"hurryCostModifier": 15,
+		"percentStatBonus": {"faith": 33},
+		"specialistSlots": {"Scientist": 1},
+		"uniques": [
+			"[+1 Science] from [Jungle] tiles [in this city]",
+			"[+1 Science] from [Forest] tiles [in this city]",
+			"[+1 Science] from [Sunken Ruins] tiles [in this city]",
+			"[+1 Science] from [Seminary] tiles [in this city]",
+			"[+2 Science] [in this city] <when above [0] [Power]>",
+			"Only available <in cities with a [Library]>"
+		],
+		"requiredTech": "Education"
+	},
+	{
+		"name": "Pilgrimage Site",
+		"replaces": "Observatory",
+		"uniqueTo": "Status Pontificus",
+		"maintenance": 1,
+		"science": 2,
+		"hurryCostModifier": 15,
+		"replacementTextForUniques": "+2 Faith from Mountain tiles in this city (excluding Ancient Wonders), increasing to +4 after discovering Ecotheory; +2 Science in this city with access to Power",
+		"uniques": [
+			"[+2 Faith] from [{non-[Natural Wonder]} {Mountain}] tiles [in this city]",
+			"[+2 Faith] from [Mountain Tunnel] tiles [in this city]",
+			"[+2 Faith] from [Desert Mountain] tiles [in this city] <if [Forgotten Factions for Deciv] is enabled>",
+			"[+2 Faith] from [{non-[Natural Wonder]} {Mountain}] tiles [in this city] <after discovering [Ecotheory]>",
+			"[+2 Faith] from [Mountain Tunnel] tiles [in this city] <after discovering [Ecotheory]>",
+			"[+2 Faith] from [Desert Mountain] tiles [in this city] <after discovering [Ecotheory]> <if [Forgotten Factions for Deciv] is enabled>",
+			"[+2 Science] [in this city] <when above [0] [Power]>"
+		],
+		"requiredTech": "Mountain Exploration"
+	},
 	///////////////// FUKOUNA BAKUFU UNIQUES ////////////////
 	/////////////////// STONEWALL FOUNDATION UNIQUES ///////////////
 	///////////// ARCHE APPALACHEA UNIQUES ////////////////
