@@ -215,4 +215,24 @@
 			"[+10]% Strength <when fighting in [Trench] tiles>",
 		],
 	},
+	{
+		"name": "Solar-Powered",
+		"uniques": [
+			"[+10] HP when healing <in [Solar Collector] tiles>",
+			"[+25]% Strength <when fighting in [Solar Collector] tiles>",
+			"[+1] Movement <in [Solar Collector] tiles>",
+			"[+1] Sight <in [Solar Collector] tiles>",
+			"[+10] HP when healing <in [Powership] tiles>",
+			"[+25]% Strength <when fighting in [Powership] tiles>",
+			"[+1] Movement <in [Powership] tiles>",
+			"[+1] Sight <in [Powership] tiles>"
+		]
+	},
+	{
+		"name": "Sand Sailing",
+		"uniques": [
+			"[+5] HP when healing <in [Desert] tiles>",
+			"[+1] Movement <in [Desert] tiles>",
+		]
+	},
 ]
