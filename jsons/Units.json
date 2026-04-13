@@ -2028,21 +2028,100 @@
 		"replaces": "Attack Vehicle",
 		"movement": 4,
 		"strength": 30,
-		"uniqueTo": "Empire Of The Sun",
-		"replaces": "Patrol Boat",
-		"cost": 70,
+		"cost": 100,
 		"requiredTech": "Machinery",
-		"upgradesTo": "Armored Car",
+		"upgradesTo": "Sandsail",
 		"obsoleteTech": "Replaceable Parts",
 		"uniques": [
+			"Carbon Neutral",
 			"[+20]% Strength <vs [Low Tech] units>",
 			"[-33]% Strength <vs cities> <when attacking>",
 			"Can move after attacking",
 			"No defensive terrain bonus",
-			"Consumes [1] [Oil]"
+			"Consumes [1] [Power]"
 		],
+		"promotions": ["Solar Powered", "Sand Sailing"],
 		"hurryCostModifier": 20,
 		"attackSound": "tankshot"
+	},
+	{
+		"name": "Sandsail",
+		"unitType": "Siege",
+		"uniqueTo": "Empire Of The Sun",
+		"replaces": "Technical",
+		"range": 1,
+		"movement": 5,
+		"strength": 40,
+		"rangedStrength": 40,
+		"cost": 180,
+		"requiredTech": "Replaceable Parts",
+		"uniques": [
+			"Carbon Neutral",
+			"Can move after attacking",
+			"No defensive terrain bonus",
+			"[-33]% Strength <vs [Armor] units>",
+			"[-50]% Strength <vs cities> <when attacking>",
+			"Withdraws before melee combat <with [60]% chance>",
+			"Consumes [1] [Power]",
+			"Can upgrade to [Rocket Sandsail]",
+			"Can upgrade to [Missile Skiff]"
+		],
+		"promotions": ["Solar Powered", "Sand Sailing"],
+		"hurryCostModifier": 20,
+		"attackSound": "tankshot"
+	},
+	{
+		"name": "Rocket Sandsail",
+		"unitType": "Siege",
+		"uniqueTo": "Empire Of The Sun",
+		"replaces": "Rocket Artillery",
+		"movement": 4,
+		"strength": 35,
+		"rangedStrength": 40,
+		"range": 3,
+		"cost": 380,
+		"requiredTech": "Rocketry",
+		"uniques": [
+			"Carbon Neutral",
+			"[+200]% Strength <vs cities> <when attacking>",
+			"No defensive terrain bonus",
+			"[-50]% Strength <vs [Helicopter] units>",
+			"[-1] Sight",
+			"Withdraws before melee combat <with [33]% chance>",
+			"Only available <if [Factory] is constructed>",
+			"Can carry [1] [Missile] units",
+			"Consumes [1] [Power]",
+			"Can upgrade to [Missile Artillery]",
+			"Can upgrade to [Gauss Cannon]"
+		],
+		"promotions": ["Artillery", "Solar Powered", "Sand Sailing"],
+		"hurryCostModifier": 20,
+		"attackSound": "artillery"
+	},
+	{
+		"name": "Missile Skiff",
+		"unitType": "Siege",
+		"uniqueTo": "Empire Of The Sun",
+		"replaces": "Missile Vehicle",
+		"range": 2,
+		"movement": 5,
+		"strength": 45,
+		"rangedStrength": 45,
+		"cost": 340,
+		"requiredTech": "Lasers",
+		"uniques": [
+			"Carbon Neutral",
+			"Can move after attacking",
+			"No defensive terrain bonus",
+			"Can carry [1] [Missile] units",
+			"[+100]% Strength <vs [Armor] units>",
+			"Withdraws before melee combat <with [60]% chance>",
+			"Only available <if [Factory] is constructed>",
+			"Consumes [1] [Power]",
+		],
+		"promotions": ["Solar Powered", "Sand Sailing"],
+		"hurryCostModifier": 20,
+		"attackSound": "missile"
 	},
 	{
 		"name": "Solar Skiff",
@@ -2056,6 +2135,7 @@
 		"upgradesTo": "Attack Boat",
 		"obsoleteTech": "Manufacturing",
 		"uniques": ["Carbon Neutral","Consumes [1] [Power]"],
+		"promotions": ["Solar Powered"],
 		"hurryCostModifier": 20,
 		"attackSound": "shipguns"
 	},
@@ -2071,6 +2151,7 @@
 		"obsoleteTech": "Plastics",
 		"upgradesTo": "Assault Ship",
 		"uniques": ["Carbon Neutral","Consumes [1] [Power]"],
+		"promotions": ["Solar Powered"],
 		"hurryCostModifier": 20,
 		"attackSound": "shipguns"
 	},
@@ -2091,6 +2172,7 @@
 			"Withdraws before melee combat <with [25]% chance>",
 			"Only available <if [Factory] is constructed>"
 		],
+		"promotions": ["Solar Powered"],
 		"hurryCostModifier": 20,
 		"attackSound": "shipguns"
 	},
@@ -2114,6 +2196,7 @@
 			"Can move after attacking",
 			"Consumes [1] [Power]"
 		],
+		"promotions": ["Solar Powered"],
 		"hurryCostModifier": 25,
 		"attackSound": "shot"
 	},
@@ -2138,6 +2221,7 @@
 			"Can upgrade to [Torpedo Boat]",
 			"Consumes [1] [Power]"
 		],
+		"promotions": ["Solar Powered"],
 		"hurryCostModifier": 20,
 		"attackSound": "shot"
 	},
@@ -2159,7 +2243,7 @@
 			"Only available <if [Factory] is constructed>",
 			"Consumes [2] [Power]",
 		],
-		"promotions": ["Artillery"],
+		"promotions": ["Artillery", "Solar Powered",],
 		"hurryCostModifier": 20,
 		"attackSound": "shipguns"
 	},
@@ -2195,7 +2279,7 @@
 			"Consumes [5] [Power]",
 			"Consumes [1] [Aluminum]"
 		],
-		"promotions": ["Powered Armor", "Portable Power Cell", "Artillery"],
+		"promotions": ["Powered Armor", "Portable Power Cell", "Artillery", "Solar Powered",],
 		"attackSound": "gdrAttack"
 	},
 	//////////////// BALKTECH UNIQUE UNITS ///////////////
