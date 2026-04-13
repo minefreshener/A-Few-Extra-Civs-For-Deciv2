@@ -59,7 +59,7 @@
 		"uniques": [
 			"[+1 Production, +1 Science] from [Lithium] tiles [in this city]",
 			"Consumes [1] [Power]",
-			"Provides [3] [Power]"
+			"Provides [3] [Power]",
 		],
 		"requiredTech": "Manufacturing"
 	},
@@ -2271,6 +2271,92 @@
 			"[+1 Food, +1 Production] from [Plastics] tiles [in this city]",
 		],
 		"requiredTech": "Refrigeration"
+	},
+	//////////// EMPIRE OF THE SUN UNIQUES ///////////////////
+	{
+		"name": "Solar Sanctum",
+		"isWonder": true,
+		"uniqueTo": "Empire Of The Sun",
+		"cityHealth": 30,
+		"culture": 1,
+		"happiness": 1,
+		"cost": 1,
+		"uniques": [
+			"Can only be built <in [Capital] cities>",
+			"Gain a free [Solar Array] [in this city]",
+			"Gain a free [Solar Energy Reserve] [in this city]",
+			"Automatically built in all cities where it is buildable",
+			"Never destroyed when the city is captured",
+			"City Defense"
+		],
+		"quote": "''",
+		"civilopediaText": [
+			{
+				"text": ""
+			}
+		]
+	},
+	{
+		"name": "Energy Distribution bureau",
+		"uniqueTo": "Empire Of The Sun",
+		"replaces": "Congress",
+		"cost": 200,
+		"requiredTech": "Civil Service",
+		"uniques": [
+			"[+1 Production] per [4] population [in all cities]",
+			"[+2 Culture] [in all cities] <when above [0] [Power]>",
+			"Provides [2] [Power] <when at war>",
+			"[+33]% Production when constructing [Solar Array] buildings [in all cities]",
+			"[+33]% Production when constructing [Solar Energy Reserve] buildings [in all cities]",
+			"[+33]% Production when constructing [Smart Grid] buildings [in all cities]",
+			"Only available <if [Search for Survivors] is constructed>",
+			"Can only be built <in [Capital] cities>",
+			"Only available <in cities without a [Council]>",
+			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "Environmental Protection Agency",
+		"uniqueTo": "Empire Of The Sun",
+		"replaces": "Cuncil",
+		"cost": 200,
+		"requiredTech": "Civil Service",
+		"uniques": [
+			"[+10]% growth [in all cities]",
+			"[+1 Culture] per [4] population [in all cities]",
+			"[+25]% Production when constructing [Carbon Neutral] units [in all cities]",
+			"[+33]% Production when constructing [Soil Sterilization] buildings [in all cities]",
+			"[+33]% Production when constructing [Protected Area] buildings [in all cities]",
+			"[+33]% Production when constructing [Ocean Seeder] buildings [in all cities]",
+			"[+33]% Production when constructing [Eco-Sanctuary] buildings [in all cities]",
+			"Only available <if [Search for Survivors] is constructed>",
+			"Can only be built <in [Capital] cities>",
+			"Only available <in cities without a [Congress]>",
+			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "Solar Array",
+		"maintenance": 3,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"[+1 Science] from [Solar Collector] tiles [in this city]",
+			"Provides [1] [Power]",
+			"Must have an owned [Solar Collector] within [3] tiles",
+		],
+		"requiredTech": "Machinery"
+	},
+	{
+		"name": "Solar Energy Reserve",
+		"maintenance": 3,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"[+1 Production] from [Solar Collector] tiles [in this city]",
+			"Consumes [1] [Power]",
+			"Provides [2] [Power]",
+			"Must have an owned [Solar Collector] within [3] tiles",
+		],
+		"requiredTech": "Manufacturing"
 	},
 	///////////// NEW CITY STATE UNIQUES //////////////
 	{
