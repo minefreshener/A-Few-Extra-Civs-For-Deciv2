@@ -57,6 +57,7 @@
 		"hurryCostModifier": 25,
 		"requiredNearbyImprovedResources": ["Lithium"],
 		"uniques": [
+			"Only available <if [Outlaws of the Wastes] is enabled>",
 			"[+1 Production, +1 Science] from [Lithium] tiles [in this city]",
 			"Consumes [1] [Power]",
 			"Provides [3] [Power]",
@@ -70,11 +71,31 @@
 		"hurryCostModifier": 25,
 		"requiredNearbyImprovedResources": ["Cobalt"],
 		"uniques": [
+			"Only available <if [Outlaws of the Wastes] is enabled>",
 			"[+2 Production] from [Cobalt] tiles [in this city]",
 			"Consumes [1] [Power]",
 			"Provides [1] [Cobalt]"
 		],
 		"requiredTech": "Replaceable Parts"
+	},
+	{
+		"name": "Moisture Recycler",
+		"maintenance": 1,
+		"cost": 400,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"Consumes [1] [Steam]",
+			"Only available <if [Steampunk Nations for Deciv] is enabled>",
+			"Only available <in cities with a [Superheater]>",
+			"[+1 Gold] [in this city] <in cities with a [Superheater]>",
+			"[+1 Gold] [in this city] <in cities with a [Coal Boiler]>",
+			"[+2 Gold] [in this city] <in cities with a [Oil-Fueled Boiler]>",
+			"[+3 Gold] [in this city] <in cities with a [Nuclear Boiler]>",
+			"[+3 Gold] [in this city] <in cities with a [Military-Grade Boiler]>",
+			"[+1 Gold] [in this city] <in cities with a [Auxiliary Boiler]>",
+			"[+1 Gold] [in this city] <in cities with a [Makeshift Boiler]>",
+		],
+		"requiredTech": "Steam Power"
 	},
 //////////// ROMAN REVIVALIST ///////////////
 	{
@@ -2306,8 +2327,10 @@
 			"[+1 Production] per [4] population [in all cities]",
 			"[+2 Culture] [in all cities] <when above [0] [Power]>",
 			"Provides [2] [Power] <when at war>",
+			"[+33]% Production when constructing [Salt Block Generator] buildings [in all cities]",
 			"[+33]% Production when constructing [Solar Array] buildings [in all cities]",
 			"[+33]% Production when constructing [Solar Energy Reserve] buildings [in all cities]",
+			"[+33]% Production when constructing [Solar Boiler] buildings [in all cities]",
 			"[+33]% Production when constructing [Smart Grid] buildings [in all cities]",
 			"Only available <if [Search for Survivors] is constructed>",
 			"Can only be built <in [Capital] cities>",
@@ -2336,7 +2359,20 @@
 		]
 	},
 	{
+		"name": "Salt Block Generator",
+		"uniqueTo": "Empire Of The Sun",
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"requiredNearbyImprovedResources": ["Salt"],
+		"uniques": [
+			"[+1 Production, +1 Science] from [Salt] tiles [in this city]",
+			"Provides [2] [Power]",
+		],
+		"requiredTech": "Construction"
+	},
+	{
 		"name": "Solar Array",
+		"uniqueTo": "Empire Of The Sun",
 		"maintenance": 3,
 		"hurryCostModifier": 25,
 		"uniques": [
@@ -2348,6 +2384,7 @@
 	},
 	{
 		"name": "Solar Energy Reserve",
+		"uniqueTo": "Empire Of The Sun",
 		"maintenance": 3,
 		"hurryCostModifier": 25,
 		"uniques": [
@@ -2357,6 +2394,32 @@
 			"Must have an owned [Solar Collector] within [3] tiles",
 		],
 		"requiredTech": "Manufacturing"
+	},
+	{
+		"name": "Solar Boiler",
+		"uniqueTo": "Empire Of The Sun",
+		"maintenance": 3,
+		"cost": 200,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"Provides [4] [Steam]",
+			"Consumes [1] [Power]",
+			"Only available <in cities with a [Solar Array]>"
+		],
+		"requiredTech": "Steam Power"
+	},
+	{
+		"name": "Solar Water Heater",
+		"uniqueTo": "Empire Of The Sun",
+		"gold": -1,
+		"happiness": 1,
+		"requiredTech": "Steam Power",
+		"uniques": [
+			"Can only be built <in [in all cities connected to capital] cities>",
+			"Only available <if [Household Steam Utilization] is constructed>",
+			"Provides [2] [Steam]"
+		],
+		"maintenance": 0
 	},
 	///////////// NEW CITY STATE UNIQUES //////////////
 	{
