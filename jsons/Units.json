@@ -410,7 +410,7 @@
 	/////////////// AMERICAN UNIFIER UNITS /////////////
   //////// GERMANIC UNIFIER UNITS /////////////////
 	{
-		"name": "Druhtiz",
+		"name": "Clubman",
 		"unitType": "Scrapper",
     	"uniqueTo": "Germanic Unifier",
 		"replaces": "Spearman",
@@ -423,7 +423,6 @@
 		"uniques": [
 			"Low Tech",
 			"Personnel",
-			"[+60]% Strength <vs [Mounted] units>"
 		],
     "promotions": ["Gas Mask"],
 		"attackSound": "nonmetalhit"
