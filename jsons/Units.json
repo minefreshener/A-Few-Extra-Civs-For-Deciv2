@@ -1556,6 +1556,72 @@
 	},
 	/////////////// STATUS PONTIFICUS UNIQUE UNITS ////////////////
 	{
+		"name": "Crusader",
+		"unitType": "Mounted Ranged",
+		"uniqueTo": "Status Pontificus",
+		"replaces": "Expeditionary Force",
+		"movement": 4,
+		"strength": 60,
+		"rangedStrength": 40,
+		"range": 2,
+		"interceptRange": 1,
+		"cost": 250,
+		"requiredTech": "Flight",
+		"requiredResource": "Weapons",
+		"promotions": ["Gas Mask", "Skirmish", "Reconnaissance I", "Amphibious"],
+		"uniques": [
+			"Personnel",
+			"Can move after attacking",
+			"[+33]% chance to intercept air attacks",
+			"May Paradrop to [Land] tiles up to [10] tiles away <in [All] tiles>",
+			"Can upgrade to [Trench Crusader]",
+			"Can upgrade to [God Squad]"
+		],
+		"attackSound": "machinegun"
+	},
+	{
+		"name": "Trench Crusader",
+		"unitType": "Scrapper",
+		"uniqueTo": "Status Pontificus",
+		"replaces": "Exo-Trooper",
+		"movement": 3,
+		"strength": 85,
+		"interceptRange": 1,
+		"cost": 350,
+		"requiredTech": "Energy Weapons",
+		"hurryCostModifier": 20,
+		"uniques": [
+			"Personnel",
+			"May Paradrop to [Land] tiles up to [7] tiles away <in [all] tiles>",
+			"Only available <if [Automated Factory] is constructed>",
+			"Consumes [2] [Weapons]"
+		],
+		"promotions": ["Powered Armor", "Gas Mask", "Trench Warfare", "Entrench"],
+		"attackSound": "phasers"
+	},
+	{
+		"name": "God Squad",
+		"unitType": "Shooter",
+		"uniqueTo": "Status Pontificus",
+		"replaces": "Black Ops",
+		"range": 2,
+		"movement": 2,
+		"strength": 70,
+		"rangedStrength": 70,
+		"interceptRange": 2,
+		"cost": 350,
+		"requiredTech": "Energy Weapons",
+		"hurryCostModifier": 20,		
+		"uniques": [
+			"Personnel",
+			"Only available <if [Automated Factory] is constructed>",
+			"May Paradrop to [Land] tiles up to [10] tiles away <in [All] tiles>",
+			"Consumes [2] [Weapons]",
+		],
+		"promotions": ["Drone Recon", "Reconnaissance I", "Gas Mask", "Thermoptic Camouflage", "Infantry Weapons"],
+		"attackSound": "shot"
+	},
+	{
 		"name": "Middle Finger of God",
 		"unitType": "Missile",
 		"uniqueTo": "Status Pontificus",
