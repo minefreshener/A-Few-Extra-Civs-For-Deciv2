@@ -1818,7 +1818,7 @@
 		"upgradesTo": "Drone Ship",
 		"uniques": [
 		    "Can move after attacking",
-			"Consumes [1] [Oil]",
+			"Consumes [2] [Steam]",
 			"Withdraws before melee combat <with [15]% chance>",
 			"Only available <if [Armor Production Line] is constructed>",
 		],
