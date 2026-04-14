@@ -1891,6 +1891,40 @@
 		]
 	},
 	{
+		"name": "Vatican Council",
+		"replaces": "Congress",
+		"uniqueTo": "Status Pontificus",
+		"cost": 100,
+		"requiredTech": "Civil Service",
+		"uniques": [
+			"[+1 Culture, +1 Faith] per [4] population [in all cities]",
+			"[Faith] cost of purchasing items in cities [-20]%",
+			"[+100]% Production when constructing [Faith] buildings [in all cities]",
+			"Only available <if [Search for Survivors] is constructed>",
+			"Can only be built <in [Capital] cities>",
+			"Only available <in cities without a [Military Administration]>",
+			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "Crusading Order",
+		"replaces": "Council",
+		"uniqueTo": "Status Pontificus",
+		"cost": 50,
+		"requiredTech": "Civil Service",
+		"uniques": [
+			"[+1 Faith] per [4] population [in all cities] <when above [0] [Weapons]>",
+			"[+25]% Production when constructing [Military] units [in all cities]",
+			"Provides [1] [Scriptures] <when at war>",
+			"May buy [Military] units with [Faith] for [2] times their normal Production cost",
+			"[-10]% Gold cost of acquiring tiles [in all cities]",
+			"Only available <if [Search for Survivors] is constructed>",
+			"Can only be built <in [Capital] cities>",
+			"Only available <in cities without a [Civil Administration]>",
+			"Destroyed when the city is captured"
+		]
+	},
+	{
 		"name": "Theological Guild",
 		"replaces": "University",
 		"uniqueTo": "Status Pontificus",
@@ -1926,6 +1960,78 @@
 			"[+2 Science] [in this city] <when above [0] [Power]>"
 		],
 		"requiredTech": "Mountain Exploration"
+	},
+	{
+		"name": "Grand Organ",
+		"uniqueTo": "Status Pontificus",
+		"faith": 2,
+		"culture": 2,
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"requiredTech": "Steel",
+		"uniques": [
+			"[+1 Culture] from [Seminary] tiles [in this city]",
+			"Only available <in cities with a [Monastery]>",
+			"Only available <when religion is enabled>"
+		]
+	},
+	{
+		"name": "Hospitaller Chapterhouse",
+		"replaces": "Hospital",
+		"uniqueTo": "Status Pontificus",
+		"science": -2,
+		"faith": 1,
+		"maintenance": 3,
+		"hurryCostModifier": 0,
+		"requiredTech": "Biology",
+		"uniques": [
+			"New [Military] units start with [15] XP [in this city]",
+			"[15]% Food is carried over after population increases [in this city] <when above [-2] [Power]>",
+			"All newly-trained [relevant] units [in this city] receive the [Medic I] promotion",
+			"[+1 Food] [in this city] <with [Harvested Organs]>",
+			"Consumes [1] [Power]"
+		]
+	},
+	{
+		"name": "Socioreligious Institute",
+		"replaces": "Sociopolitical Institute",
+		"uniqueTo": "Status Pontificus",
+		"faith": 2,
+		"specialistSlots": {"Administrator": 1},
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"uniques": ["[+1 Culture, +1 Faith] [in this city] <for every [Completed Policy branches]>"],
+		"requiredTech": "Civil Service"
+	},
+	{
+		"name": "Scriptorium",
+		"replaces": "Publishing House",
+		"uniqueTo": "Status Pontificus",
+		"requiredBuilding": "Factory",
+		"culture": 2,
+		"faith": 2,
+		"uniques": [
+			"Provides [1] [Scriptures] <when above [0] [Power]>",
+			"Only available <in cities with a [Monastery]>",
+			"Only available <after adopting [Theocracy]>",
+			"Only available <in cities without a [Content Farm]>",
+			"Only available <in cities without a [Electronics Production Line]>",
+			"Only available <in cities without a [Machinery Production Line]>",
+			"Limited to [2] per Civilization"
+		],
+		"requiredTech": "Manufacturing"
+	},
+	{
+		"name": "Water Plant",
+		"replaces": "Water Plant",
+		"uniqueTo": "Status Pontificus",
+		"specialistSlots": {"Merchant": 1},
+		"percentStatBonus": {"gold": 25},
+		"gold": 2,
+		"maintenance": 0,
+		"uniques": ["[+1 Faith] from [Groundwater] tiles [in this city]", "Consumes [1] [Scriptures]"],
+		"hurryCostModifier": 25,
+		"requiredTech": "Decontamination"
 	},
 	///////////////// FUKOUNA BAKUFU UNIQUES ////////////////
 	/////////////////// STONEWALL FOUNDATION UNIQUES ///////////////
