@@ -74,6 +74,21 @@
 		"attackSound": "machinegun"
 	},
 	{
+		"name": "Spearman",
+		"unitType": "Scrapper",
+		"movement": 2,
+		"strength": 20,
+		"cost": 50,
+		"upgradesTo": "Militia",
+		"hurryCostModifier": 20,
+		"obsoleteTech": "Rifling",
+		"uniques": [
+			"Low Tech", "Personnel",
+			"[+50]% Strength <vs [Mounted] units>"
+		],
+		"attackSound": "nonmetalhit"
+	},
+	{
 		"name": "Archer",
 		"unitType": "Shooter",
 		"range": 2,
@@ -914,10 +929,10 @@
 	{
 		"name": "Scout Car",
 		"unitType": "Armor",
-		"uniqueTo": "Nuhamshahr",
+		"uniqueTo": "New Hamshahr",
 		"replaces": "Forward Observer",
-		"movement": 4,
-		"strength": 36,
+		"movement": 5,
+		"strength": 40,
 		"cost": 55,
 		"hurryCostModifier": 20,
 		"requiredTech": "Replaceable Parts",
@@ -928,7 +943,7 @@
 	{
 		"name": "Light Car",
 		"unitType": "Armor",
-		"uniqueTo": "Nuhamshahr",
+		"uniqueTo": "New Hamshahr",
 		"replaces": "Attack Vehicle",
 		"movement": 5,
 		"strength": 30,
@@ -942,7 +957,7 @@
 			"Can move after attacking",
 			"No defensive terrain bonus",
 			"[+1] Movement <in [Road] tiles>",
-			"Consumes [1] [Oil]"
+			"Consumes [1] [Power]"
 		],
 		"hurryCostModifier": 20,
 		"attackSound": "tankshot"
@@ -950,7 +965,7 @@
 	{
 		"name": "Horseless Chariot",
 		"unitType": "Armor",
-		"uniqueTo": "Nuhamshahr",
+		"uniqueTo": "New Hamshahr",
 		"replaces": "Armored Car",
 		"movement": 5,
 		"strength": 47,
@@ -965,7 +980,7 @@
 			"No defensive terrain bonus",
 			"[+1] Movement <in [Road] tiles>",
 			"Only available <if [Factory] is constructed>",
-			"Consumes [1] [Oil]"
+			"Consumes [1] [Power]"
 		],
 		"promotions": ["[Persian Immortal] Ability"],
 		"hurryCostModifier": 20,
@@ -974,7 +989,7 @@
 	{
 		"name": "Economy Cruiser",
 		"unitType": "Armor",
-		"uniqueTo": "Nuhamshahr",
+		"uniqueTo": "New Hamshahr",
 		"replaces": "Tank",
 		"movement": 5,
 		"strength": 58,
@@ -998,7 +1013,7 @@
 	{
 		"name": "Aswar I Nuhamshahr",
 		"unitType": "Scrapper",
-		"uniqueTo": "Nuhamshahr",
+		"uniqueTo": "New Hamshahr",
 		"replaces": "Cavalry",
 		"movement": 4,
 		"strength": 40,
@@ -1020,7 +1035,7 @@
 	{
 		"name": "Aswar I Yankistan",
 		"unitType": "Shooter",
-		"uniqueTo": "Nuhamshahr",
+		"uniqueTo": "New Hamshahr",
 		"replaces": "Light Cavalry",
 		"range": 2,
 		"movement": 4,
@@ -1043,7 +1058,7 @@
 	{
 		"name": "Payadag I Yankistan",
 		"unitType": "Shooter",
-		"uniqueTo": "Nuhamshahr",
+		"uniqueTo": "New Hamshahr",
 		"replaces": "Machine Gun",
 		"range": 2,
 		"movement": 2,
@@ -1269,7 +1284,7 @@
 	},
 	{
 		"name": "Heretic Hunter",
-		"unitType": "Civilian",
+		"unitType": "Scrapper",
 		"uniqueTo": "Order of Chudnar",
 		"replaces": "Censor",
 		"movement": 4,
@@ -1370,6 +1385,28 @@
 			"Consumes [1] [Slaves]",
 		],
 		"attackSound": "shot"
+	},
+	{
+		"name": "Pickup",
+		"unitType": "Armor",
+		"uniqueTo": "Order of Chudnar",
+		"replaces": "Attack Vehicle",
+		"movement": 4,
+		"strength": 40,
+		"cost": 90,
+		"requiredTech": "Machinery",
+		"upgradesTo": "Armored Car",
+		"obsoleteTech": "Replaceable Parts",
+		"uniques": [
+			"[+40]% Strength <vs [Low Tech] units>",
+			"[-50]% Strength <vs cities> <when attacking>",
+			"Can move after attacking",
+			"No defensive terrain bonus",
+			"Can carry [1] [Personnel] units",
+			"Consumes [1] [Oil]"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "tankshot"
 	},
 	//////////// F.I.R.E. UNIQUE UNITS ////////////////////
 	{
