@@ -2481,9 +2481,9 @@
 		"maintenance": 3,
 		"hurryCostModifier": 25,
 		"uniques": [
-			"[+1 Science] from [Solar Collector] tiles [in this city]",
+			"[+1 Science] from [Solar collector] tiles [in this city]",
 			"Provides [1] [Power]",
-			"Must have an owned [Solar Collector] within [3] tiles",
+			"Must have an owned [Solar collector] within [3] tiles",
 		],
 		"requiredTech": "Machinery"
 	},
@@ -2493,10 +2493,10 @@
 		"maintenance": 3,
 		"hurryCostModifier": 25,
 		"uniques": [
-			"[+1 Production] from [Solar Collector] tiles [in this city]",
+			"[+1 Production] from [Solar collector] tiles [in this city]",
 			"Consumes [1] [Power]",
 			"Provides [2] [Power]",
-			"Must have an owned [Solar Collector] within [3] tiles",
+			"Must have an owned [Solar collector] within [3] tiles",
 		],
 		"requiredTech": "Manufacturing"
 	},
