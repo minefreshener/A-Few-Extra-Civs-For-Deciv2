@@ -218,10 +218,10 @@
 	{
 		"name": "Solar Powered",
 		"uniques": [
-			"[+10] HP when healing <in [Solar Collector] tiles>",
-			"[+25]% Strength <when fighting in [Solar Collector] tiles>",
-			"[+1] Movement <in [Solar Collector] tiles>",
-			"[+1] Sight <in [Solar Collector] tiles>",
+			"[+10] HP when healing <in [Solar collector] tiles>",
+			"[+25]% Strength <when fighting in [Solar collector] tiles>",
+			"[+1] Movement <in [Solar collector] tiles>",
+			"[+1] Sight <in [Solar collector] tiles>",
 			"[+10] HP when healing <in [Powership] tiles>",
 			"[+25]% Strength <when fighting in [Powership] tiles>",
 			"[+1] Movement <in [Powership] tiles>",
