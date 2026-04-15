@@ -325,9 +325,9 @@
 		"spyNames": ["Numberz F**kstein", "Hanz", "Jergen", "Karl", "Adolphus", "Jenz", "Jan", "Jarlstein", "Kimbro", "Larz"]
 	},
 	{
-		"name": "Nuhamshahr",
+		"name": "New Hamshahr",
 		"leaderName": "Shah Sirdani III",
-		"adjective": ["Nuhamshahrian"],
+		"adjective": ["New Hamshrian"],
 		"startBias": ["Jungle"],
 		"preferredVictoryType": "Domination",
 		"personality": "Sirdani",
@@ -338,7 +338,7 @@
 		"declaringWar": "TBD",
 		"attacked": "TBD",
 		"defeated": "TBD",
-		"introduction": "Greetings, fellow leader. Witness the glory of Nuhamshahr.",
+		"introduction": "Greetings, fellow leader. Witness the glory of New Hamshahr.",
 		"neutralHello": "Greetings.",
 		"hateHello": "Yes?",
 		"denounced": "If we have our way, there will be no more libelous dribble from your mouth.",
