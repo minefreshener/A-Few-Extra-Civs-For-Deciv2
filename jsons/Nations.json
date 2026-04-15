@@ -404,7 +404,7 @@
 			"May choose [1] additional belief(s) of any type when [founding] a religion"
 		],
 		"cities": ["Tyranos", "Chaos", "Postumos", "Rubikoniki", "Irai", "Tartaros", "Damokles", "Kronos", "Tychos", "Orkos",
-			"Stykes", "Elysion", "Korpos", "Olympos", "Ikonion", "Antion", "Arretion", "Kremona", "Corfinion",],
+			"Styx", "Elysion", "Korpos", "Olympos", "Ikonion", "Antion", "Arretion", "Kremona", "Korfinion",],
 		"spyNames": ["Darios", "Anna", "Markos", "Leonidas", "Aleksandros", "Leukonides", "Theodoros", "Demetrios", "Titos", "Kletos"]
 	},
 	{
@@ -418,8 +418,8 @@
 
 		// "startIntroPart1": "",
 		// "startIntroPart2": "",
-		"declaringWar": "TBD",
-		"attacked": "TBD",
+		"declaringWar": "Y'all shall witness the wrath of Chudnar, Destroyer of Liberals.",
+		"attacked": "",
 		"defeated": "TBD",
 		"introduction": "TBD",
 		"neutralHello": "TBD",
@@ -579,10 +579,10 @@
 			"Starts with [Theocracy] adopted",
 			"May choose [3] additional belief(s) of any type when [founding] a religion",
 			"Starts with [Writing]",
-			"[+15]% Strength <for [Land] units> <when fighting in [Foreign Land] tiles>",
-			"\"Borrows\" city names from other civilizations in the game"
+			"[+15]% Strength <for [Personnel] units> <when fighting in [Foreign Land] tiles>",
 		],
-		"cities": ["Roma"],
+		"cities": ["Roma", "Heirosolima", "Constantinopoulos", "Antiochos", "Damaskos", "Vatican Village", "Latia", "Acre", "New Bethlehem", "Neapolis",
+			"ST Jeff's Cathedral", "Leonia", "Muskovia", "Yeshua", "Canaan", "Hatti", "Sodom", "Gomorrah", "Al-Budhasaf",],
 		"spyNames": ["Darios", "Anna", "Markos", "Leonidas", "Aleksandros", "Leukonides", "Theodoros", "Demetrios", "eee", "eeee"]
 	},
 	{
@@ -773,7 +773,7 @@
 			"[+1 Culture, +1 Production] from every [Trench]",
 			"[-25]% construction time for [Trench] improvements",
 		],
-		"cities": ["Bunkirk", "Dugdig", "Somme Body", "Soil AF", "Galipolitical", "Hole", "Big Hole", "Very Big Hole", "Officer's Tavern", "Brothelville",
+		"cities": ["Funkirk", "Dugdig", "Somme Body", "Werdun", "Galipolitical", "Hole", "Big Hole", "Very Big Hole", "Officer's Tavern", "Soil AF",
 			"Largetown", "Critical Hit", "Wenches in the Trenches", "Tommy", "Closewatch", "Sniper Den", "Green Boy", "Away Depot", "Here Be Donkey Riding Methheads",],
 		"spyNames": ["Pete", "James", "Cletus", "Titus", "Sport", "Sorry Ass", "Jack", "John", "Bucky", "Larry"]
 	},
@@ -814,7 +814,7 @@
 		],
 		"cities": ["Big Meat", "Slaughterhouse 6", "The Rainforest", "Fuggma", "Sad Sack", "Happy Sack", "Gravy Capuccino", "Grindstone", "Herdstown", "Fat Stacks",
 			"Fat Loads", "Dairy", "Ol' Bessie", "Production Site 57", "Production Site 12", "Production Site 67", "Warehouse 18", "Warehouse 35", "Warehouse 69",],
-		"spyNames": ["Fat Pete", "Fat Amy", "Fat Jackie", "Fat Lucas", "Fat Larry", "Fat James", "Fat Johny", "Fat Pat", "Fat Tommy", "Skinny Vinny"]
+		"spyNames": ["Fat Pete", "Fat Amy", "Fat Jackie", "Fat Tony", "Fat Larry", "Fat James", "Fat Johny", "Fat Pat", "Fat Tommy", "Skinny Vinny"]
 	},
 	{
 		"name": "Amish Republic",
@@ -837,8 +837,8 @@
 		"declaringFriendship": "TBD",
 		"tradeRequest": "TBD",
 
-        "outerColor": [92, 32, 92],
-        "innerColor": [40, 178, 0],
+		"outerColor": [116, 67, 5],
+		"innerColor": [200, 0, 70],
 		"style": "",
 		"uniqueName": "",
 		"uniques": [
@@ -876,8 +876,8 @@
 		"declaringFriendship": "TBD",
 		"tradeRequest": "TBD",
 
-        "outerColor": [92, 32, 92],
-        "innerColor": [40, 178, 0],
+        "outerColor": [42, 42, 70],
+        "innerColor": [252, 227, 0],
 		"style": "",
 		"uniqueName": "Harnessing the Sun",
 		"uniques": [
@@ -889,8 +889,9 @@
 			"Cannot build [Enslaved] units",
 			"[-3 Science] [in all cities] <before discovering [Laboratory]>",
 		],
-		"cities": ["Big Meat", "Slaughterhouse 6", "The Rainforest", "Fuggma", "Sad Sack", "Happy Sack", "Gravy Capuccino", "Grindstone", "Herdstown", "Fat Stacks",
-			"Fat Loads", "Dairy", "Ol' Bessie", "Production Site 57", "Production Site 12", "Production Site 67", "Warehouse 18", "Warehouse 35", "Warehouse 69",],
-		"spyNames": ["Fat Pete", "Fat Amy", "Fat Jackie", "Fat Lucas", "Fat Larry", "Fat James", "Fat Johny", "Fat Pat", "Fat Tommy", "Skinny Vinny"]
+		"cities": ["Luminaria", "Luxica", "High Exposure", "Luminopolis", "Solsburry", "Ultraviolet", "Lightfield", "Brightland", "Icarus", "The Blinds",
+			"Streetlight", "Greenland", "The Brightroom", "The Darkroom", "Solarium", "Greedy Greenhouse", "Startouched", "Big Ol' Pile of Panels", 
+			"AAAAAHHHHHHH!!! MY EYES!!!! I CAN't SEEEEEEEEE!!!!!!!!!!!",],
+		"spyNames": ["Pete", "Amy", "Jackie", "Lucas", "Larry", "James", "Johny", "Pat", "Tommy", "Tony"]
 	},
 ]
