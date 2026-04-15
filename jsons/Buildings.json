@@ -1902,7 +1902,7 @@
 			"[+100]% Production when constructing [Faith] buildings [in all cities]",
 			"Only available <if [Search for Survivors] is constructed>",
 			"Can only be built <in [Capital] cities>",
-			"Only available <in cities without a [Military Administration]>",
+			"Only available <in cities without a [Council]>",
 			"Destroyed when the city is captured"
 		]
 	},
@@ -1920,7 +1920,7 @@
 			"[-10]% Gold cost of acquiring tiles [in all cities]",
 			"Only available <if [Search for Survivors] is constructed>",
 			"Can only be built <in [Capital] cities>",
-			"Only available <in cities without a [Civil Administration]>",
+			"Only available <in cities without a [Congress]>",
 			"Destroyed when the city is captured"
 		]
 	},
