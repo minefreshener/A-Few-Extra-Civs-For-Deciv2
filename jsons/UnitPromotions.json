@@ -216,7 +216,7 @@
 		],
 	},
 	{
-		"name": "Solar-Powered",
+		"name": "Solar Powered",
 		"uniques": [
 			"[+10] HP when healing <in [Solar Collector] tiles>",
 			"[+25]% Strength <when fighting in [Solar Collector] tiles>",
