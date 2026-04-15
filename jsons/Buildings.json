@@ -2576,22 +2576,6 @@
 		]
 	},
 	{
-		"name": "Devil's Monument",
-		"uniqueTo": "Devil's Canyon",
-		"replaces": "Monument",
-		"gold": 5,
-		"culture": 1,
-		"food": 2,
-		"cityHealth": 50,
-		"cityStrength": 10,
-		"cost": 0,
-		"uniques": [
-			"Never destroyed when the city is captured",
-			"[+1] population [in this city]",
-			"Free [Spearman] appears"
-		]
-	},
-	{
 		"name": "Devil's Nuclear Plant",
 		"uniqueTo": "Devil's Canyon",
 		"replaces": "Nuclear Plant",
@@ -2634,58 +2618,6 @@
 			"Provides [1] [Power]",
 			"[+1] population [in this city]",
 			"Free [Spearman] appears"
-		]
-	},
-	{
-		"name": "Arroyo",
-		"uniqueTo": "Arroyo",
-		"replaces": "Monument",
-		"cost": 0,
-		"cityHealth": 50,
-		"cityStrength": 10,
-		"food": 2,
-		"culture": 10,
-		"happiness": 2,
-		"uniques": [
-			"Never destroyed when the city is captured",
-			"[+1] population [in this city]",
-			"Free [Spearman] appears"
-		]
-	},
-	{
-		"name": "Arroyo Library",
-		"uniqueTo": "Arroyo",
-		"replaces": "Library",
-		"science": 11,
-		"uniques": [
-			"Never destroyed when the city is captured",
-			"Unbuildable"
-		]
-	},
-	{
-		"name": "Ghost Mountain",
-		"uniqueTo": "Ghost Mountain",
-		"replaces": "Monument",
-		"cost": 0,
-		"cityHealth": 100,
-		"cityStrength": 10,
-		"food": 2,
-		"culture": 10,
-		"happiness": 2,
-		"uniques": [
-			"Never destroyed when the city is captured",
-			"[+1] population [in this city]",
-			"Free [Tunnel Bore] appears"
-		]
-	},
-	{
-		"name": "Ghost Library",
-		"uniqueTo": "Ghost Mountain",
-		"replaces": "Library",
-		"science": 10,
-		"uniques": [
-			"Never destroyed when the city is captured",
-			"Unbuildable"
 		]
 	},
 	{
@@ -2756,21 +2688,6 @@
 		"cost": 40,
 	},
 	{
-		"name": "Hub Monument",
-		"uniqueTo": "The Hub",
-		"replaces": "Monument",
-		"cost": 0,
-		"culture": 2,
-		"food": 2,
-		"cityHealth": 50,
-		"cityStrength": 10,
-		"uniques": [
-			"Never destroyed when the city is captured",
-			"[+1] population [in this city]",
-			"Free [Spearman] appears"
-		]
-	},
-	{
 		"name": "Trader's Hub",
 		"uniqueTo": "The Hub",
 		"cost": 0,
@@ -2797,36 +2714,6 @@
 		"requiredTech": "Construction"
 	},
 	{
-		"name": "Mormon Monument",
-		"uniqueTo": "Deseret Nation",
-		"replaces": "Monument",
-		"cost": 0,
-		"culture": 2,
-		"food": 2,
-		"cityHealth": 50,
-		"cityStrength": 10,
-		"uniques": [
-			"Never destroyed when the city is captured",
-			"[+1] population [in this city]",
-			"Free [Spearman] appears"
-		]
-	},
-	{
-		"name": "Iron Rod Monument",
-		"uniqueTo": "Church of the Iron Rod",
-		"replaces": "Monument",
-		"cost": 0,
-		"culture": 2,
-		"food": 2,
-		"cityHealth": 50,
-		"cityStrength": 10,
-		"uniques": [
-			"Never destroyed when the city is captured",
-			"[+1] population [in this city]",
-			"Free [Marksman] appears"
-		]
-	},
-	{
 		"name": "Land Value Tax",
 		"uniqueTo": "Arden Club",
 		"replaces": "Monument",
@@ -2846,22 +2733,6 @@
 		]
 	},
 	{
-		"name": "Great Mountain Shrine",
-		"uniqueTo": "Fo Guang",
-		"replaces": "Monument",
-		"cost": 0,
-		"culture": 2,
-		"gold": 2,
-		"food": 2,
-		"cityHealth": 50,
-		"cityStrength": 10,
-		"uniques": [
-			"Never destroyed when the city is captured",
-			"[+1] population [in this city]",
-			"Free [Spearman] appears"
-		]
-	},
-	{
 		"name": "Tellus Forest",
 		"uniqueTo": "Tellus",
 		"replaces": "Monument",
@@ -2876,7 +2747,6 @@
 			"Free [Tree Lover] appears",
 			"[+1] population [in this city]",
 			"Free [Ancient Armor] appears",
-			"[3] free [Pre-War Turret] units appear",
 		]
 	},
 	{
@@ -2887,22 +2757,6 @@
 		"uniques": [
 			"[+1 Food, +2 Production, +1 Gold] from [Tree plantation] tiles [in this city]",
 			"Never destroyed when the city is captured",
-		]
-	},
-	{
-		"name": "Royal Court",
-		"uniqueTo": "Dahomey",
-		"replaces": "Monument",
-		"cost": 0,
-		"culture": 2,
-		"gold": 2,
-		"food": 2,
-		"cityHealth": 50,
-		"cityStrength": 10,
-		"uniques": [
-			"Never destroyed when the city is captured",
-			"[+1] population [in this city]",
-			"Free [Auxiliary] appears"
 		]
 	},
 	{
@@ -2921,22 +2775,6 @@
 			"[+1] population [in this city]",
 			"Free [Spearman] appears",
 			"Free [Worker] appears"
-		]
-	},
-	{
-		"name": "Stele of Truth",
-		"replaces": "Monument",
-		"uniqueTo": "Order of the Dark Truth",
-		"cost": 0,
-		"culture": 3,
-		"science": 3,
-		"food": 2,
-		"cityHealth": 50,
-		"cityStrength": 10,
-		"uniques": [
-			"Never destroyed when the city is captured",
-			"[+1] population [in this city]",
-			"Free [Spearman] appears"
 		]
 	},
 ]
