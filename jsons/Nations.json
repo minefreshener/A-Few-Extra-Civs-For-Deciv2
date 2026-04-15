@@ -882,8 +882,8 @@
 		"uniqueName": "Harnessing the Sun",
 		"uniques": [
 			"Starts with [Electronics]",
-			"[-25]% construction time for [Wind Farm] improvements",
-			"[+1 Culture] from every [Wind Farm]",
+			"[-25]% construction time for [Wind farm] improvements",
+			"[+1 Culture] from every [Wind farm]",
 			"[-25]% construction time for [Solar collector] improvements",
 			"[+1 Culture] from every [Solar collector]",
 			"Cannot build [Enslaved] units",
