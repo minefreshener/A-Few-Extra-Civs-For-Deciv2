@@ -1330,7 +1330,7 @@
 		"requiredBuilding": "Stable",
 		"maintenance": 2,
 		"hurryCostModifier": 25,
-		"uniques": ["Destroyed when the city is captured", "New [Mounted] units start with [15] Experience [in this city]"],
+		"uniques": ["Destroyed when the city is captured", "New [Mounted] units start with [15] XP [in this city]",],
 		"requiredTech": "Construction"
 	},
 	//////////////// ORDER OF CHUDNAR UNIQUES ////////////////
@@ -2017,7 +2017,6 @@
 			"Only available <in cities without a [Content Farm]>",
 			"Only available <in cities without a [Electronics Production Line]>",
 			"Only available <in cities without a [Machinery Production Line]>",
-			"Limited to [2] per Civilization"
 		],
 		"requiredTech": "Manufacturing"
 	},
@@ -2447,7 +2446,7 @@
 	{
 		"name": "Environmental Protection Agency",
 		"uniqueTo": "Empire Of The Sun",
-		"replaces": "Cuncil",
+		"replaces": "Council",
 		"cost": 200,
 		"requiredTech": "Civil Service",
 		"uniques": [
